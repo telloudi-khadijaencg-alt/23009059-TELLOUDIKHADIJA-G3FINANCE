@@ -1,1 +1,6098 @@
 # 23009059-TELLOUDIKHADIJA-G3FINANCE
+├── LISEZMOI.md
+├── data/ (29700 tokens)
+    ├── docs
+    ├── figures
+    ├── rapport
+    ├── notebooks
+    ├── presentation
+    ├── raw/ (29700 tokens)
+    │   ├── .gitkeep
+    │   └── DTWEXBGS.csv (29700 tokens)
+    └── data processed
+├── README.md
+├── .gitignore (1200 tokens)
+└── notebooks/ (3300 tokens)
+    └── projet_F21.ipynb (3300 tokens)
+
+
+/LISEZMOI.md:
+--------------------------------------------------------------------------------
+1 | 
+2 | 
+
+
+--------------------------------------------------------------------------------
+/data/docs:
+--------------------------------------------------------------------------------
+1 | 
+2 | 
+
+
+--------------------------------------------------------------------------------
+/data/figures:
+--------------------------------------------------------------------------------
+1 | 
+2 | 
+
+
+--------------------------------------------------------------------------------
+/data/rapport:
+--------------------------------------------------------------------------------
+1 | 
+2 | 
+
+
+--------------------------------------------------------------------------------
+/data/notebooks:
+--------------------------------------------------------------------------------
+1 | 
+2 | 
+
+
+--------------------------------------------------------------------------------
+/data/presentation:
+--------------------------------------------------------------------------------
+1 | 
+2 | 
+
+
+--------------------------------------------------------------------------------
+/data/raw/.gitkeep:
+--------------------------------------------------------------------------------
+1 | 
+2 | 
+
+
+--------------------------------------------------------------------------------
+/data/data processed:
+--------------------------------------------------------------------------------
+1 | data/processed
+2 | 
+
+
+--------------------------------------------------------------------------------
+/README.md:
+--------------------------------------------------------------------------------
+1 | # 23009059-TELLOUDIKHADIJA-G3FINANCE
+2 | 
+
+
+--------------------------------------------------------------------------------
+/.gitignore:
+--------------------------------------------------------------------------------
+  1 | # Byte-compiled / optimized / DLL files
+  2 | __pycache__/
+  3 | *.py[codz]
+  4 | *$py.class
+  5 | 
+  6 | # C extensions
+  7 | *.so
+  8 | 
+  9 | # Distribution / packaging
+ 10 | .Python
+ 11 | build/
+ 12 | develop-eggs/
+ 13 | dist/
+ 14 | downloads/
+ 15 | eggs/
+ 16 | .eggs/
+ 17 | lib/
+ 18 | lib64/
+ 19 | parts/
+ 20 | sdist/
+ 21 | var/
+ 22 | wheels/
+ 23 | share/python-wheels/
+ 24 | *.egg-info/
+ 25 | .installed.cfg
+ 26 | *.egg
+ 27 | MANIFEST
+ 28 | 
+ 29 | # PyInstaller
+ 30 | #   Usually these files are written by a python script from a template
+ 31 | #   before PyInstaller builds the exe, so as to inject date/other infos into it.
+ 32 | *.manifest
+ 33 | *.spec
+ 34 | 
+ 35 | # Installer logs
+ 36 | pip-log.txt
+ 37 | pip-delete-this-directory.txt
+ 38 | 
+ 39 | # Unit test / coverage reports
+ 40 | htmlcov/
+ 41 | .tox/
+ 42 | .nox/
+ 43 | .coverage
+ 44 | .coverage.*
+ 45 | .cache
+ 46 | nosetests.xml
+ 47 | coverage.xml
+ 48 | *.cover
+ 49 | *.py.cover
+ 50 | *.lcov
+ 51 | .hypothesis/
+ 52 | .pytest_cache/
+ 53 | cover/
+ 54 | 
+ 55 | # Translations
+ 56 | *.mo
+ 57 | *.pot
+ 58 | 
+ 59 | # Django stuff:
+ 60 | *.log
+ 61 | local_settings.py
+ 62 | db.sqlite3
+ 63 | db.sqlite3-journal
+ 64 | 
+ 65 | # Flask stuff:
+ 66 | instance/
+ 67 | .webassets-cache
+ 68 | 
+ 69 | # Scrapy stuff:
+ 70 | .scrapy
+ 71 | 
+ 72 | # Sphinx documentation
+ 73 | docs/_build/
+ 74 | 
+ 75 | # PyBuilder
+ 76 | .pybuilder/
+ 77 | target/
+ 78 | 
+ 79 | # Jupyter Notebook
+ 80 | .ipynb_checkpoints
+ 81 | 
+ 82 | # IPython
+ 83 | profile_default/
+ 84 | ipython_config.py
+ 85 | 
+ 86 | # pyenv
+ 87 | #   For a library or package, you might want to ignore these files since the code is
+ 88 | #   intended to run in multiple environments; otherwise, check them in:
+ 89 | # .python-version
+ 90 | 
+ 91 | # pipenv
+ 92 | #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+ 93 | #   However, in case of collaboration, if having platform-specific dependencies or dependencies
+ 94 | #   having no cross-platform support, pipenv may install dependencies that don't work, or not
+ 95 | #   install all needed dependencies.
+ 96 | # Pipfile.lock
+ 97 | 
+ 98 | # uv
+ 99 | #   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
+100 | #   This is especially recommended for binary packages to ensure reproducibility, and is more
+101 | #   commonly ignored for libraries.
+102 | # uv.lock
+103 | 
+104 | # poetry
+105 | #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+106 | #   This is especially recommended for binary packages to ensure reproducibility, and is more
+107 | #   commonly ignored for libraries.
+108 | #   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+109 | # poetry.lock
+110 | # poetry.toml
+111 | 
+112 | # pdm
+113 | #   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+114 | #   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
+115 | #   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
+116 | # pdm.lock
+117 | # pdm.toml
+118 | .pdm-python
+119 | .pdm-build/
+120 | 
+121 | # pixi
+122 | #   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
+123 | # pixi.lock
+124 | #   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
+125 | #   in the .venv directory. It is recommended not to include this directory in version control.
+126 | .pixi/*
+127 | !.pixi/config.toml
+128 | 
+129 | # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+130 | __pypackages__/
+131 | 
+132 | # Celery stuff
+133 | celerybeat-schedule*
+134 | celerybeat.pid
+135 | 
+136 | # Redis
+137 | *.rdb
+138 | *.aof
+139 | *.pid
+140 | 
+141 | # RabbitMQ
+142 | mnesia/
+143 | rabbitmq/
+144 | rabbitmq-data/
+145 | 
+146 | # ActiveMQ
+147 | activemq-data/
+148 | 
+149 | # SageMath parsed files
+150 | *.sage.py
+151 | 
+152 | # Environments
+153 | .env
+154 | .envrc
+155 | .venv
+156 | env/
+157 | venv/
+158 | ENV/
+159 | env.bak/
+160 | venv.bak/
+161 | 
+162 | # Conda environments
+163 | conda-meta/
+164 | 
+165 | # Spyder project settings
+166 | .spyderproject
+167 | .spyproject
+168 | 
+169 | # Rope project settings
+170 | .ropeproject
+171 | 
+172 | # mkdocs/Zensical documentation
+173 | /site
+174 | 
+175 | # mypy
+176 | .mypy_cache/
+177 | .dmypy.json
+178 | dmypy.json
+179 | 
+180 | # Pyre type checker
+181 | .pyre/
+182 | 
+183 | # pytype static type analyzer
+184 | .pytype/
+185 | 
+186 | # Cython debug symbols
+187 | cython_debug/
+188 | 
+189 | # PyCharm
+190 | #   JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+191 | #   be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+192 | #   and can be added to the global gitignore or merged into this file.  For a more nuclear
+193 | #   option (not recommended) you can uncomment the following to ignore the entire idea folder.
+194 | # .idea/
+195 | 
+196 | # Abstra
+197 | #   Abstra is an AI-powered process automation framework.
+198 | #   Ignore directories containing user credentials, local state, and settings.
+199 | #   Learn more at https://abstra.io/docs
+200 | .abstra/
+201 | 
+202 | # Visual Studio Code
+203 | #   Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore that
+204 | #   can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+205 | #   and can be added to the global gitignore or merged into this file. However, if you prefer, you
+206 | #   could uncomment the following to ignore the entire vscode folder
+207 | # .vscode/
+208 | # Temporary file for partial code execution
+209 | tempCodeRunnerFile.py
+210 | 
+211 | # Ruff stuff:
+212 | .ruff_cache/
+213 | 
+214 | # PyPI configuration file
+215 | .pypirc
+216 | 
+217 | # Marimo
+218 | marimo/_static/
+219 | marimo/_lsp/
+220 | __marimo__/
+221 | 
+222 | # Streamlit
+223 | .streamlit/secrets.toml
+224 | 
+
+
+--------------------------------------------------------------------------------
+/notebooks/projet_F21.ipynb:
+--------------------------------------------------------------------------------
+  1 | {
+  2 |   "nbformat": 4,
+  3 |   "nbformat_minor": 0,
+  4 |   "metadata": {
+  5 |     "colab": {
+  6 |       "provenance": [],
+  7 |       "authorship_tag": "ABX9TyM5T3Aai97GkKPcQ3hSbUZc",
+  8 |       "include_colab_link": true
+  9 |     },
+ 10 |     "kernelspec": {
+ 11 |       "name": "python3",
+ 12 |       "display_name": "Python 3"
+ 13 |     },
+ 14 |     "language_info": {
+ 15 |       "name": "python"
+ 16 |     }
+ 17 |   },
+ 18 |   "cells": [
+ 19 |     {
+ 20 |       "cell_type": "markdown",
+ 21 |       "metadata": {
+ 22 |         "id": "view-in-github",
+ 23 |         "colab_type": "text"
+ 24 |       },
+ 25 |       "source": [
+ 26 |         "<a href=\"https://colab.research.google.com/github/telloudi-khadijaencg-alt/23009059-TELLOUDIKHADIJA-G3FINANCE/blob/main/notebooks/projet_F21.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+ 27 |       ]
+ 28 |     },
+ 29 |     {
+ 30 |       "cell_type": "code",
+ 31 |       "execution_count": 4,
+ 32 |       "metadata": {
+ 33 |         "id": "ESTk1K9A2sec"
+ 34 |       },
+ 35 |       "outputs": [],
+ 36 |       "source": []
+ 37 |     },
+ 38 |     {
+ 39 |       "cell_type": "markdown",
+ 40 |       "source": [
+ 41 |         "# F21 : Force du dollar\n",
+ 42 |         "\n",
+ 43 |         "**Nom et prénom :** Telloudi Khadija    **Code Apogée :** 23009059    **Groupe :** G3FINANCE    **Filière :** S7 FIN    **Date :** 17/11/2026\n",
+ 44 |         "\n",
+ 45 |         "**Dépôt GitHub :** https://github.com/telloudi-khadijaencg-alt/23009059-TELLOUDIKHADIJA-G3FINANCE\n",
+ 46 |         "\n",
+ 47 |         "## 1. Sujet et problématique\n",
+ 48 |         "- **Intérêt du sujet :** Le dollar influence les coûts d'importation, les exportations et la valeur des actifs internationaux, donc les entreprises exportatrices, les investisseurs et les banques centrales suivent son évolution. Un modèle qui anticipe son rendement du mois suivant pourrait aider à décider de la couverture du risque de change.\n",
+ 49 |         "- **Problématique :** Les rendements passés du dollar permettent-ils de prévoir son rendement du mois suivant mieux qu'une règle naïve ?\n",
+ 50 |         "- **Objectif mesurable :** RMSE sur le test inférieur d'au moins 2 % à celui de la moyenne d'apprentissage, test de 2020 à la dernière donnée.\n",
+ 51 |         "- **Nature du problème :** régression sur série temporelle.\n",
+ 52 |         "- **Algorithme principal envisagé :** n°2 (Ridge)"
+ 53 |       ],
+ 54 |       "metadata": {
+ 55 |         "id": "ExWtVXjT80OE"
+ 56 |       }
+ 57 |     },
+ 58 |     {
+ 59 |       "cell_type": "code",
+ 60 |       "source": [
+ 61 |         "from pathlib import Path\n",
+ 62 |         "import numpy as np, pandas as pd, matplotlib.pyplot as plt\n",
+ 63 |         "import sklearn, sys\n",
+ 64 |         "GRAINE = 42\n",
+ 65 |         "np.random.seed(GRAINE)\n",
+ 66 |         "print(sys.version, sklearn.__version__, pd.__version__)"
+ 67 |       ],
+ 68 |       "metadata": {
+ 69 |         "colab": {
+ 70 |           "base_uri": "https://localhost:8080/"
+ 71 |         },
+ 72 |         "id": "cXmxo_jG97XC",
+ 73 |         "outputId": "31c74bb8-0e7d-4828-8915-091ae9ae6d0d"
+ 74 |       },
+ 75 |       "execution_count": 5,
+ 76 |       "outputs": [
+ 77 |         {
+ 78 |           "output_type": "stream",
+ 79 |           "name": "stdout",
+ 80 |           "text": [
+ 81 |             "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0] 1.6.1 2.2.3\n"
+ 82 |           ]
+ 83 |         }
+ 84 |       ]
+ 85 |     },
+ 86 |     {
+ 87 |       "cell_type": "markdown",
+ 88 |       "source": [
+ 89 |         "## 2. Jeu de données\n",
+ 90 |         "\n",
+ 91 |         "- **Source :** FRED (Federal Reserve Bank of St. Louis), série DTWEXBGS, indice nominal large du dollar américain.\n",
+ 92 |         "- **URL :** https://fred.stlouisfed.org/series/DTWEXBGS\n",
+ 93 |         "- **Date d'extraction :** 17/11/2026\n",
+ 94 |         "- **Licence :** (écris ce que dit la page FRED de la série ; si rien n'est indiqué, écris « non précisée »)\n",
+ 95 |         "- **Taille et période :** ... observations, du ... au ..., fréquence quotidienne (jours ouvrés)\n",
+ 96 |         "- **Unité d'observation :** un jour ouvré, puis un mois après agrégation en fin de mois\n",
+ 97 |         "- **Variable cible :** rendement mensuel du mois suivant, en % (`cible`)\n",
+ 98 |         "- **Adéquation :** la série couvre le dollar contre un panier large de monnaies pondéré par le commerce, ce qui permet d'étudier sa force globale.\n",
+ 99 |         "- **Limites :** période courte (depuis 2006), une seule grande phase de dollar fort, chocs de 2008 et 2020 qui peuvent changer le régime, jours fériés manquants, série éventuellement révisée."
+100 |       ],
+101 |       "metadata": {
+102 |         "id": "fDXHSOOd-Lub"
+103 |       }
+104 |     },
+105 |     {
+106 |       "cell_type": "code",
+107 |       "source": [
+108 |         "URL = \"https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTWEXBGS\"\n",
+109 |         "Path(\"data/raw\").mkdir(parents=True, exist_ok=True)\n",
+110 |         "raw = pd.read_csv(URL, index_col=0, parse_dates=True)\n",
+111 |         "raw.to_csv(\"data/raw/DTWEXBGS.csv\")\n",
+112 |         "raw = pd.read_csv(\"data/raw/DTWEXBGS.csv\", index_col=0, parse_dates=True)\n",
+113 |         "raw.columns = [\"indice\"]\n",
+114 |         "raw[\"indice\"] = pd.to_numeric(raw[\"indice\"], errors=\"coerce\")\n",
+115 |         "\n",
+116 |         "print(raw.shape, raw.index.min(), raw.index.max())\n",
+117 |         "print(raw.isna().sum())\n",
+118 |         "print(raw.describe())\n",
+119 |         "print(raw.head())"
+120 |       ],
+121 |       "metadata": {
+122 |         "colab": {
+123 |           "base_uri": "https://localhost:8080/"
+124 |         },
+125 |         "id": "4MqxDi6q-Nsw",
+126 |         "outputId": "40178485-6b9c-4f22-af54-9c06a781e83b"
+127 |       },
+128 |       "execution_count": 6,
+129 |       "outputs": [
+130 |         {
+131 |           "output_type": "stream",
+132 |           "name": "stdout",
+133 |           "text": [
+134 |             "(5445, 1) 2006-01-02 00:00:00 2026-11-13 00:00:00\n",
+135 |             "indice    214\n",
+136 |             "dtype: int64\n",
+137 |             "            indice\n",
+138 |             "count  5231.000000\n",
+139 |             "mean    106.558713\n",
+140 |             "std      12.366974\n",
+141 |             "min      85.469200\n",
+142 |             "25%      93.803650\n",
+143 |             "50%     110.303400\n",
+144 |             "75%     117.299750\n",
+145 |             "max     130.041300\n",
+146 |             "                    indice\n",
+147 |             "observation_date          \n",
+148 |             "2006-01-02        101.4155\n",
+149 |             "2006-01-03        100.7558\n",
+150 |             "2006-01-04        100.2288\n",
+151 |             "2006-01-05        100.2992\n",
+152 |             "2006-01-06        100.0241\n"
+153 |           ]
+154 |         }
+155 |       ]
+156 |     },
+157 |     {
+158 |       "cell_type": "markdown",
+159 |       "source": [
+160 |         "| Variable | Description | Type | Unité | Rôle | Manquants (%) |\n",
+161 |         "|---|---|---|---|---|---|\n",
+162 |         "| indice | Niveau de l'indice large du dollar | numérique | points d'indice | brute | ... |\n",
+163 |         "| r | Rendement mensuel = 100 × variation du log de l'indice fin de mois | numérique | % | explicative (retardée) | ... |\n",
+164 |         "| r_lag1, r_lag2, r_lag3 | Rendements des 1, 2 et 3 mois précédents | numérique | % | explicative | ... |\n",
+165 |         "| vol3 | Écart-type des rendements sur 3 mois, jusqu'à t | numérique | % | explicative | ... |\n",
+166 |         "| mom12 | Somme des rendements sur 12 mois, jusqu'à t | numérique | % | explicative | ... |\n",
+167 |         "| cible | Rendement du mois suivant (r décalé de −1) | numérique | % | cible | ... |"
+168 |       ],
+169 |       "metadata": {
+170 |         "id": "YiWeeR0h-UsY"
+171 |       }
+172 |     },
+173 |     {
+174 |       "cell_type": "markdown",
+175 |       "source": [
+176 |         "**Interprétation.** Le jeu contient 5 445 observations quotidiennes (jours ouvrés), du 2 janvier 2006 au 13 novembre 2026, soit environ 21 ans de données. La série comporte 214 valeurs manquantes (3,9 %), qui correspondent aux jours fériés où le marché est fermé et que FRED laisse vides. Je ne les supprime pas à ce stade : en prenant la dernière valeur de chaque mois, ces trous disparaissent, car chaque mois contient au moins un jour de cotation. L'indice varie entre 85,5 et 130,0 points, avec une moyenne de 106,6 et un écart-type de 12,4, ce qui montre que le dollar a connu de longues phases de hausse et de baisse sur la période. La période étant courte (environ 250 rendements mensuels), il faut rester prudent sur la complexité du modèle et sur la portée des conclusions."
+177 |       ],
+178 |       "metadata": {
+179 |         "id": "DAFRudFr-jEN"
+180 |       }
+181 |     },
+182 |     {
+183 |       "cell_type": "code",
+184 |       "source": [
+185 |         "m = raw[\"indice\"].resample(\"ME\").last().dropna()   # dernière valeur de chaque mois\n",
+186 |         "m = m[m.index < \"2026-11-01\"]                       # on retire novembre 2026 (incomplet)\n",
+187 |         "\n",
+188 |         "df = pd.DataFrame({\"r\": np.log(m).diff() * 100})    # rendement mensuel en %\n",
+189 |         "for k in (1, 2, 3):\n",
+190 |         "    df[f\"r_lag{k}\"] = df[\"r\"].shift(k)              # rendements des mois précédents\n",
+191 |         "df[\"vol3\"] = df[\"r\"].rolling(3).std()               # volatilité sur 3 mois, jusqu'à t\n",
+192 |         "df[\"mom12\"] = df[\"r\"].rolling(12).sum()             # somme des rendements sur 12 mois\n",
+193 |         "df[\"cible\"] = df[\"r\"].shift(-1)                     # rendement du mois SUIVANT\n",
+194 |         "df = df.dropna()\n",
+195 |         "\n",
+196 |         "print(df.shape)\n",
+197 |         "print(df.head())\n",
+198 |         "print(df.tail())"
+199 |       ],
+200 |       "metadata": {
+201 |         "colab": {
+202 |           "base_uri": "https://localhost:8080/"
+203 |         },
+204 |         "id": "rH3V5M5E_bQd",
+205 |         "outputId": "b9f8d8e8-710a-4152-b357-30ec04ce1302"
+206 |       },
+207 |       "execution_count": 7,
+208 |       "outputs": [
+209 |         {
+210 |           "output_type": "stream",
+211 |           "name": "stdout",
+212 |           "text": [
+213 |             "(237, 7)\n",
+214 |             "                         r    r_lag1    r_lag2    r_lag3      vol3     mom12  \\\n",
+215 |             "observation_date                                                               \n",
+216 |             "2007-01-31        0.956749  0.468264 -0.837463 -0.731785  0.927607 -1.486488   \n",
+217 |             "2007-02-28       -0.743231  0.956749  0.468264 -0.837463  0.875240 -2.569477   \n",
+218 |             "2007-03-31       -0.950942 -0.743231  0.956749  0.468264  1.046610 -4.309623   \n",
+219 |             "2007-04-30       -1.550398 -0.950942 -0.743231  0.956749  0.419128 -3.425290   \n",
+220 |             "2007-05-31       -0.544520 -1.550398 -0.950942 -0.743231  0.506017 -3.591374   \n",
+221 |             "\n",
+222 |             "                     cible  \n",
+223 |             "observation_date            \n",
+224 |             "2007-01-31       -0.743231  \n",
+225 |             "2007-02-28       -0.950942  \n",
+226 |             "2007-03-31       -1.550398  \n",
+227 |             "2007-04-30       -0.544520  \n",
+228 |             "2007-05-31       -0.193356  \n",
+229 |             "                         r    r_lag1    r_lag2    r_lag3      vol3     mom12  \\\n",
+230 |             "observation_date                                                               \n",
+231 |             "2026-05-31        0.174532 -1.972480  2.690220 -0.065586  2.333778 -2.401239   \n",
+232 |             "2026-06-30        1.706858  0.174532 -1.972480  2.690220  1.848207  1.261596   \n",
+233 |             "2026-07-31       -1.015185  1.706858  0.174532 -1.972480  1.364610 -1.671452   \n",
+234 |             "2026-08-31       -0.953122 -1.015185  1.706858  0.174532  1.553966 -1.373945   \n",
+235 |             "2026-09-30        2.005100 -0.953122 -1.015185  1.706858  1.726125  0.690570   \n",
+236 |             "\n",
+237 |             "                     cible  \n",
+238 |             "observation_date            \n",
+239 |             "2026-05-31        1.706858  \n",
+240 |             "2026-06-30       -1.015185  \n",
+241 |             "2026-07-31       -0.953122  \n",
+242 |             "2026-08-31        2.005100  \n",
+243 |             "2026-09-30        0.573950  \n"
+244 |           ]
+245 |         }
+246 |       ]
+247 |     },
+248 |     {
+249 |       "cell_type": "code",
+250 |       "source": [
+251 |         "from google.colab import files\n",
+252 |         "files.download(\"data/raw/DTWEXBGS.csv\")"
+253 |       ],
+254 |       "metadata": {
+255 |         "colab": {
+256 |           "base_uri": "https://localhost:8080/",
+257 |           "height": 17
+258 |         },
+259 |         "id": "S4gKQhrRCB2T",
+260 |         "outputId": "61326a2e-dfdd-49e7-e079-62783d2c262d"
+261 |       },
+262 |       "execution_count": 8,
+263 |       "outputs": [
+264 |         {
+265 |           "output_type": "display_data",
+266 |           "data": {
+267 |             "text/plain": [
+268 |               "<IPython.core.display.Javascript object>"
+269 |             ],
+270 |             "application/javascript": [
+271 |               "\n",
+272 |               "    async function download(id, filename, size) {\n",
+273 |               "      if (!google.colab.kernel.accessAllowed) {\n",
+274 |               "        return;\n",
+275 |               "      }\n",
+276 |               "      const div = document.createElement('div');\n",
+277 |               "      const label = document.createElement('label');\n",
+278 |               "      label.textContent = `Downloading \"${filename}\": `;\n",
+279 |               "      div.appendChild(label);\n",
+280 |               "      const progress = document.createElement('progress');\n",
+281 |               "      progress.max = size;\n",
+282 |               "      div.appendChild(progress);\n",
+283 |               "      document.body.appendChild(div);\n",
+284 |               "\n",
+285 |               "      const buffers = [];\n",
+286 |               "      let downloaded = 0;\n",
+287 |               "\n",
+288 |               "      const channel = await google.colab.kernel.comms.open(id);\n",
+289 |               "      // Send a message to notify the kernel that we're ready.\n",
+290 |               "      channel.send({})\n",
+291 |               "\n",
+292 |               "      for await (const message of channel.messages) {\n",
+293 |               "        // Send a message to notify the kernel that we're ready.\n",
+294 |               "        channel.send({})\n",
+295 |               "        if (message.buffers) {\n",
+296 |               "          for (const buffer of message.buffers) {\n",
+297 |               "            buffers.push(buffer);\n",
+298 |               "            downloaded += buffer.byteLength;\n",
+299 |               "            progress.value = downloaded;\n",
+300 |               "          }\n",
+301 |               "        }\n",
+302 |               "      }\n",
+303 |               "      const blob = new Blob(buffers, {type: 'application/binary'});\n",
+304 |               "      const a = document.createElement('a');\n",
+305 |               "      a.href = window.URL.createObjectURL(blob);\n",
+306 |               "      a.download = filename;\n",
+307 |               "      div.appendChild(a);\n",
+308 |               "      a.click();\n",
+309 |               "      div.remove();\n",
+310 |               "    }\n",
+311 |               "  "
+312 |             ]
+313 |           },
+314 |           "metadata": {}
+315 |         },
+316 |         {
+317 |           "output_type": "display_data",
+318 |           "data": {
+319 |             "text/plain": [
+320 |               "<IPython.core.display.Javascript object>"
+321 |             ],
+322 |             "application/javascript": [
+323 |               "download(\"download_c62d5dfa-7429-444b-b732-618c622763c7\", \"DTWEXBGS.csv\", 104529)"
+324 |             ]
+325 |           },
+326 |           "metadata": {}
+327 |         }
+328 |       ]
+329 |     }
+330 |   ]
+331 | }
+
+
+--------------------------------------------------------------------------------
+/data/raw/DTWEXBGS.csv:
+--------------------------------------------------------------------------------
+   1 | observation_date,DTWEXBGS
+   2 | 2006-01-02,101.4155
+   3 | 2006-01-03,100.7558
+   4 | 2006-01-04,100.2288
+   5 | 2006-01-05,100.2992
+   6 | 2006-01-06,100.0241
+   7 | 2006-01-09,100.1794
+   8 | 2006-01-10,100.1436
+   9 | 2006-01-11,99.871
+  10 | 2006-01-12,100.0643
+  11 | 2006-01-13,99.9675
+  12 | 2006-01-16,99.9715
+  13 | 2006-01-17,100.2447
+  14 | 2006-01-18,100.4085
+  15 | 2006-01-19,100.1862
+  16 | 2006-01-20,99.9017
+  17 | 2006-01-23,99.3783
+  18 | 2006-01-24,99.3434
+  19 | 2006-01-25,99.348
+  20 | 2006-01-26,99.4798
+  21 | 2006-01-27,99.6433
+  22 | 2006-01-30,99.7144
+  23 | 2006-01-31,99.4311
+  24 | 2006-02-01,99.6132
+  25 | 2006-02-02,99.7916
+  26 | 2006-02-03,100.118
+  27 | 2006-02-06,100.1372
+  28 | 2006-02-07,100.1759
+  29 | 2006-02-08,100.4879
+  30 | 2006-02-09,100.2117
+  31 | 2006-02-10,100.322
+  32 | 2006-02-13,100.3955
+  33 | 2006-02-14,100.3987
+  34 | 2006-02-15,100.4489
+  35 | 2006-02-16,100.5183
+  36 | 2006-02-17,100.3404
+  37 | 2006-02-20,100.3447
+  38 | 2006-02-21,100.2346
+  39 | 2006-02-22,100.3879
+  40 | 2006-02-23,100.1956
+  41 | 2006-02-24,100.2594
+  42 | 2006-02-27,100.0724
+  43 | 2006-02-28,99.7695
+  44 | 2006-03-01,99.8355
+  45 | 2006-03-02,99.5969
+  46 | 2006-03-03,99.7024
+  47 | 2006-03-06,99.9834
+  48 | 2006-03-07,100.564
+  49 | 2006-03-08,100.8565
+  50 | 2006-03-09,100.7718
+  51 | 2006-03-10,100.9566
+  52 | 2006-03-13,100.8563
+  53 | 2006-03-14,100.312
+  54 | 2006-03-15,100.2121
+  55 | 2006-03-16,99.9049
+  56 | 2006-03-17,99.8614
+  57 | 2006-03-20,100.0491
+  58 | 2006-03-21,100.4716
+  59 | 2006-03-22,100.496
+  60 | 2006-03-23,100.8256
+  61 | 2006-03-24,100.7773
+  62 | 2006-03-27,100.8359
+  63 | 2006-03-28,100.7995
+  64 | 2006-03-29,101.0474
+  65 | 2006-03-30,100.5698
+  66 | 2006-03-31,100.56
+  67 | 2006-04-03,100.6204
+  68 | 2006-04-04,100.1319
+  69 | 2006-04-05,100.0792
+  70 | 2006-04-06,100.1578
+  71 | 2006-04-07,100.4187
+  72 | 2006-04-10,100.4091
+  73 | 2006-04-11,100.2903
+  74 | 2006-04-12,100.3589
+  75 | 2006-04-13,100.4759
+  76 | 2006-04-14,100.4697
+  77 | 2006-04-17,99.8719
+  78 | 2006-04-18,99.6747
+  79 | 2006-04-19,99.3467
+  80 | 2006-04-20,99.4974
+  81 | 2006-04-21,99.4345
+  82 | 2006-04-24,99.117
+  83 | 2006-04-25,98.9687
+  84 | 2006-04-26,98.8907
+  85 | 2006-04-27,98.5149
+  86 | 2006-04-28,98.1412
+  87 | 2006-05-01,97.9085
+  88 | 2006-05-02,97.6571
+  89 | 2006-05-03,97.5572
+  90 | 2006-05-04,97.4878
+  91 | 2006-05-05,97.2585
+  92 | 2006-05-08,97.1945
+  93 | 2006-05-09,96.9578
+  94 | 2006-05-10,96.6391
+  95 | 2006-05-11,96.5383
+  96 | 2006-05-12,96.8788
+  97 | 2006-05-15,97.3588
+  98 | 2006-05-16,97.1959
+  99 | 2006-05-17,97.4725
+ 100 | 2006-05-18,97.7033
+ 101 | 2006-05-19,97.933
+ 102 | 2006-05-22,97.9377
+ 103 | 2006-05-23,97.7045
+ 104 | 2006-05-24,98.3936
+ 105 | 2006-05-25,97.8423
+ 106 | 2006-05-26,97.8995
+ 107 | 2006-05-29,97.8936
+ 108 | 2006-05-30,97.588
+ 109 | 2006-05-31,97.7705
+ 110 | 2006-06-01,97.7726
+ 111 | 2006-06-02,97.5544
+ 112 | 2006-06-05,97.3681
+ 113 | 2006-06-06,98.1449
+ 114 | 2006-06-07,98.1641
+ 115 | 2006-06-08,98.9313
+ 116 | 2006-06-09,98.5471
+ 117 | 2006-06-12,98.5494
+ 118 | 2006-06-13,98.9201
+ 119 | 2006-06-14,98.8338
+ 120 | 2006-06-15,98.8846
+ 121 | 2006-06-16,98.9127
+ 122 | 2006-06-19,99.145
+ 123 | 2006-06-20,99.0117
+ 124 | 2006-06-21,98.5544
+ 125 | 2006-06-22,99.0856
+ 126 | 2006-06-23,99.4216
+ 127 | 2006-06-26,99.3634
+ 128 | 2006-06-27,99.219
+ 129 | 2006-06-28,99.392
+ 130 | 2006-06-29,99.2158
+ 131 | 2006-06-30,98.2483
+ 132 | 2006-07-03,98.0371
+ 133 | 2006-07-04,98.0221
+ 134 | 2006-07-05,98.308
+ 135 | 2006-07-06,98.138
+ 136 | 2006-07-07,97.7508
+ 137 | 2006-07-10,97.9813
+ 138 | 2006-07-11,98.2132
+ 139 | 2006-07-12,98.5202
+ 140 | 2006-07-13,98.5583
+ 141 | 2006-07-14,98.6814
+ 142 | 2006-07-17,99.0767
+ 143 | 2006-07-18,99.1341
+ 144 | 2006-07-19,98.9262
+ 145 | 2006-07-20,98.6014
+ 146 | 2006-07-21,98.5221
+ 147 | 2006-07-24,98.7795
+ 148 | 2006-07-25,98.9388
+ 149 | 2006-07-26,98.742
+ 150 | 2006-07-27,98.2283
+ 151 | 2006-07-28,98.0539
+ 152 | 2006-07-31,97.9996
+ 153 | 2006-08-01,98.1715
+ 154 | 2006-08-02,97.9432
+ 155 | 2006-08-03,98.0694
+ 156 | 2006-08-04,97.6005
+ 157 | 2006-08-07,97.5088
+ 158 | 2006-08-08,97.6524
+ 159 | 2006-08-09,97.4402
+ 160 | 2006-08-10,97.8887
+ 161 | 2006-08-11,97.7863
+ 162 | 2006-08-14,97.9677
+ 163 | 2006-08-15,97.8043
+ 164 | 2006-08-16,97.3894
+ 165 | 2006-08-17,97.3486
+ 166 | 2006-08-18,97.7577
+ 167 | 2006-08-21,97.3856
+ 168 | 2006-08-22,97.6079
+ 169 | 2006-08-23,97.5731
+ 170 | 2006-08-24,97.7939
+ 171 | 2006-08-25,97.8827
+ 172 | 2006-08-28,97.8467
+ 173 | 2006-08-29,97.7748
+ 174 | 2006-08-30,97.5792
+ 175 | 2006-08-31,97.644
+ 176 | 2006-09-01,97.5084
+ 177 | 2006-09-04,97.4981
+ 178 | 2006-09-05,97.4392
+ 179 | 2006-09-06,97.6087
+ 180 | 2006-09-07,97.8108
+ 181 | 2006-09-08,98.2119
+ 182 | 2006-09-11,98.3845
+ 183 | 2006-09-12,98.2781
+ 184 | 2006-09-13,98.1775
+ 185 | 2006-09-14,98.0088
+ 186 | 2006-09-15,98.2104
+ 187 | 2006-09-18,98.1332
+ 188 | 2006-09-19,98.1703
+ 189 | 2006-09-20,98.1556
+ 190 | 2006-09-21,97.9458
+ 191 | 2006-09-22,97.8667
+ 192 | 2006-09-25,97.9909
+ 193 | 2006-09-26,98.0555
+ 194 | 2006-09-27,98.0107
+ 195 | 2006-09-28,98.0381
+ 196 | 2006-09-29,98.1054
+ 197 | 2006-10-02,97.9247
+ 198 | 2006-10-03,98.1267
+ 199 | 2006-10-04,98.3682
+ 200 | 2006-10-05,98.2776
+ 201 | 2006-10-06,98.5619
+ 202 | 2006-10-09,98.5702
+ 203 | 2006-10-10,98.9125
+ 204 | 2006-10-11,98.9146
+ 205 | 2006-10-12,98.831
+ 206 | 2006-10-13,98.8002
+ 207 | 2006-10-16,98.71
+ 208 | 2006-10-17,98.5354
+ 209 | 2006-10-18,98.6164
+ 210 | 2006-10-19,98.2897
+ 211 | 2006-10-20,98.1629
+ 212 | 2006-10-23,98.4483
+ 213 | 2006-10-24,98.349
+ 214 | 2006-10-25,98.2057
+ 215 | 2006-10-26,97.8907
+ 216 | 2006-10-27,97.4914
+ 217 | 2006-10-30,97.5672
+ 218 | 2006-10-31,97.3901
+ 219 | 2006-11-01,97.4949
+ 220 | 2006-11-02,97.6556
+ 221 | 2006-11-03,97.7209
+ 222 | 2006-11-06,97.806
+ 223 | 2006-11-07,97.4453
+ 224 | 2006-11-08,97.58
+ 225 | 2006-11-09,97.5041
+ 226 | 2006-11-10,97.4638
+ 227 | 2006-11-13,97.7904
+ 228 | 2006-11-14,97.7475
+ 229 | 2006-11-15,97.8359
+ 230 | 2006-11-16,97.8098
+ 231 | 2006-11-17,97.9855
+ 232 | 2006-11-20,98.0254
+ 233 | 2006-11-21,98.0215
+ 234 | 2006-11-22,97.5315
+ 235 | 2006-11-23,97.5314
+ 236 | 2006-11-24,97.0657
+ 237 | 2006-11-27,96.9986
+ 238 | 2006-11-28,96.8428
+ 239 | 2006-11-29,96.8577
+ 240 | 2006-11-30,96.5779
+ 241 | 2006-12-01,96.4585
+ 242 | 2006-12-04,96.4319
+ 243 | 2006-12-05,96.2082
+ 244 | 2006-12-06,96.2839
+ 245 | 2006-12-07,96.3207
+ 246 | 2006-12-08,96.6123
+ 247 | 2006-12-11,96.6646
+ 248 | 2006-12-12,96.7119
+ 249 | 2006-12-13,96.7296
+ 250 | 2006-12-14,96.7946
+ 251 | 2006-12-15,96.9857
+ 252 | 2006-12-18,97.1559
+ 253 | 2006-12-19,96.9313
+ 254 | 2006-12-20,96.7762
+ 255 | 2006-12-21,96.9148
+ 256 | 2006-12-22,97.1113
+ 257 | 2006-12-25,97.1221
+ 258 | 2006-12-26,97.1786
+ 259 | 2006-12-27,97.2076
+ 260 | 2006-12-28,97.0656
+ 261 | 2006-12-29,97.0312
+ 262 | 2007-01-01,97.0323
+ 263 | 2007-01-02,
+ 264 | 2007-01-03,97.1281
+ 265 | 2007-01-04,97.5251
+ 266 | 2007-01-05,97.7801
+ 267 | 2007-01-08,97.788
+ 268 | 2007-01-09,97.9642
+ 269 | 2007-01-10,98.0943
+ 270 | 2007-01-11,98.0845
+ 271 | 2007-01-12,97.921
+ 272 | 2007-01-15,97.9201
+ 273 | 2007-01-16,97.9816
+ 274 | 2007-01-17,97.7509
+ 275 | 2007-01-18,97.8286
+ 276 | 2007-01-19,97.6868
+ 277 | 2007-01-22,97.827
+ 278 | 2007-01-23,97.8117
+ 279 | 2007-01-24,97.908
+ 280 | 2007-01-25,97.8396
+ 281 | 2007-01-26,98.1491
+ 282 | 2007-01-29,98.2066
+ 283 | 2007-01-30,98.1515
+ 284 | 2007-01-31,97.964
+ 285 | 2007-02-01,97.7101
+ 286 | 2007-02-02,97.9743
+ 287 | 2007-02-05,97.87
+ 288 | 2007-02-06,97.7357
+ 289 | 2007-02-07,97.7239
+ 290 | 2007-02-08,97.8169
+ 291 | 2007-02-09,97.7076
+ 292 | 2007-02-12,97.9409
+ 293 | 2007-02-13,97.7063
+ 294 | 2007-02-14,97.2779
+ 295 | 2007-02-15,97.1588
+ 296 | 2007-02-16,97.164
+ 297 | 2007-02-19,97.1545
+ 298 | 2007-02-20,97.321
+ 299 | 2007-02-21,97.27
+ 300 | 2007-02-22,97.266
+ 301 | 2007-02-23,97.1756
+ 302 | 2007-02-26,97.2281
+ 303 | 2007-02-27,97.0883
+ 304 | 2007-02-28,97.2386
+ 305 | 2007-03-01,97.3358
+ 306 | 2007-03-02,97.3691
+ 307 | 2007-03-05,97.6716
+ 308 | 2007-03-06,97.5123
+ 309 | 2007-03-07,97.4558
+ 310 | 2007-03-08,97.5731
+ 311 | 2007-03-09,97.4559
+ 312 | 2007-03-12,97.3013
+ 313 | 2007-03-13,97.2203
+ 314 | 2007-03-14,97.2759
+ 315 | 2007-03-15,97.2476
+ 316 | 2007-03-16,97.0407
+ 317 | 2007-03-19,97.1062
+ 318 | 2007-03-20,96.7985
+ 319 | 2007-03-21,96.6195
+ 320 | 2007-03-22,96.3893
+ 321 | 2007-03-23,96.5662
+ 322 | 2007-03-26,96.5493
+ 323 | 2007-03-27,96.4558
+ 324 | 2007-03-28,96.4894
+ 325 | 2007-03-29,96.5067
+ 326 | 2007-03-30,96.3183
+ 327 | 2007-04-02,96.3175
+ 328 | 2007-04-03,96.3774
+ 329 | 2007-04-04,96.3646
+ 330 | 2007-04-05,96.1188
+ 331 | 2007-04-06,96.2526
+ 332 | 2007-04-09,96.293
+ 333 | 2007-04-10,96.1179
+ 334 | 2007-04-11,96.0293
+ 335 | 2007-04-12,95.7999
+ 336 | 2007-04-13,95.711
+ 337 | 2007-04-16,95.5538
+ 338 | 2007-04-17,95.3832
+ 339 | 2007-04-18,95.3109
+ 340 | 2007-04-19,95.2712
+ 341 | 2007-04-20,95.1692
+ 342 | 2007-04-23,95.1833
+ 343 | 2007-04-24,95.1608
+ 344 | 2007-04-25,94.8497
+ 345 | 2007-04-26,95.1653
+ 346 | 2007-04-27,95.0103
+ 347 | 2007-04-30,94.8365
+ 348 | 2007-05-01,95.0037
+ 349 | 2007-05-02,95.0352
+ 350 | 2007-05-03,95.0167
+ 351 | 2007-05-04,94.9118
+ 352 | 2007-05-07,94.6914
+ 353 | 2007-05-08,94.8648
+ 354 | 2007-05-09,94.7933
+ 355 | 2007-05-10,94.9506
+ 356 | 2007-05-11,95.0035
+ 357 | 2007-05-14,94.8267
+ 358 | 2007-05-15,94.5574
+ 359 | 2007-05-16,94.8143
+ 360 | 2007-05-17,94.8339
+ 361 | 2007-05-18,94.6573
+ 362 | 2007-05-21,94.7026
+ 363 | 2007-05-22,94.5753
+ 364 | 2007-05-23,94.4557
+ 365 | 2007-05-24,94.7025
+ 366 | 2007-05-25,94.5022
+ 367 | 2007-05-28,94.4959
+ 368 | 2007-05-29,94.3533
+ 369 | 2007-05-30,94.549
+ 370 | 2007-05-31,94.3215
+ 371 | 2007-06-01,94.132
+ 372 | 2007-06-04,93.9969
+ 373 | 2007-06-05,93.9986
+ 374 | 2007-06-06,94.1217
+ 375 | 2007-06-07,94.3537
+ 376 | 2007-06-08,94.7599
+ 377 | 2007-06-11,94.6576
+ 378 | 2007-06-12,94.6991
+ 379 | 2007-06-13,94.9011
+ 380 | 2007-06-14,94.9029
+ 381 | 2007-06-15,94.6228
+ 382 | 2007-06-18,94.5475
+ 383 | 2007-06-19,94.3227
+ 384 | 2007-06-20,94.3618
+ 385 | 2007-06-21,94.6073
+ 386 | 2007-06-22,94.4371
+ 387 | 2007-06-25,94.5105
+ 388 | 2007-06-26,94.4678
+ 389 | 2007-06-27,94.5633
+ 390 | 2007-06-28,94.2395
+ 391 | 2007-06-29,94.1393
+ 392 | 2007-07-02,93.634
+ 393 | 2007-07-03,93.697
+ 394 | 2007-07-04,93.6965
+ 395 | 2007-07-05,93.7653
+ 396 | 2007-07-06,93.5759
+ 397 | 2007-07-09,93.5519
+ 398 | 2007-07-10,93.3339
+ 399 | 2007-07-11,93.3089
+ 400 | 2007-07-12,93.1198
+ 401 | 2007-07-13,93.0133
+ 402 | 2007-07-16,92.9094
+ 403 | 2007-07-17,92.9095
+ 404 | 2007-07-18,92.7959
+ 405 | 2007-07-19,92.7332
+ 406 | 2007-07-20,92.7179
+ 407 | 2007-07-23,92.6585
+ 408 | 2007-07-24,92.505
+ 409 | 2007-07-25,92.9189
+ 410 | 2007-07-26,93.1186
+ 411 | 2007-07-27,93.5485
+ 412 | 2007-07-30,93.5918
+ 413 | 2007-07-31,93.4264
+ 414 | 2007-08-01,93.4011
+ 415 | 2007-08-02,93.3038
+ 416 | 2007-08-03,93.1039
+ 417 | 2007-08-06,93.1112
+ 418 | 2007-08-07,93.3171
+ 419 | 2007-08-08,93.0989
+ 420 | 2007-08-09,93.441
+ 421 | 2007-08-10,93.5214
+ 422 | 2007-08-13,93.6032
+ 423 | 2007-08-14,94.0416
+ 424 | 2007-08-15,94.5014
+ 425 | 2007-08-16,94.9055
+ 426 | 2007-08-17,94.319
+ 427 | 2007-08-20,94.2138
+ 428 | 2007-08-21,94.2676
+ 429 | 2007-08-22,94.0998
+ 430 | 2007-08-23,93.9827
+ 431 | 2007-08-24,93.6863
+ 432 | 2007-08-27,93.6109
+ 433 | 2007-08-28,93.8394
+ 434 | 2007-08-29,93.7174
+ 435 | 2007-08-30,93.7324
+ 436 | 2007-08-31,93.6674
+ 437 | 2007-09-03,93.6691
+ 438 | 2007-09-04,93.6433
+ 439 | 2007-09-05,93.5453
+ 440 | 2007-09-06,93.4468
+ 441 | 2007-09-07,93.2939
+ 442 | 2007-09-10,93.2349
+ 443 | 2007-09-11,92.9244
+ 444 | 2007-09-12,92.6386
+ 445 | 2007-09-13,92.6172
+ 446 | 2007-09-14,92.7083
+ 447 | 2007-09-17,92.823
+ 448 | 2007-09-18,92.6584
+ 449 | 2007-09-19,92.1534
+ 450 | 2007-09-20,91.4212
+ 451 | 2007-09-21,91.4854
+ 452 | 2007-09-24,91.4017
+ 453 | 2007-09-25,91.3392
+ 454 | 2007-09-26,91.4335
+ 455 | 2007-09-27,91.3497
+ 456 | 2007-09-28,90.9446
+ 457 | 2007-10-01,90.8801
+ 458 | 2007-10-02,91.12
+ 459 | 2007-10-03,91.1038
+ 460 | 2007-10-04,91.1632
+ 461 | 2007-10-05,90.7393
+ 462 | 2007-10-08,90.748
+ 463 | 2007-10-09,90.8609
+ 464 | 2007-10-10,90.7154
+ 465 | 2007-10-11,90.4901
+ 466 | 2007-10-12,90.5945
+ 467 | 2007-10-15,90.5387
+ 468 | 2007-10-16,90.7123
+ 469 | 2007-10-17,90.515
+ 470 | 2007-10-18,90.3084
+ 471 | 2007-10-19,90.1014
+ 472 | 2007-10-22,90.6777
+ 473 | 2007-10-23,90.1899
+ 474 | 2007-10-24,90.2262
+ 475 | 2007-10-25,89.9925
+ 476 | 2007-10-26,89.6508
+ 477 | 2007-10-29,89.4118
+ 478 | 2007-10-30,89.3252
+ 479 | 2007-10-31,89.1389
+ 480 | 2007-11-01,89.1628
+ 481 | 2007-11-02,88.8924
+ 482 | 2007-11-05,88.8851
+ 483 | 2007-11-06,88.4938
+ 484 | 2007-11-07,88.0631
+ 485 | 2007-11-08,88.2631
+ 486 | 2007-11-09,88.4615
+ 487 | 2007-11-12,88.465
+ 488 | 2007-11-13,89.1016
+ 489 | 2007-11-14,88.9671
+ 490 | 2007-11-15,89.4413
+ 491 | 2007-11-16,89.3182
+ 492 | 2007-11-19,89.5262
+ 493 | 2007-11-20,89.2622
+ 494 | 2007-11-21,89.3352
+ 495 | 2007-11-22,89.3269
+ 496 | 2007-11-23,89.2384
+ 497 | 2007-11-26,89.145
+ 498 | 2007-11-27,89.4082
+ 499 | 2007-11-28,89.4195
+ 500 | 2007-11-29,89.3681
+ 501 | 2007-11-30,89.6212
+ 502 | 2007-12-03,89.6403
+ 503 | 2007-12-04,89.6672
+ 504 | 2007-12-05,89.8751
+ 505 | 2007-12-06,89.9268
+ 506 | 2007-12-07,89.74
+ 507 | 2007-12-10,89.6811
+ 508 | 2007-12-11,89.7176
+ 509 | 2007-12-12,89.7349
+ 510 | 2007-12-13,90.1374
+ 511 | 2007-12-14,90.4345
+ 512 | 2007-12-17,90.5363
+ 513 | 2007-12-18,90.5602
+ 514 | 2007-12-19,90.6147
+ 515 | 2007-12-20,90.4695
+ 516 | 2007-12-21,90.3672
+ 517 | 2007-12-24,90.1788
+ 518 | 2007-12-25,90.1786
+ 519 | 2007-12-26,89.9226
+ 520 | 2007-12-27,89.684
+ 521 | 2007-12-28,89.4069
+ 522 | 2007-12-31,89.6304
+ 523 | 2008-01-01,89.6297
+ 524 | 2008-01-02,89.3514
+ 525 | 2008-01-03,89.231
+ 526 | 2008-01-04,89.2467
+ 527 | 2008-01-07,89.5718
+ 528 | 2008-01-08,89.3398
+ 529 | 2008-01-09,89.6807
+ 530 | 2008-01-10,89.6226
+ 531 | 2008-01-11,89.5215
+ 532 | 2008-01-14,89.2749
+ 533 | 2008-01-15,89.1555
+ 534 | 2008-01-16,89.6701
+ 535 | 2008-01-17,89.6484
+ 536 | 2008-01-18,89.8993
+ 537 | 2008-01-21,89.9265
+ 538 | 2008-01-22,89.84
+ 539 | 2008-01-23,89.9138
+ 540 | 2008-01-24,89.203
+ 541 | 2008-01-25,89.2184
+ 542 | 2008-01-28,88.9555
+ 543 | 2008-01-29,88.8342
+ 544 | 2008-01-30,88.7442
+ 545 | 2008-01-31,88.6547
+ 546 | 2008-02-01,88.4824
+ 547 | 2008-02-04,88.4788
+ 548 | 2008-02-05,89.076
+ 549 | 2008-02-06,88.9987
+ 550 | 2008-02-07,89.4221
+ 551 | 2008-02-08,89.2226
+ 552 | 2008-02-11,89.2149
+ 553 | 2008-02-12,88.9539
+ 554 | 2008-02-13,89.1382
+ 555 | 2008-02-14,88.9055
+ 556 | 2008-02-15,88.9006
+ 557 | 2008-02-18,88.9004
+ 558 | 2008-02-19,88.9626
+ 559 | 2008-02-20,89.2572
+ 560 | 2008-02-21,88.716
+ 561 | 2008-02-22,88.7082
+ 562 | 2008-02-25,88.5373
+ 563 | 2008-02-26,88.0998
+ 564 | 2008-02-27,87.3353
+ 565 | 2008-02-28,87.0363
+ 566 | 2008-02-29,87.1654
+ 567 | 2008-03-03,87.2381
+ 568 | 2008-03-04,87.3039
+ 569 | 2008-03-05,87.1347
+ 570 | 2008-03-06,86.9105
+ 571 | 2008-03-07,87.1258
+ 572 | 2008-03-10,87.1452
+ 573 | 2008-03-11,87.1763
+ 574 | 2008-03-12,86.728
+ 575 | 2008-03-13,86.3891
+ 576 | 2008-03-14,86.4301
+ 577 | 2008-03-17,86.3417
+ 578 | 2008-03-18,86.1191
+ 579 | 2008-03-19,86.5755
+ 580 | 2008-03-20,87.3293
+ 581 | 2008-03-21,87.2111
+ 582 | 2008-03-24,87.3103
+ 583 | 2008-03-25,86.8339
+ 584 | 2008-03-26,86.5513
+ 585 | 2008-03-27,86.4583
+ 586 | 2008-03-28,86.6369
+ 587 | 2008-03-31,86.6881
+ 588 | 2008-04-01,87.0276
+ 589 | 2008-04-02,86.8886
+ 590 | 2008-04-03,86.6424
+ 591 | 2008-04-04,86.5108
+ 592 | 2008-04-07,86.603
+ 593 | 2008-04-08,86.7369
+ 594 | 2008-04-09,86.5764
+ 595 | 2008-04-10,86.5131
+ 596 | 2008-04-11,86.5029
+ 597 | 2008-04-14,86.3492
+ 598 | 2008-04-15,86.4705
+ 599 | 2008-04-16,85.9037
+ 600 | 2008-04-17,86.1077
+ 601 | 2008-04-18,86.5277
+ 602 | 2008-04-21,86.2979
+ 603 | 2008-04-22,85.927
+ 604 | 2008-04-23,86.3841
+ 605 | 2008-04-24,86.7154
+ 606 | 2008-04-25,86.8337
+ 607 | 2008-04-28,86.7635
+ 608 | 2008-04-29,86.873
+ 609 | 2008-04-30,86.8907
+ 610 | 2008-05-01,87.1347
+ 611 | 2008-05-02,87.2311
+ 612 | 2008-05-05,87.0636
+ 613 | 2008-05-06,86.847
+ 614 | 2008-05-07,87.3421
+ 615 | 2008-05-08,87.4575
+ 616 | 2008-05-09,87.2528
+ 617 | 2008-05-12,87.0403
+ 618 | 2008-05-13,87.1332
+ 619 | 2008-05-14,87.3659
+ 620 | 2008-05-15,87.1823
+ 621 | 2008-05-16,86.7855
+ 622 | 2008-05-19,86.8225
+ 623 | 2008-05-20,86.5627
+ 624 | 2008-05-21,86.1595
+ 625 | 2008-05-22,86.3223
+ 626 | 2008-05-23,86.1922
+ 627 | 2008-05-26,86.19
+ 628 | 2008-05-27,86.4459
+ 629 | 2008-05-28,86.4951
+ 630 | 2008-05-29,86.5616
+ 631 | 2008-05-30,86.5504
+ 632 | 2008-06-02,86.6321
+ 633 | 2008-06-03,86.8359
+ 634 | 2008-06-04,87.0999
+ 635 | 2008-06-05,87.0968
+ 636 | 2008-06-06,86.8028
+ 637 | 2008-06-09,86.9096
+ 638 | 2008-06-10,87.4705
+ 639 | 2008-06-11,87.2059
+ 640 | 2008-06-12,87.6187
+ 641 | 2008-06-13,87.7622
+ 642 | 2008-06-16,87.3911
+ 643 | 2008-06-17,87.2103
+ 644 | 2008-06-18,87.1872
+ 645 | 2008-06-19,87.0815
+ 646 | 2008-06-20,86.9036
+ 647 | 2008-06-23,87.2163
+ 648 | 2008-06-24,86.9666
+ 649 | 2008-06-25,87.0535
+ 650 | 2008-06-26,86.6793
+ 651 | 2008-06-27,86.643
+ 652 | 2008-06-30,86.7621
+ 653 | 2008-07-01,86.8447
+ 654 | 2008-07-02,86.4782
+ 655 | 2008-07-03,86.8843
+ 656 | 2008-07-04,86.8781
+ 657 | 2008-07-07,86.9617
+ 658 | 2008-07-08,86.9778
+ 659 | 2008-07-09,86.5335
+ 660 | 2008-07-10,86.5122
+ 661 | 2008-07-11,86.221
+ 662 | 2008-07-14,86.1079
+ 663 | 2008-07-15,85.8731
+ 664 | 2008-07-16,85.9285
+ 665 | 2008-07-17,85.9387
+ 666 | 2008-07-18,86.0735
+ 667 | 2008-07-21,86.0151
+ 668 | 2008-07-22,86.1909
+ 669 | 2008-07-23,86.2664
+ 670 | 2008-07-24,86.4017
+ 671 | 2008-07-25,86.3916
+ 672 | 2008-07-28,86.4666
+ 673 | 2008-07-29,86.8175
+ 674 | 2008-07-30,86.8167
+ 675 | 2008-07-31,86.8567
+ 676 | 2008-08-01,86.8257
+ 677 | 2008-08-04,87.0611
+ 678 | 2008-08-05,87.3281
+ 679 | 2008-08-06,87.6004
+ 680 | 2008-08-07,87.8732
+ 681 | 2008-08-08,88.8939
+ 682 | 2008-08-11,89.035
+ 683 | 2008-08-12,89.1916
+ 684 | 2008-08-13,89.3211
+ 685 | 2008-08-14,89.3675
+ 686 | 2008-08-15,89.7244
+ 687 | 2008-08-18,89.5966
+ 688 | 2008-08-19,89.6465
+ 689 | 2008-08-20,89.6977
+ 690 | 2008-08-21,88.9128
+ 691 | 2008-08-22,89.2381
+ 692 | 2008-08-25,89.3094
+ 693 | 2008-08-26,89.7007
+ 694 | 2008-08-27,89.6419
+ 695 | 2008-08-28,89.8225
+ 696 | 2008-08-29,90.0567
+ 697 | 2008-09-01,90.08
+ 698 | 2008-09-02,90.8438
+ 699 | 2008-09-03,90.8286
+ 700 | 2008-09-04,91.1621
+ 701 | 2008-09-05,91.341
+ 702 | 2008-09-08,91.663
+ 703 | 2008-09-09,91.5779
+ 704 | 2008-09-10,92.1283
+ 705 | 2008-09-11,92.4901
+ 706 | 2008-09-12,91.4706
+ 707 | 2008-09-15,91.757
+ 708 | 2008-09-16,92.0594
+ 709 | 2008-09-17,92.0982
+ 710 | 2008-09-18,91.7111
+ 711 | 2008-09-19,91.0014
+ 712 | 2008-09-22,90.1119
+ 713 | 2008-09-23,90.1221
+ 714 | 2008-09-24,90.4602
+ 715 | 2008-09-25,90.4651
+ 716 | 2008-09-26,90.6872
+ 717 | 2008-09-29,91.3961
+ 718 | 2008-09-30,92.3773
+ 719 | 2008-10-01,92.511
+ 720 | 2008-10-02,93.3792
+ 721 | 2008-10-03,93.5414
+ 722 | 2008-10-06,95.1629
+ 723 | 2008-10-07,95.4889
+ 724 | 2008-10-08,96.9684
+ 725 | 2008-10-09,96.5143
+ 726 | 2008-10-10,97.999
+ 727 | 2008-10-13,97.9686
+ 728 | 2008-10-14,96.2544
+ 729 | 2008-10-15,97.2045
+ 730 | 2008-10-16,98.368
+ 731 | 2008-10-17,97.7255
+ 732 | 2008-10-20,98.1605
+ 733 | 2008-10-21,99.4242
+ 734 | 2008-10-22,101.2131
+ 735 | 2008-10-23,101.1071
+ 736 | 2008-10-24,101.8442
+ 737 | 2008-10-27,102.3415
+ 738 | 2008-10-28,102.4236
+ 739 | 2008-10-29,100.0967
+ 740 | 2008-10-30,99.4568
+ 741 | 2008-10-31,99.7662
+ 742 | 2008-11-03,99.4345
+ 743 | 2008-11-04,97.9957
+ 744 | 2008-11-05,98.0953
+ 745 | 2008-11-06,99.5364
+ 746 | 2008-11-07,99.3944
+ 747 | 2008-11-10,99.5897
+ 748 | 2008-11-11,99.6041
+ 749 | 2008-11-12,101.1947
+ 750 | 2008-11-13,101.774
+ 751 | 2008-11-14,100.9705
+ 752 | 2008-11-17,101.1029
+ 753 | 2008-11-18,101.3965
+ 754 | 2008-11-19,101.8804
+ 755 | 2008-11-20,103.2737
+ 756 | 2008-11-21,103.6289
+ 757 | 2008-11-24,101.502
+ 758 | 2008-11-25,100.7997
+ 759 | 2008-11-26,101.2566
+ 760 | 2008-11-27,101.2564
+ 761 | 2008-11-28,101.6468
+ 762 | 2008-12-01,102.1744
+ 763 | 2008-12-02,101.9891
+ 764 | 2008-12-03,102.4251
+ 765 | 2008-12-04,102.0715
+ 766 | 2008-12-05,103.4902
+ 767 | 2008-12-08,101.7227
+ 768 | 2008-12-09,101.7346
+ 769 | 2008-12-10,101.2913
+ 770 | 2008-12-11,99.5101
+ 771 | 2008-12-12,100.319
+ 772 | 2008-12-15,99.1001
+ 773 | 2008-12-16,98.4771
+ 774 | 2008-12-17,96.8227
+ 775 | 2008-12-18,96.8447
+ 776 | 2008-12-19,98.1278
+ 777 | 2008-12-22,98.1643
+ 778 | 2008-12-23,98.2698
+ 779 | 2008-12-24,98.2249
+ 780 | 2008-12-25,98.2419
+ 781 | 2008-12-26,98.2594
+ 782 | 2008-12-29,97.9359
+ 783 | 2008-12-30,98.3833
+ 784 | 2008-12-31,98.6518
+ 785 | 2009-01-01,
+ 786 | 2009-01-02,98.6008
+ 787 | 2009-01-05,98.9195
+ 788 | 2009-01-06,98.7871
+ 789 | 2009-01-07,98.089
+ 790 | 2009-01-08,98.3223
+ 791 | 2009-01-09,98.8752
+ 792 | 2009-01-12,99.6022
+ 793 | 2009-01-13,100.3597
+ 794 | 2009-01-14,100.7546
+ 795 | 2009-01-15,101.4653
+ 796 | 2009-01-16,100.711
+ 797 | 2009-01-19,
+ 798 | 2009-01-20,
+ 799 | 2009-01-21,102.1007
+ 800 | 2009-01-22,101.8432
+ 801 | 2009-01-23,102.1096
+ 802 | 2009-01-26,100.9764
+ 803 | 2009-01-27,101.1702
+ 804 | 2009-01-28,100.5461
+ 805 | 2009-01-29,101.3398
+ 806 | 2009-01-30,102.1169
+ 807 | 2009-02-02,102.5067
+ 808 | 2009-02-03,101.8506
+ 809 | 2009-02-04,101.9056
+ 810 | 2009-02-05,101.9517
+ 811 | 2009-02-06,101.7455
+ 812 | 2009-02-09,100.9637
+ 813 | 2009-02-10,101.7094
+ 814 | 2009-02-11,102.24
+ 815 | 2009-02-12,102.598
+ 816 | 2009-02-13,102.2958
+ 817 | 2009-02-16,
+ 818 | 2009-02-17,103.7625
+ 819 | 2009-02-18,104.0385
+ 820 | 2009-02-19,103.7656
+ 821 | 2009-02-20,104.0244
+ 822 | 2009-02-23,103.7416
+ 823 | 2009-02-24,103.9829
+ 824 | 2009-02-25,104.3086
+ 825 | 2009-02-26,104.1813
+ 826 | 2009-02-27,104.9284
+ 827 | 2009-03-02,105.9617
+ 828 | 2009-03-03,106.0249
+ 829 | 2009-03-04,105.4558
+ 830 | 2009-03-05,105.8064
+ 831 | 2009-03-06,105.3937
+ 832 | 2009-03-09,106.0182
+ 833 | 2009-03-10,105.1153
+ 834 | 2009-03-11,104.8499
+ 835 | 2009-03-12,104.89
+ 836 | 2009-03-13,104.1106
+ 837 | 2009-03-16,103.2005
+ 838 | 2009-03-17,103.2305
+ 839 | 2009-03-18,103.0005
+ 840 | 2009-03-19,100.3951
+ 841 | 2009-03-20,101.0581
+ 842 | 2009-03-23,101.103
+ 843 | 2009-03-24,101.0319
+ 844 | 2009-03-25,100.9674
+ 845 | 2009-03-26,101.097
+ 846 | 2009-03-27,101.8388
+ 847 | 2009-03-30,102.749
+ 848 | 2009-03-31,102.3761
+ 849 | 2009-04-01,102.1252
+ 850 | 2009-04-02,100.8733
+ 851 | 2009-04-03,100.6429
+ 852 | 2009-04-06,100.9428
+ 853 | 2009-04-07,100.9808
+ 854 | 2009-04-08,100.8948
+ 855 | 2009-04-09,100.7988
+ 856 | 2009-04-10,100.7597
+ 857 | 2009-04-13,100.1369
+ 858 | 2009-04-14,99.9097
+ 859 | 2009-04-15,100.1497
+ 860 | 2009-04-16,100.0517
+ 861 | 2009-04-17,100.5719
+ 862 | 2009-04-20,101.448
+ 863 | 2009-04-21,101.1794
+ 864 | 2009-04-22,101.1142
+ 865 | 2009-04-23,101.0065
+ 866 | 2009-04-24,100.0244
+ 867 | 2009-04-27,100.7258
+ 868 | 2009-04-28,101.3145
+ 869 | 2009-04-29,100.0009
+ 870 | 2009-04-30,100.1042
+ 871 | 2009-05-01,100.0057
+ 872 | 2009-05-04,99.134
+ 873 | 2009-05-05,98.8529
+ 874 | 2009-05-06,98.9044
+ 875 | 2009-05-07,98.552
+ 876 | 2009-05-08,98.1269
+ 877 | 2009-05-11,97.747
+ 878 | 2009-05-12,97.8269
+ 879 | 2009-05-13,98.0276
+ 880 | 2009-05-14,98.1271
+ 881 | 2009-05-15,98.1063
+ 882 | 2009-05-18,97.9412
+ 883 | 2009-05-19,97.2827
+ 884 | 2009-05-20,96.5707
+ 885 | 2009-05-21,96.6039
+ 886 | 2009-05-22,95.8788
+ 887 | 2009-05-25,
+ 888 | 2009-05-26,95.988
+ 889 | 2009-05-27,95.9622
+ 890 | 2009-05-28,96.1313
+ 891 | 2009-05-29,95.268
+ 892 | 2009-06-01,94.8107
+ 893 | 2009-06-02,94.6556
+ 894 | 2009-06-03,95.0751
+ 895 | 2009-06-04,95.2922
+ 896 | 2009-06-05,96.0412
+ 897 | 2009-06-08,96.6548
+ 898 | 2009-06-09,95.9537
+ 899 | 2009-06-10,96.1277
+ 900 | 2009-06-11,95.4993
+ 901 | 2009-06-12,95.836
+ 902 | 2009-06-15,96.7519
+ 903 | 2009-06-16,96.2616
+ 904 | 2009-06-17,96.64
+ 905 | 2009-06-18,96.1482
+ 906 | 2009-06-19,96.0325
+ 907 | 2009-06-22,96.8818
+ 908 | 2009-06-23,96.5196
+ 909 | 2009-06-24,96.2369
+ 910 | 2009-06-25,96.7072
+ 911 | 2009-06-26,96.1935
+ 912 | 2009-06-29,96.242
+ 913 | 2009-06-30,96.3761
+ 914 | 2009-07-01,95.6581
+ 915 | 2009-07-02,96.3216
+ 916 | 2009-07-03,
+ 917 | 2009-07-06,96.6174
+ 918 | 2009-07-07,96.6321
+ 919 | 2009-07-08,97.0204
+ 920 | 2009-07-09,96.6219
+ 921 | 2009-07-10,97.0819
+ 922 | 2009-07-13,96.9995
+ 923 | 2009-07-14,96.6599
+ 924 | 2009-07-15,95.8004
+ 925 | 2009-07-16,95.7241
+ 926 | 2009-07-17,95.6036
+ 927 | 2009-07-20,95.0903
+ 928 | 2009-07-21,95.0564
+ 929 | 2009-07-22,94.8659
+ 930 | 2009-07-23,94.532
+ 931 | 2009-07-24,94.7046
+ 932 | 2009-07-27,94.6659
+ 933 | 2009-07-28,94.5592
+ 934 | 2009-07-29,95.1678
+ 935 | 2009-07-30,94.8967
+ 936 | 2009-07-31,94.2526
+ 937 | 2009-08-03,93.6331
+ 938 | 2009-08-04,93.7281
+ 939 | 2009-08-05,93.7848
+ 940 | 2009-08-06,93.9358
+ 941 | 2009-08-07,94.4692
+ 942 | 2009-08-10,94.6087
+ 943 | 2009-08-11,94.8678
+ 944 | 2009-08-12,94.5394
+ 945 | 2009-08-13,94.2392
+ 946 | 2009-08-14,94.475
+ 947 | 2009-08-17,95.1024
+ 948 | 2009-08-18,95.1118
+ 949 | 2009-08-19,94.4084
+ 950 | 2009-08-20,94.3492
+ 951 | 2009-08-21,94.0103
+ 952 | 2009-08-24,93.9345
+ 953 | 2009-08-25,93.9066
+ 954 | 2009-08-26,94.8662
+ 955 | 2009-08-27,94.7943
+ 956 | 2009-08-28,94.4489
+ 957 | 2009-08-31,94.6202
+ 958 | 2009-09-01,95.2201
+ 959 | 2009-09-02,95.1575
+ 960 | 2009-09-03,94.959
+ 961 | 2009-09-04,94.5811
+ 962 | 2009-09-07,
+ 963 | 2009-09-08,93.7323
+ 964 | 2009-09-09,93.6915
+ 965 | 2009-09-10,93.6947
+ 966 | 2009-09-11,93.3225
+ 967 | 2009-09-14,93.6196
+ 968 | 2009-09-15,93.4427
+ 969 | 2009-09-16,92.9072
+ 970 | 2009-09-17,92.8287
+ 971 | 2009-09-18,93.1233
+ 972 | 2009-09-21,93.3547
+ 973 | 2009-09-22,92.8664
+ 974 | 2009-09-23,92.979
+ 975 | 2009-09-24,93.4708
+ 976 | 2009-09-25,93.5535
+ 977 | 2009-09-28,93.4669
+ 978 | 2009-09-29,93.7776
+ 979 | 2009-09-30,93.1907
+ 980 | 2009-10-01,93.5995
+ 981 | 2009-10-02,93.6756
+ 982 | 2009-10-05,93.3356
+ 983 | 2009-10-06,92.619
+ 984 | 2009-10-07,92.794
+ 985 | 2009-10-08,92.2074
+ 986 | 2009-10-09,92.2984
+ 987 | 2009-10-12,
+ 988 | 2009-10-13,91.8273
+ 989 | 2009-10-14,91.5047
+ 990 | 2009-10-15,91.4367
+ 991 | 2009-10-16,91.6541
+ 992 | 2009-10-19,91.4406
+ 993 | 2009-10-20,91.801
+ 994 | 2009-10-21,91.3805
+ 995 | 2009-10-22,91.6075
+ 996 | 2009-10-23,91.7331
+ 997 | 2009-10-26,92.0998
+ 998 | 2009-10-27,92.5335
+ 999 | 2009-10-28,92.8152
+1000 | 2009-10-29,92.4708
+1001 | 2009-10-30,92.6207
+1002 | 2009-11-02,92.4501
+1003 | 2009-11-03,92.9037
+1004 | 2009-11-04,92.3725
+1005 | 2009-11-05,92.3437
+1006 | 2009-11-06,92.3848
+1007 | 2009-11-09,91.6861
+1008 | 2009-11-10,91.6659
+1009 | 2009-11-11,
+1010 | 2009-11-12,91.9461
+1011 | 2009-11-13,91.5754
+1012 | 2009-11-16,91.194
+1013 | 2009-11-17,91.7419
+1014 | 2009-11-18,91.249
+1015 | 2009-11-19,91.7827
+1016 | 2009-11-20,91.9906
+1017 | 2009-11-23,91.4864
+1018 | 2009-11-24,91.5539
+1019 | 2009-11-25,90.9669
+1020 | 2009-11-26,
+1021 | 2009-11-27,91.5272
+1022 | 2009-11-30,91.3717
+1023 | 2009-12-01,90.8323
+1024 | 2009-12-02,90.8906
+1025 | 2009-12-03,90.9152
+1026 | 2009-12-04,91.3806
+1027 | 2009-12-07,91.5414
+1028 | 2009-12-08,91.9513
+1029 | 2009-12-09,92.014
+1030 | 2009-12-10,92.0073
+1031 | 2009-12-11,92.2946
+1032 | 2009-12-14,92.0305
+1033 | 2009-12-15,92.3635
+1034 | 2009-12-16,92.1496
+1035 | 2009-12-17,93.225
+1036 | 2009-12-18,93.1632
+1037 | 2009-12-21,
+1038 | 2009-12-22,93.2903
+1039 | 2009-12-23,92.9295
+1040 | 2009-12-24,92.8694
+1041 | 2009-12-25,
+1042 | 2009-12-28,92.6993
+1043 | 2009-12-29,92.8838
+1044 | 2009-12-30,93.0872
+1045 | 2009-12-31,92.9124
+1046 | 2010-01-01,
+1047 | 2010-01-04,92.3566
+1048 | 2010-01-05,92.2236
+1049 | 2010-01-06,92.0941
+1050 | 2010-01-07,92.3684
+1051 | 2010-01-08,92.1485
+1052 | 2010-01-11,91.5997
+1053 | 2010-01-12,91.7005
+1054 | 2010-01-13,91.7272
+1055 | 2010-01-14,91.5864
+1056 | 2010-01-15,91.7668
+1057 | 2010-01-18,
+1058 | 2010-01-19,91.9611
+1059 | 2010-01-20,92.6766
+1060 | 2010-01-21,92.6627
+1061 | 2010-01-22,92.943
+1062 | 2010-01-25,92.9099
+1063 | 2010-01-26,93.3298
+1064 | 2010-01-27,93.2835
+1065 | 2010-01-28,93.2635
+1066 | 2010-01-29,93.7638
+1067 | 2010-02-01,93.7321
+1068 | 2010-02-02,93.4136
+1069 | 2010-02-03,93.6268
+1070 | 2010-02-04,94.1401
+1071 | 2010-02-05,94.6218
+1072 | 2010-02-08,
+1073 | 2010-02-09,
+1074 | 2010-02-10,
+1075 | 2010-02-11,
+1076 | 2010-02-12,93.9976
+1077 | 2010-02-15,
+1078 | 2010-02-16,93.482
+1079 | 2010-02-17,93.7171
+1080 | 2010-02-18,93.8752
+1081 | 2010-02-19,93.9569
+1082 | 2010-02-22,93.7402
+1083 | 2010-02-23,93.9794
+1084 | 2010-02-24,93.9775
+1085 | 2010-02-25,94.3797
+1086 | 2010-02-26,93.6602
+1087 | 2010-03-01,93.7979
+1088 | 2010-03-02,93.488
+1089 | 2010-03-03,92.9861
+1090 | 2010-03-04,93.4079
+1091 | 2010-03-05,93.2623
+1092 | 2010-03-08,93.2446
+1093 | 2010-03-09,93.1941
+1094 | 2010-03-10,93.0426
+1095 | 2010-03-11,93.0533
+1096 | 2010-03-12,92.6616
+1097 | 2010-03-15,92.9642
+1098 | 2010-03-16,92.595
+1099 | 2010-03-17,92.4446
+1100 | 2010-03-18,92.7451
+1101 | 2010-03-19,93.0407
+1102 | 2010-03-22,93.1333
+1103 | 2010-03-23,93.006
+1104 | 2010-03-24,93.6468
+1105 | 2010-03-25,93.5885
+1106 | 2010-03-26,93.6873
+1107 | 2010-03-29,93.2959
+1108 | 2010-03-30,93.2627
+1109 | 2010-03-31,92.8987
+1110 | 2010-04-01,92.6661
+1111 | 2010-04-02,92.9057
+1112 | 2010-04-05,92.6644
+1113 | 2010-04-06,92.7373
+1114 | 2010-04-07,92.7452
+1115 | 2010-04-08,92.7211
+1116 | 2010-04-09,92.4772
+1117 | 2010-04-12,92.243
+1118 | 2010-04-13,92.2689
+1119 | 2010-04-14,91.9297
+1120 | 2010-04-15,92.2029
+1121 | 2010-04-16,92.5253
+1122 | 2010-04-19,92.8577
+1123 | 2010-04-20,92.4338
+1124 | 2010-04-21,92.4482
+1125 | 2010-04-22,92.7277
+1126 | 2010-04-23,92.6622
+1127 | 2010-04-26,92.5187
+1128 | 2010-04-27,93.0956
+1129 | 2010-04-28,93.4856
+1130 | 2010-04-29,92.9013
+1131 | 2010-04-30,92.8423
+1132 | 2010-05-03,93.235
+1133 | 2010-05-04,93.8137
+1134 | 2010-05-05,94.3968
+1135 | 2010-05-06,95.3032
+1136 | 2010-05-07,95.2952
+1137 | 2010-05-10,94.3096
+1138 | 2010-05-11,94.4305
+1139 | 2010-05-12,94.5515
+1140 | 2010-05-13,94.5071
+1141 | 2010-05-14,95.3746
+1142 | 2010-05-17,95.9795
+1143 | 2010-05-18,95.6212
+1144 | 2010-05-19,96.5083
+1145 | 2010-05-20,96.9483
+1146 | 2010-05-21,96.2911
+1147 | 2010-05-24,96.6433
+1148 | 2010-05-25,97.5487
+1149 | 2010-05-26,97.1879
+1150 | 2010-05-27,96.3611
+1151 | 2010-05-28,96.3062
+1152 | 2010-05-31,
+1153 | 2010-06-01,96.6123
+1154 | 2010-06-02,96.615
+1155 | 2010-06-03,96.461
+1156 | 2010-06-04,97.1688
+1157 | 2010-06-07,97.503
+1158 | 2010-06-08,97.3425
+1159 | 2010-06-09,96.8938
+1160 | 2010-06-10,96.4877
+1161 | 2010-06-11,96.5616
+1162 | 2010-06-14,95.8082
+1163 | 2010-06-15,95.7049
+1164 | 2010-06-16,95.5668
+1165 | 2010-06-17,95.4973
+1166 | 2010-06-18,95.2981
+1167 | 2010-06-21,94.8505
+1168 | 2010-06-22,95.1165
+1169 | 2010-06-23,95.4853
+1170 | 2010-06-24,95.6194
+1171 | 2010-06-25,95.4582
+1172 | 2010-06-28,95.2696
+1173 | 2010-06-29,96.0199
+1174 | 2010-06-30,95.9934
+1175 | 2010-07-01,95.8018
+1176 | 2010-07-02,95.6345
+1177 | 2010-07-05,
+1178 | 2010-07-06,95.1069
+1179 | 2010-07-07,95.1795
+1180 | 2010-07-08,94.7734
+1181 | 2010-07-09,94.683
+1182 | 2010-07-12,94.9598
+1183 | 2010-07-13,94.3856
+1184 | 2010-07-14,94.3247
+1185 | 2010-07-15,94.1988
+1186 | 2010-07-16,94.5061
+1187 | 2010-07-19,94.602
+1188 | 2010-07-20,94.542
+1189 | 2010-07-21,94.4496
+1190 | 2010-07-22,94.1135
+1191 | 2010-07-23,94.1431
+1192 | 2010-07-26,93.7556
+1193 | 2010-07-27,93.7583
+1194 | 2010-07-28,93.7506
+1195 | 2010-07-29,93.6004
+1196 | 2010-07-30,93.2793
+1197 | 2010-08-02,92.7916
+1198 | 2010-08-03,92.6258
+1199 | 2010-08-04,92.731
+1200 | 2010-08-05,92.6401
+1201 | 2010-08-06,92.5915
+1202 | 2010-08-09,92.6726
+1203 | 2010-08-10,93.2197
+1204 | 2010-08-11,93.7778
+1205 | 2010-08-12,93.8905
+1206 | 2010-08-13,94.0457
+1207 | 2010-08-16,93.7902
+1208 | 2010-08-17,93.4239
+1209 | 2010-08-18,93.3719
+1210 | 2010-08-19,93.7141
+1211 | 2010-08-20,94.2087
+1212 | 2010-08-23,94.3295
+1213 | 2010-08-24,94.4362
+1214 | 2010-08-25,94.7372
+1215 | 2010-08-26,94.3523
+1216 | 2010-08-27,94.3462
+1217 | 2010-08-30,94.5922
+1218 | 2010-08-31,94.7204
+1219 | 2010-09-01,94.1148
+1220 | 2010-09-02,94.0852
+1221 | 2010-09-03,93.6952
+1222 | 2010-09-06,
+1223 | 2010-09-07,94.042
+1224 | 2010-09-08,93.7785
+1225 | 2010-09-09,93.7033
+1226 | 2010-09-10,93.6768
+1227 | 2010-09-13,93.0767
+1228 | 2010-09-14,92.6182
+1229 | 2010-09-15,92.9313
+1230 | 2010-09-16,92.9108
+1231 | 2010-09-17,92.9418
+1232 | 2010-09-20,92.7496
+1233 | 2010-09-21,92.6684
+1234 | 2010-09-22,92.0647
+1235 | 2010-09-23,92.0233
+1236 | 2010-09-24,91.5996
+1237 | 2010-09-27,91.4803
+1238 | 2010-09-28,91.3493
+1239 | 2010-09-29,91.1632
+1240 | 2010-09-30,91.3415
+1241 | 2010-10-01,90.836
+1242 | 2010-10-04,91.0015
+1243 | 2010-10-05,90.5622
+1244 | 2010-10-06,90.1411
+1245 | 2010-10-07,90.286
+1246 | 2010-10-08,90.1133
+1247 | 2010-10-11,
+1248 | 2010-10-12,90.2203
+1249 | 2010-10-13,89.7779
+1250 | 2010-10-14,89.5228
+1251 | 2010-10-15,89.6815
+1252 | 2010-10-18,89.8484
+1253 | 2010-10-19,90.5499
+1254 | 2010-10-20,90.1446
+1255 | 2010-10-21,90.138
+1256 | 2010-10-22,90.4063
+1257 | 2010-10-25,89.9328
+1258 | 2010-10-26,90.2818
+1259 | 2010-10-27,90.8038
+1260 | 2010-10-28,90.2407
+1261 | 2010-10-29,90.0935
+1262 | 2010-11-01,90.0307
+1263 | 2010-11-02,89.6847
+1264 | 2010-11-03,89.7079
+1265 | 2010-11-04,88.9831
+1266 | 2010-11-05,89.2441
+1267 | 2010-11-08,89.5711
+1268 | 2010-11-09,89.558
+1269 | 2010-11-10,89.9056
+1270 | 2010-11-11,
+1271 | 2010-11-12,90.1701
+1272 | 2010-11-15,90.4331
+1273 | 2010-11-16,91.1102
+1274 | 2010-11-17,90.9282
+1275 | 2010-11-18,90.649
+1276 | 2010-11-19,90.6986
+1277 | 2010-11-22,90.7023
+1278 | 2010-11-23,91.4318
+1279 | 2010-11-24,91.2179
+1280 | 2010-11-25,
+1281 | 2010-11-26,91.8152
+1282 | 2010-11-29,92.1997
+1283 | 2010-11-30,92.1494
+1284 | 2010-12-01,91.6799
+1285 | 2010-12-02,91.2651
+1286 | 2010-12-03,90.8788
+1287 | 2010-12-06,91.0167
+1288 | 2010-12-07,90.9732
+1289 | 2010-12-08,91.3376
+1290 | 2010-12-09,91.3923
+1291 | 2010-12-10,91.2831
+1292 | 2010-12-13,90.8837
+1293 | 2010-12-14,90.764
+1294 | 2010-12-15,91.094
+1295 | 2010-12-16,91.3773
+1296 | 2010-12-17,91.5555
+1297 | 2010-12-20,91.6398
+1298 | 2010-12-21,91.519
+1299 | 2010-12-22,91.429
+1300 | 2010-12-23,91.3013
+1301 | 2010-12-24,
+1302 | 2010-12-27,91.1963
+1303 | 2010-12-28,90.9848
+1304 | 2010-12-29,90.7669
+1305 | 2010-12-30,90.5146
+1306 | 2010-12-31,
+1307 | 2011-01-03,89.9524
+1308 | 2011-01-04,90.3277
+1309 | 2011-01-05,90.5715
+1310 | 2011-01-06,90.9125
+1311 | 2011-01-07,91.0001
+1312 | 2011-01-10,91.03
+1313 | 2011-01-11,90.8431
+1314 | 2011-01-12,90.4111
+1315 | 2011-01-13,89.9019
+1316 | 2011-01-14,90.0461
+1317 | 2011-01-17,
+1318 | 2011-01-18,89.821
+1319 | 2011-01-19,89.6948
+1320 | 2011-01-20,90.1316
+1321 | 2011-01-21,89.7204
+1322 | 2011-01-24,89.5375
+1323 | 2011-01-25,89.7279
+1324 | 2011-01-26,89.5091
+1325 | 2011-01-27,89.5728
+1326 | 2011-01-28,89.8189
+1327 | 2011-01-31,89.694
+1328 | 2011-02-01,89.1436
+1329 | 2011-02-02,89.0737
+1330 | 2011-02-03,89.2522
+1331 | 2011-02-04,89.391
+1332 | 2011-02-07,89.3556
+1333 | 2011-02-08,89.1241
+1334 | 2011-02-09,89.4166
+1335 | 2011-02-10,89.6266
+1336 | 2011-02-11,89.8784
+1337 | 2011-02-14,89.8543
+1338 | 2011-02-15,89.8871
+1339 | 2011-02-16,89.7059
+1340 | 2011-02-17,89.4102
+1341 | 2011-02-18,89.1974
+1342 | 2011-02-21,
+1343 | 2011-02-22,89.4617
+1344 | 2011-02-23,89.4186
+1345 | 2011-02-24,89.2346
+1346 | 2011-02-25,89.1664
+1347 | 2011-02-28,88.9391
+1348 | 2011-03-01,88.831
+1349 | 2011-03-02,88.7317
+1350 | 2011-03-03,88.637
+1351 | 2011-03-04,88.4898
+1352 | 2011-03-07,88.5207
+1353 | 2011-03-08,88.6454
+1354 | 2011-03-09,88.5328
+1355 | 2011-03-10,88.8698
+1356 | 2011-03-11,88.691
+1357 | 2011-03-14,88.5191
+1358 | 2011-03-15,88.7845
+1359 | 2011-03-16,88.9785
+1360 | 2011-03-17,88.6549
+1361 | 2011-03-18,88.5221
+1362 | 2011-03-21,88.2032
+1363 | 2011-03-22,88.0665
+1364 | 2011-03-23,88.3328
+1365 | 2011-03-24,88.0592
+1366 | 2011-03-25,88.1716
+1367 | 2011-03-28,88.3058
+1368 | 2011-03-29,88.3991
+1369 | 2011-03-30,88.2298
+1370 | 2011-03-31,88.0299
+1371 | 2011-04-01,87.7993
+1372 | 2011-04-04,87.8406
+1373 | 2011-04-05,87.7483
+1374 | 2011-04-06,87.4913
+1375 | 2011-04-07,87.532
+1376 | 2011-04-08,87.1493
+1377 | 2011-04-11,87.094
+1378 | 2011-04-12,87.2943
+1379 | 2011-04-13,87.2093
+1380 | 2011-04-14,87.0802
+1381 | 2011-04-15,87.005
+1382 | 2011-04-18,87.5081
+1383 | 2011-04-19,87.0791
+1384 | 2011-04-20,86.5642
+1385 | 2011-04-21,86.2256
+1386 | 2011-04-22,86.3742
+1387 | 2011-04-25,86.4026
+1388 | 2011-04-26,86.2576
+1389 | 2011-04-27,86.2519
+1390 | 2011-04-28,85.8419
+1391 | 2011-04-29,85.5999
+1392 | 2011-05-02,85.5199
+1393 | 2011-05-03,85.6352
+1394 | 2011-05-04,85.8917
+1395 | 2011-05-05,86.508
+1396 | 2011-05-06,86.4575
+1397 | 2011-05-09,86.8346
+1398 | 2011-05-10,86.6518
+1399 | 2011-05-11,86.7195
+1400 | 2011-05-12,87.0767
+1401 | 2011-05-13,87.4176
+1402 | 2011-05-16,87.3311
+1403 | 2011-05-17,87.6307
+1404 | 2011-05-18,87.295
+1405 | 2011-05-19,87.2638
+1406 | 2011-05-20,87.3044
+1407 | 2011-05-23,87.8941
+1408 | 2011-05-24,87.662
+1409 | 2011-05-25,87.6136
+1410 | 2011-05-26,87.5588
+1411 | 2011-05-27,86.9525
+1412 | 2011-05-30,
+1413 | 2011-05-31,86.656
+1414 | 2011-06-01,86.5964
+1415 | 2011-06-02,86.8435
+1416 | 2011-06-03,86.4234
+1417 | 2011-06-06,86.4669
+1418 | 2011-06-07,86.3627
+1419 | 2011-06-08,86.5714
+1420 | 2011-06-09,86.5913
+1421 | 2011-06-10,87.042
+1422 | 2011-06-13,87.0579
+1423 | 2011-06-14,86.6771
+1424 | 2011-06-15,87.3342
+1425 | 2011-06-16,87.6917
+1426 | 2011-06-17,87.2179
+1427 | 2011-06-20,87.1908
+1428 | 2011-06-21,86.857
+1429 | 2011-06-22,86.8067
+1430 | 2011-06-23,87.455
+1431 | 2011-06-24,87.5014
+1432 | 2011-06-27,87.5225
+1433 | 2011-06-28,87.2178
+1434 | 2011-06-29,86.8014
+1435 | 2011-06-30,86.4786
+1436 | 2011-07-01,86.3613
+1437 | 2011-07-04,
+1438 | 2011-07-05,86.4253
+1439 | 2011-07-06,86.6825
+1440 | 2011-07-07,86.4825
+1441 | 2011-07-08,86.615
+1442 | 2011-07-11,87.1013
+1443 | 2011-07-12,87.1701
+1444 | 2011-07-13,86.5697
+1445 | 2011-07-14,86.5234
+1446 | 2011-07-15,86.5169
+1447 | 2011-07-18,86.9549
+1448 | 2011-07-19,86.4386
+1449 | 2011-07-20,86.2794
+1450 | 2011-07-21,85.8378
+1451 | 2011-07-22,85.8623
+1452 | 2011-07-25,85.8006
+1453 | 2011-07-26,85.4692
+1454 | 2011-07-27,85.7126
+1455 | 2011-07-28,85.8245
+1456 | 2011-07-29,85.7282
+1457 | 2011-08-01,86.0391
+1458 | 2011-08-02,86.0533
+1459 | 2011-08-03,86.0706
+1460 | 2011-08-04,86.9299
+1461 | 2011-08-05,87.1084
+1462 | 2011-08-08,87.1873
+1463 | 2011-08-09,87.3919
+1464 | 2011-08-10,87.3792
+1465 | 2011-08-11,87.3215
+1466 | 2011-08-12,87.177
+1467 | 2011-08-15,86.7515
+1468 | 2011-08-16,86.7115
+1469 | 2011-08-17,86.5518
+1470 | 2011-08-18,87.1271
+1471 | 2011-08-19,86.8286
+1472 | 2011-08-22,87.0753
+1473 | 2011-08-23,86.9001
+1474 | 2011-08-24,87.1316
+1475 | 2011-08-25,87.2306
+1476 | 2011-08-26,87.0751
+1477 | 2011-08-29,86.8433
+1478 | 2011-08-30,87.001
+1479 | 2011-08-31,86.7739
+1480 | 2011-09-01,86.8512
+1481 | 2011-09-02,87.1797
+1482 | 2011-09-05,
+1483 | 2011-09-06,88.1645
+1484 | 2011-09-07,87.9699
+1485 | 2011-09-08,88.1162
+1486 | 2011-09-09,88.9514
+1487 | 2011-09-12,89.2192
+1488 | 2011-09-13,89.2653
+1489 | 2011-09-14,89.419
+1490 | 2011-09-15,89.0647
+1491 | 2011-09-16,89.1108
+1492 | 2011-09-19,89.9336
+1493 | 2011-09-20,89.8777
+1494 | 2011-09-21,90.3453
+1495 | 2011-09-22,92.075
+1496 | 2011-09-23,91.6904
+1497 | 2011-09-26,91.7724
+1498 | 2011-09-27,90.8985
+1499 | 2011-09-28,91.0227
+1500 | 2011-09-29,91.3033
+1501 | 2011-09-30,91.9998
+1502 | 2011-10-03,92.5128
+1503 | 2011-10-04,92.9508
+1504 | 2011-10-05,92.3008
+1505 | 2011-10-06,91.9661
+1506 | 2011-10-07,91.2469
+1507 | 2011-10-10,
+1508 | 2011-10-11,90.9162
+1509 | 2011-10-12,90.3378
+1510 | 2011-10-13,90.6603
+1511 | 2011-10-14,90.2116
+1512 | 2011-10-17,90.266
+1513 | 2011-10-18,90.5907
+1514 | 2011-10-19,90.3317
+1515 | 2011-10-20,91.1026
+1516 | 2011-10-21,90.279
+1517 | 2011-10-24,89.8558
+1518 | 2011-10-25,89.9525
+1519 | 2011-10-26,90.0836
+1520 | 2011-10-27,88.7882
+1521 | 2011-10-28,88.6382
+1522 | 2011-10-31,89.2053
+1523 | 2011-11-01,90.7296
+1524 | 2011-11-02,90.244
+1525 | 2011-11-03,90.2961
+1526 | 2011-11-04,90.3154
+1527 | 2011-11-07,90.3832
+1528 | 2011-11-08,90.172
+1529 | 2011-11-09,90.6991
+1530 | 2011-11-10,90.8588
+1531 | 2011-11-11,
+1532 | 2011-11-14,90.7215
+1533 | 2011-11-15,91.1081
+1534 | 2011-11-16,91.1237
+1535 | 2011-11-17,91.1822
+1536 | 2011-11-18,91.3676
+1537 | 2011-11-21,91.9978
+1538 | 2011-11-22,92.0193
+1539 | 2011-11-23,92.7463
+1540 | 2011-11-24,
+1541 | 2011-11-25,93.1455
+1542 | 2011-11-28,92.4983
+1543 | 2011-11-29,92.2163
+1544 | 2011-11-30,91.4728
+1545 | 2011-12-01,91.227
+1546 | 2011-12-02,91.3532
+1547 | 2011-12-05,91.1087
+1548 | 2011-12-06,91.2817
+1549 | 2011-12-07,91.2331
+1550 | 2011-12-08,91.668
+1551 | 2011-12-09,91.6122
+1552 | 2011-12-12,92.3375
+1553 | 2011-12-13,92.5456
+1554 | 2011-12-14,93.2176
+1555 | 2011-12-15,92.8858
+1556 | 2011-12-16,92.8252
+1557 | 2011-12-19,92.8685
+1558 | 2011-12-20,92.432
+1559 | 2011-12-21,92.5262
+1560 | 2011-12-22,92.3883
+1561 | 2011-12-23,92.3897
+1562 | 2011-12-26,
+1563 | 2011-12-27,92.4137
+1564 | 2011-12-28,92.8374
+1565 | 2011-12-29,92.7398
+1566 | 2011-12-30,92.4262
+1567 | 2012-01-02,
+1568 | 2012-01-03,91.7551
+1569 | 2012-01-04,92.0345
+1570 | 2012-01-05,92.5773
+1571 | 2012-01-06,92.7183
+1572 | 2012-01-09,92.7418
+1573 | 2012-01-10,92.2461
+1574 | 2012-01-11,92.554
+1575 | 2012-01-12,92.2274
+1576 | 2012-01-13,92.5385
+1577 | 2012-01-16,
+1578 | 2012-01-17,92.0142
+1579 | 2012-01-18,91.6943
+1580 | 2012-01-19,91.3316
+1581 | 2012-01-20,91.3661
+1582 | 2012-01-23,90.986
+1583 | 2012-01-24,91.181
+1584 | 2012-01-25,91.277
+1585 | 2012-01-26,90.3962
+1586 | 2012-01-27,90.2559
+1587 | 2012-01-30,90.4762
+1588 | 2012-01-31,90.5538
+1589 | 2012-02-01,90.0963
+1590 | 2012-02-02,89.8765
+1591 | 2012-02-03,89.8491
+1592 | 2012-02-06,89.7907
+1593 | 2012-02-07,89.5968
+1594 | 2012-02-08,89.6555
+1595 | 2012-02-09,89.6246
+1596 | 2012-02-10,90.1024
+1597 | 2012-02-13,89.8895
+1598 | 2012-02-14,90.1919
+1599 | 2012-02-15,90.1932
+1600 | 2012-02-16,90.3109
+1601 | 2012-02-17,90.23
+1602 | 2012-02-20,
+1603 | 2012-02-21,90.0117
+1604 | 2012-02-22,90.2472
+1605 | 2012-02-23,90.1108
+1606 | 2012-02-24,89.9104
+1607 | 2012-02-27,89.9635
+1608 | 2012-02-28,89.8103
+1609 | 2012-02-29,89.7487
+1610 | 2012-03-01,89.7817
+1611 | 2012-03-02,90.135
+1612 | 2012-03-05,90.2748
+1613 | 2012-03-06,90.8237
+1614 | 2012-03-07,90.6837
+1615 | 2012-03-08,90.2598
+1616 | 2012-03-09,90.4341
+1617 | 2012-03-12,90.6643
+1618 | 2012-03-13,90.5363
+1619 | 2012-03-14,90.9325
+1620 | 2012-03-15,90.7866
+1621 | 2012-03-16,90.5245
+1622 | 2012-03-19,90.292
+1623 | 2012-03-20,90.6065
+1624 | 2012-03-21,90.6761
+1625 | 2012-03-22,90.8225
+1626 | 2012-03-23,90.6156
+1627 | 2012-03-26,90.3266
+1628 | 2012-03-27,90.2796
+1629 | 2012-03-28,90.603
+1630 | 2012-03-29,90.7285
+1631 | 2012-03-30,90.4593
+1632 | 2012-04-02,90.247
+1633 | 2012-04-03,90.1921
+1634 | 2012-04-04,90.8284
+1635 | 2012-04-05,90.8781
+1636 | 2012-04-06,90.9375
+1637 | 2012-04-09,90.9624
+1638 | 2012-04-10,91.2728
+1639 | 2012-04-11,91.1768
+1640 | 2012-04-12,90.7694
+1641 | 2012-04-13,91.0558
+1642 | 2012-04-16,91.2355
+1643 | 2012-04-17,90.7661
+1644 | 2012-04-18,90.9326
+1645 | 2012-04-19,91.0833
+1646 | 2012-04-20,90.8066
+1647 | 2012-04-23,91.079
+1648 | 2012-04-24,90.8153
+1649 | 2012-04-25,90.756
+1650 | 2012-04-26,90.6428
+1651 | 2012-04-27,90.3269
+1652 | 2012-04-30,90.3634
+1653 | 2012-05-01,90.3227
+1654 | 2012-05-02,90.6144
+1655 | 2012-05-03,90.6839
+1656 | 2012-05-04,91.0497
+1657 | 2012-05-07,91.0747
+1658 | 2012-05-08,91.4107
+1659 | 2012-05-09,91.7632
+1660 | 2012-05-10,91.7077
+1661 | 2012-05-11,91.7306
+1662 | 2012-05-14,92.2491
+1663 | 2012-05-15,92.5235
+1664 | 2012-05-16,92.903
+1665 | 2012-05-17,92.9632
+1666 | 2012-05-18,93.1395
+1667 | 2012-05-21,93.0945
+1668 | 2012-05-22,93.1113
+1669 | 2012-05-23,93.8855
+1670 | 2012-05-24,93.8027
+1671 | 2012-05-25,93.9488
+1672 | 2012-05-28,
+1673 | 2012-05-29,93.875
+1674 | 2012-05-30,94.302
+1675 | 2012-05-31,94.6856
+1676 | 2012-06-01,94.6979
+1677 | 2012-06-04,94.5184
+1678 | 2012-06-05,94.6184
+1679 | 2012-06-06,94.0362
+1680 | 2012-06-07,93.774
+1681 | 2012-06-08,94.2024
+1682 | 2012-06-11,94.0369
+1683 | 2012-06-12,94.0693
+1684 | 2012-06-13,93.8309
+1685 | 2012-06-14,93.8152
+1686 | 2012-06-15,93.5203
+1687 | 2012-06-18,93.6431
+1688 | 2012-06-19,93.0524
+1689 | 2012-06-20,93.1602
+1690 | 2012-06-21,93.6378
+1691 | 2012-06-22,93.9205
+1692 | 2012-06-25,94.1757
+1693 | 2012-06-26,93.9859
+1694 | 2012-06-27,93.8728
+1695 | 2012-06-28,94.0203
+1696 | 2012-06-29,92.9096
+1697 | 2012-07-02,92.951
+1698 | 2012-07-03,92.6508
+1699 | 2012-07-04,
+1700 | 2012-07-05,93.2211
+1701 | 2012-07-06,93.7087
+1702 | 2012-07-09,93.6974
+1703 | 2012-07-10,93.5552
+1704 | 2012-07-11,93.5981
+1705 | 2012-07-12,93.9298
+1706 | 2012-07-13,93.5515
+1707 | 2012-07-16,93.3746
+1708 | 2012-07-17,93.3479
+1709 | 2012-07-18,93.0973
+1710 | 2012-07-19,93.0438
+1711 | 2012-07-20,93.3653
+1712 | 2012-07-23,93.9297
+1713 | 2012-07-24,94.2635
+1714 | 2012-07-25,94.0564
+1715 | 2012-07-26,93.3595
+1716 | 2012-07-27,92.9333
+1717 | 2012-07-30,93.0524
+1718 | 2012-07-31,92.8422
+1719 | 2012-08-01,92.8905
+1720 | 2012-08-02,93.4269
+1721 | 2012-08-03,92.6048
+1722 | 2012-08-06,92.4339
+1723 | 2012-08-07,92.5128
+1724 | 2012-08-08,92.5407
+1725 | 2012-08-09,92.6057
+1726 | 2012-08-10,92.5129
+1727 | 2012-08-13,92.5955
+1728 | 2012-08-14,92.6152
+1729 | 2012-08-15,92.6838
+1730 | 2012-08-16,92.5737
+1731 | 2012-08-17,92.711
+1732 | 2012-08-20,92.6263
+1733 | 2012-08-21,92.3053
+1734 | 2012-08-22,92.4362
+1735 | 2012-08-23,92.1057
+1736 | 2012-08-24,92.2785
+1737 | 2012-08-27,92.3135
+1738 | 2012-08-28,92.2033
+1739 | 2012-08-29,92.3823
+1740 | 2012-08-30,92.6239
+1741 | 2012-08-31,92.1677
+1742 | 2012-09-03,
+1743 | 2012-09-04,92.1582
+1744 | 2012-09-05,92.1262
+1745 | 2012-09-06,91.8973
+1746 | 2012-09-07,91.3469
+1747 | 2012-09-10,91.3102
+1748 | 2012-09-11,91.0575
+1749 | 2012-09-12,91.0477
+1750 | 2012-09-13,90.9632
+1751 | 2012-09-14,90.1436
+1752 | 2012-09-17,90.2837
+1753 | 2012-09-18,90.5029
+1754 | 2012-09-19,90.4646
+1755 | 2012-09-20,90.7631
+1756 | 2012-09-21,90.5342
+1757 | 2012-09-24,90.8263
+1758 | 2012-09-25,90.6074
+1759 | 2012-09-26,91.0028
+1760 | 2012-09-27,90.7538
+1761 | 2012-09-28,90.8342
+1762 | 2012-10-01,90.7011
+1763 | 2012-10-02,90.644
+1764 | 2012-10-03,90.8726
+1765 | 2012-10-04,90.4932
+1766 | 2012-10-05,90.2851
+1767 | 2012-10-08,
+1768 | 2012-10-09,90.8703
+1769 | 2012-10-10,90.883
+1770 | 2012-10-11,90.7437
+1771 | 2012-10-12,90.6833
+1772 | 2012-10-15,90.6409
+1773 | 2012-10-16,90.5583
+1774 | 2012-10-17,90.2309
+1775 | 2012-10-18,90.3804
+1776 | 2012-10-19,90.8107
+1777 | 2012-10-22,90.7911
+1778 | 2012-10-23,91.0945
+1779 | 2012-10-24,91.1275
+1780 | 2012-10-25,91.02
+1781 | 2012-10-26,91.1411
+1782 | 2012-10-29,
+1783 | 2012-10-30,
+1784 | 2012-10-31,91.1609
+1785 | 2012-11-01,91.1217
+1786 | 2012-11-02,91.281
+1787 | 2012-11-05,91.4778
+1788 | 2012-11-06,91.2908
+1789 | 2012-11-07,91.4514
+1790 | 2012-11-08,91.5375
+1791 | 2012-11-09,91.6871
+1792 | 2012-11-12,
+1793 | 2012-11-13,91.7356
+1794 | 2012-11-14,91.7942
+1795 | 2012-11-15,91.8837
+1796 | 2012-11-16,92.0095
+1797 | 2012-11-19,91.5653
+1798 | 2012-11-20,91.556
+1799 | 2012-11-21,91.6645
+1800 | 2012-11-22,
+1801 | 2012-11-23,91.2616
+1802 | 2012-11-26,91.2789
+1803 | 2012-11-27,91.2608
+1804 | 2012-11-28,91.33
+1805 | 2012-11-29,91.2104
+1806 | 2012-11-30,91.1038
+1807 | 2012-12-03,91.0084
+1808 | 2012-12-04,90.9748
+1809 | 2012-12-05,90.9423
+1810 | 2012-12-06,91.0629
+1811 | 2012-12-07,91.0437
+1812 | 2012-12-10,90.9631
+1813 | 2012-12-11,90.8403
+1814 | 2012-12-12,90.7708
+1815 | 2012-12-13,90.776
+1816 | 2012-12-14,90.7156
+1817 | 2012-12-17,90.6193
+1818 | 2012-12-18,90.5161
+1819 | 2012-12-19,90.4896
+1820 | 2012-12-20,90.6002
+1821 | 2012-12-21,90.9597
+1822 | 2012-12-24,91.0354
+1823 | 2012-12-25,
+1824 | 2012-12-26,91.0606
+1825 | 2012-12-27,91.1037
+1826 | 2012-12-28,91.0419
+1827 | 2012-12-31,91.0834
+1828 | 2013-01-01,
+1829 | 2013-01-02,90.6941
+1830 | 2013-01-03,90.8097
+1831 | 2013-01-04,91.1025
+1832 | 2013-01-07,90.9852
+1833 | 2013-01-08,91.057
+1834 | 2013-01-09,91.0088
+1835 | 2013-01-10,90.6425
+1836 | 2013-01-11,90.5352
+1837 | 2013-01-14,90.4935
+1838 | 2013-01-15,90.5191
+1839 | 2013-01-16,90.596
+1840 | 2013-01-17,90.5401
+1841 | 2013-01-18,90.8697
+1842 | 2013-01-21,
+1843 | 2013-01-22,90.7892
+1844 | 2013-01-23,90.8376
+1845 | 2013-01-24,90.9112
+1846 | 2013-01-25,91.0868
+1847 | 2013-01-28,91.2354
+1848 | 2013-01-29,90.9406
+1849 | 2013-01-30,90.8836
+1850 | 2013-01-31,90.798
+1851 | 2013-02-01,90.6923
+1852 | 2013-02-04,90.9774
+1853 | 2013-02-05,90.881
+1854 | 2013-02-06,91.0176
+1855 | 2013-02-07,91.2912
+1856 | 2013-02-08,91.3056
+1857 | 2013-02-11,91.4451
+1858 | 2013-02-12,91.2779
+1859 | 2013-02-13,91.2709
+1860 | 2013-02-14,91.366
+1861 | 2013-02-15,91.4551
+1862 | 2013-02-18,
+1863 | 2013-02-19,91.5073
+1864 | 2013-02-20,91.6689
+1865 | 2013-02-21,92.0394
+1866 | 2013-02-22,92.1197
+1867 | 2013-02-25,92.1975
+1868 | 2013-02-26,92.4247
+1869 | 2013-02-27,92.234
+1870 | 2013-02-28,92.295
+1871 | 2013-03-01,92.6177
+1872 | 2013-03-04,92.6316
+1873 | 2013-03-05,92.4965
+1874 | 2013-03-06,
+1875 | 2013-03-07,92.5462
+1876 | 2013-03-08,92.6252
+1877 | 2013-03-11,92.5351
+1878 | 2013-03-12,92.3853
+1879 | 2013-03-13,92.4709
+1880 | 2013-03-14,92.4695
+1881 | 2013-03-15,92.128
+1882 | 2013-03-18,92.3377
+1883 | 2013-03-19,92.526
+1884 | 2013-03-20,92.4141
+1885 | 2013-03-21,92.3322
+1886 | 2013-03-22,92.2051
+1887 | 2013-03-25,92.3081
+1888 | 2013-03-26,92.232
+1889 | 2013-03-27,92.446
+1890 | 2013-03-28,92.2544
+1891 | 2013-03-29,92.302
+1892 | 2013-04-01,92.1687
+1893 | 2013-04-02,92.1432
+1894 | 2013-04-03,92.104
+1895 | 2013-04-04,92.3896
+1896 | 2013-04-05,92.1043
+1897 | 2013-04-08,92.2317
+1898 | 2013-04-09,91.9669
+1899 | 2013-04-10,91.9598
+1900 | 2013-04-11,91.6972
+1901 | 2013-04-12,91.7967
+1902 | 2013-04-15,91.9457
+1903 | 2013-04-16,91.8451
+1904 | 2013-04-17,92.1372
+1905 | 2013-04-18,92.176
+1906 | 2013-04-19,92.2166
+1907 | 2013-04-22,92.3591
+1908 | 2013-04-23,92.3836
+1909 | 2013-04-24,92.4581
+1910 | 2013-04-25,92.0394
+1911 | 2013-04-26,91.9012
+1912 | 2013-04-29,91.6539
+1913 | 2013-04-30,91.3741
+1914 | 2013-05-01,91.4331
+1915 | 2013-05-02,91.6174
+1916 | 2013-05-03,91.5087
+1917 | 2013-05-06,91.6387
+1918 | 2013-05-07,91.5201
+1919 | 2013-05-08,91.1848
+1920 | 2013-05-09,91.3036
+1921 | 2013-05-10,92.2527
+1922 | 2013-05-13,92.2711
+1923 | 2013-05-14,92.3697
+1924 | 2013-05-15,92.7691
+1925 | 2013-05-16,92.6602
+1926 | 2013-05-17,93.1617
+1927 | 2013-05-20,93.0359
+1928 | 2013-05-21,92.9662
+1929 | 2013-05-22,93.3104
+1930 | 2013-05-23,93.2113
+1931 | 2013-05-24,93.2768
+1932 | 2013-05-27,
+1933 | 2013-05-28,93.5853
+1934 | 2013-05-29,93.531
+1935 | 2013-05-30,93.4219
+1936 | 2013-05-31,93.6076
+1937 | 2013-06-03,93.163
+1938 | 2013-06-04,93.3067
+1939 | 2013-06-05,93.275
+1940 | 2013-06-06,92.809
+1941 | 2013-06-07,92.6056
+1942 | 2013-06-10,92.973
+1943 | 2013-06-11,92.7996
+1944 | 2013-06-12,92.4775
+1945 | 2013-06-13,92.3449
+1946 | 2013-06-14,92.1886
+1947 | 2013-06-17,92.3332
+1948 | 2013-06-18,92.5432
+1949 | 2013-06-19,92.4755
+1950 | 2013-06-20,94.125
+1951 | 2013-06-21,94.4243
+1952 | 2013-06-24,94.5714
+1953 | 2013-06-25,94.3285
+1954 | 2013-06-26,94.3807
+1955 | 2013-06-27,94.2429
+1956 | 2013-06-28,94.3047
+1957 | 2013-07-01,94.0998
+1958 | 2013-07-02,94.4051
+1959 | 2013-07-03,94.4767
+1960 | 2013-07-04,
+1961 | 2013-07-05,95.0639
+1962 | 2013-07-08,94.9954
+1963 | 2013-07-09,94.9467
+1964 | 2013-07-10,94.7595
+1965 | 2013-07-11,93.949
+1966 | 2013-07-12,94.0029
+1967 | 2013-07-15,93.9729
+1968 | 2013-07-16,93.5232
+1969 | 2013-07-17,93.5498
+1970 | 2013-07-18,93.681
+1971 | 2013-07-19,93.4759
+1972 | 2013-07-22,93.2253
+1973 | 2013-07-23,93.1631
+1974 | 2013-07-24,93.3124
+1975 | 2013-07-25,93.2862
+1976 | 2013-07-26,93.1695
+1977 | 2013-07-29,93.1663
+1978 | 2013-07-30,93.3976
+1979 | 2013-07-31,93.5703
+1980 | 2013-08-01,93.7972
+1981 | 2013-08-02,93.5789
+1982 | 2013-08-05,93.507
+1983 | 2013-08-06,93.3199
+1984 | 2013-08-07,93.2652
+1985 | 2013-08-08,92.8483
+1986 | 2013-08-09,92.8394
+1987 | 2013-08-12,92.9178
+1988 | 2013-08-13,93.476
+1989 | 2013-08-14,93.382
+1990 | 2013-08-15,93.5059
+1991 | 2013-08-16,93.4255
+1992 | 2013-08-19,93.6623
+1993 | 2013-08-20,93.5536
+1994 | 2013-08-21,94.0362
+1995 | 2013-08-22,94.2804
+1996 | 2013-08-23,93.9466
+1997 | 2013-08-26,94.1853
+1998 | 2013-08-27,94.3934
+1999 | 2013-08-28,94.4127
+2000 | 2013-08-29,94.6398
+2001 | 2013-08-30,94.7541
+2002 | 2013-09-02,
+2003 | 2013-09-03,94.9574
+2004 | 2013-09-04,94.5739
+2005 | 2013-09-05,94.8891
+2006 | 2013-09-06,94.2487
+2007 | 2013-09-09,94.0009
+2008 | 2013-09-10,93.938
+2009 | 2013-09-11,93.7112
+2010 | 2013-09-12,93.5903
+2011 | 2013-09-13,93.6666
+2012 | 2013-09-16,93.2875
+2013 | 2013-09-17,93.2231
+2014 | 2013-09-18,93.2569
+2015 | 2013-09-19,92.4082
+2016 | 2013-09-20,92.6049
+2017 | 2013-09-23,92.613
+2018 | 2013-09-24,92.7691
+2019 | 2013-09-25,92.7675
+2020 | 2013-09-26,93.0096
+2021 | 2013-09-27,92.9747
+2022 | 2013-09-30,92.9207
+2023 | 2013-10-01,92.9515
+2024 | 2013-10-02,92.772
+2025 | 2013-10-03,92.7461
+2026 | 2013-10-04,92.6469
+2027 | 2013-10-07,92.6725
+2028 | 2013-10-08,92.7558
+2029 | 2013-10-09,93.0829
+2030 | 2013-10-10,92.8579
+2031 | 2013-10-11,92.854
+2032 | 2013-10-14,
+2033 | 2013-10-15,92.7642
+2034 | 2013-10-16,92.6819
+2035 | 2013-10-17,92.0246
+2036 | 2013-10-18,91.9989
+2037 | 2013-10-21,92.2498
+2038 | 2013-10-22,91.9563
+2039 | 2013-10-23,92.0947
+2040 | 2013-10-24,92.1867
+2041 | 2013-10-25,92.1623
+2042 | 2013-10-28,92.1872
+2043 | 2013-10-29,92.301
+2044 | 2013-10-30,92.3057
+2045 | 2013-10-31,92.731
+2046 | 2013-11-01,93.155
+2047 | 2013-11-04,92.9359
+2048 | 2013-11-05,93.2112
+2049 | 2013-11-06,93.0943
+2050 | 2013-11-07,93.4003
+2051 | 2013-11-08,93.6619
+2052 | 2013-11-11,
+2053 | 2013-11-12,93.7651
+2054 | 2013-11-13,93.4848
+2055 | 2013-11-14,93.4328
+2056 | 2013-11-15,93.2854
+2057 | 2013-11-18,92.9824
+2058 | 2013-11-19,93.0649
+2059 | 2013-11-20,93.2501
+2060 | 2013-11-21,93.5638
+2061 | 2013-11-22,93.4198
+2062 | 2013-11-25,93.5539
+2063 | 2013-11-26,93.5226
+2064 | 2013-11-27,93.6864
+2065 | 2013-11-28,
+2066 | 2013-11-29,93.6291
+2067 | 2013-12-02,93.8856
+2068 | 2013-12-03,93.8251
+2069 | 2013-12-04,93.8997
+2070 | 2013-12-05,93.4954
+2071 | 2013-12-06,93.4045
+2072 | 2013-12-09,93.1444
+2073 | 2013-12-10,
+2074 | 2013-12-11,93.0842
+2075 | 2013-12-12,93.4292
+2076 | 2013-12-13,93.3568
+2077 | 2013-12-16,93.2175
+2078 | 2013-12-17,93.302
+2079 | 2013-12-18,93.4207
+2080 | 2013-12-19,93.7368
+2081 | 2013-12-20,93.7211
+2082 | 2013-12-23,93.572
+2083 | 2013-12-24,93.6734
+2084 | 2013-12-25,
+2085 | 2013-12-26,93.766
+2086 | 2013-12-27,93.7018
+2087 | 2013-12-30,93.4866
+2088 | 2013-12-31,93.5576
+2089 | 2014-01-01,
+2090 | 2014-01-02,93.8192
+2091 | 2014-01-03,93.853
+2092 | 2014-01-06,93.9109
+2093 | 2014-01-07,94.0398
+2094 | 2014-01-08,94.2181
+2095 | 2014-01-09,94.3299
+2096 | 2014-01-10,94.0045
+2097 | 2014-01-13,93.899
+2098 | 2014-01-14,94.0303
+2099 | 2014-01-15,94.341
+2100 | 2014-01-16,94.5507
+2101 | 2014-01-17,94.5846
+2102 | 2014-01-20,
+2103 | 2014-01-21,94.679
+2104 | 2014-01-22,94.8479
+2105 | 2014-01-23,94.8415
+2106 | 2014-01-24,94.8555
+2107 | 2014-01-27,94.9059
+2108 | 2014-01-28,94.88
+2109 | 2014-01-29,94.8621
+2110 | 2014-01-30,95.1294
+2111 | 2014-01-31,95.1774
+2112 | 2014-02-03,95.2469
+2113 | 2014-02-04,95.0438
+2114 | 2014-02-05,95.0285
+2115 | 2014-02-06,94.7177
+2116 | 2014-02-07,94.7457
+2117 | 2014-02-10,94.7189
+2118 | 2014-02-11,94.6377
+2119 | 2014-02-12,94.6209
+2120 | 2014-02-13,
+2121 | 2014-02-14,94.2711
+2122 | 2014-02-17,
+2123 | 2014-02-18,94.1934
+2124 | 2014-02-19,94.38
+2125 | 2014-02-20,94.6571
+2126 | 2014-02-21,
+2127 | 2014-02-24,94.4042
+2128 | 2014-02-25,94.4735
+2129 | 2014-02-26,94.7754
+2130 | 2014-02-27,94.6722
+2131 | 2014-02-28,94.3879
+2132 | 2014-03-03,
+2133 | 2014-03-04,94.6568
+2134 | 2014-03-05,94.4679
+2135 | 2014-03-06,93.9858
+2136 | 2014-03-07,94.2532
+2137 | 2014-03-10,94.3731
+2138 | 2014-03-11,94.387
+2139 | 2014-03-12,94.462
+2140 | 2014-03-13,94.1872
+2141 | 2014-03-14,94.243
+2142 | 2014-03-17,
+2143 | 2014-03-18,94.2631
+2144 | 2014-03-19,94.3752
+2145 | 2014-03-20,94.9986
+2146 | 2014-03-21,94.8547
+2147 | 2014-03-24,94.759
+2148 | 2014-03-25,94.6379
+2149 | 2014-03-26,94.5281
+2150 | 2014-03-27,94.3315
+2151 | 2014-03-28,94.3683
+2152 | 2014-03-31,94.2432
+2153 | 2014-04-01,94.1244
+2154 | 2014-04-02,94.3103
+2155 | 2014-04-03,94.512
+2156 | 2014-04-04,94.2191
+2157 | 2014-04-07,94.0881
+2158 | 2014-04-08,93.6579
+2159 | 2014-04-09,93.6716
+2160 | 2014-04-10,93.5123
+2161 | 2014-04-11,93.6395
+2162 | 2014-04-14,93.8046
+2163 | 2014-04-15,93.9486
+2164 | 2014-04-16,93.9461
+2165 | 2014-04-17,93.8936
+2166 | 2014-04-18,93.9629
+2167 | 2014-04-21,94.0337
+2168 | 2014-04-22,94.0802
+2169 | 2014-04-23,94.149
+2170 | 2014-04-24,94.1294
+2171 | 2014-04-25,94.1623
+2172 | 2014-04-28,94.1374
+2173 | 2014-04-29,94.0295
+2174 | 2014-04-30,93.8896
+2175 | 2014-05-01,93.8707
+2176 | 2014-05-02,93.8182
+2177 | 2014-05-05,93.7334
+2178 | 2014-05-06,93.4324
+2179 | 2014-05-07,93.4337
+2180 | 2014-05-08,93.3686
+2181 | 2014-05-09,93.6614
+2182 | 2014-05-12,93.6537
+2183 | 2014-05-13,93.6755
+2184 | 2014-05-14,93.5968
+2185 | 2014-05-15,93.7065
+2186 | 2014-05-16,93.6073
+2187 | 2014-05-19,93.502
+2188 | 2014-05-20,93.6699
+2189 | 2014-05-21,93.7629
+2190 | 2014-05-22,93.6944
+2191 | 2014-05-23,93.7042
+2192 | 2014-05-26,
+2193 | 2014-05-27,93.8418
+2194 | 2014-05-28,93.8793
+2195 | 2014-05-29,93.6973
+2196 | 2014-05-30,93.7606
+2197 | 2014-06-02,94.0006
+2198 | 2014-06-03,94.0536
+2199 | 2014-06-04,94.1239
+2200 | 2014-06-05,93.9732
+2201 | 2014-06-06,93.9069
+2202 | 2014-06-09,93.9628
+2203 | 2014-06-10,94.0638
+2204 | 2014-06-11,93.9744
+2205 | 2014-06-12,93.8155
+2206 | 2014-06-13,93.9168
+2207 | 2014-06-16,93.8639
+2208 | 2014-06-17,94.0829
+2209 | 2014-06-18,94.0525
+2210 | 2014-06-19,93.752
+2211 | 2014-06-20,93.7591
+2212 | 2014-06-23,93.628
+2213 | 2014-06-24,93.7093
+2214 | 2014-06-25,93.5851
+2215 | 2014-06-26,93.5471
+2216 | 2014-06-27,93.3983
+2217 | 2014-06-30,93.2058
+2218 | 2014-07-01,93.1365
+2219 | 2014-07-02,93.2478
+2220 | 2014-07-03,93.3149
+2221 | 2014-07-04,
+2222 | 2014-07-07,93.3803
+2223 | 2014-07-08,93.323
+2224 | 2014-07-09,93.228
+2225 | 2014-07-10,93.3152
+2226 | 2014-07-11,93.4171
+2227 | 2014-07-14,93.4101
+2228 | 2014-07-15,93.5796
+2229 | 2014-07-16,93.5991
+2230 | 2014-07-17,93.6586
+2231 | 2014-07-18,93.6608
+2232 | 2014-07-21,93.6069
+2233 | 2014-07-22,93.6306
+2234 | 2014-07-23,93.5951
+2235 | 2014-07-24,93.6836
+2236 | 2014-07-25,93.8294
+2237 | 2014-07-28,93.83
+2238 | 2014-07-29,94.0443
+2239 | 2014-07-30,94.3473
+2240 | 2014-07-31,94.4467
+2241 | 2014-08-01,94.4754
+2242 | 2014-08-04,94.448
+2243 | 2014-08-05,94.6754
+2244 | 2014-08-06,94.6092
+2245 | 2014-08-07,94.6364
+2246 | 2014-08-08,94.6027
+2247 | 2014-08-11,94.4767
+2248 | 2014-08-12,94.5211
+2249 | 2014-08-13,94.4681
+2250 | 2014-08-14,94.3508
+2251 | 2014-08-15,94.2941
+2252 | 2014-08-18,94.2519
+2253 | 2014-08-19,94.4356
+2254 | 2014-08-20,94.5937
+2255 | 2014-08-21,94.673
+2256 | 2014-08-22,94.8012
+2257 | 2014-08-25,94.9159
+2258 | 2014-08-26,94.8617
+2259 | 2014-08-27,94.6863
+2260 | 2014-08-28,94.6947
+2261 | 2014-08-29,94.7251
+2262 | 2014-09-01,
+2263 | 2014-09-02,95.063
+2264 | 2014-09-03,94.8709
+2265 | 2014-09-04,95.2641
+2266 | 2014-09-05,95.2203
+2267 | 2014-09-08,95.4167
+2268 | 2014-09-09,95.8811
+2269 | 2014-09-10,95.8641
+2270 | 2014-09-11,95.9184
+2271 | 2014-09-12,96.0748
+2272 | 2014-09-15,96.1195
+2273 | 2014-09-16,95.8483
+2274 | 2014-09-17,95.9106
+2275 | 2014-09-18,96.1284
+2276 | 2014-09-19,96.3417
+2277 | 2014-09-22,96.4625
+2278 | 2014-09-23,96.5112
+2279 | 2014-09-24,96.6574
+2280 | 2014-09-25,96.8988
+2281 | 2014-09-26,97.208
+2282 | 2014-09-29,97.3523
+2283 | 2014-09-30,97.5261
+2284 | 2014-10-01,97.5387
+2285 | 2014-10-02,97.3062
+2286 | 2014-10-03,97.9846
+2287 | 2014-10-06,97.5513
+2288 | 2014-10-07,97.4459
+2289 | 2014-10-08,97.4945
+2290 | 2014-10-09,97.1711
+2291 | 2014-10-10,97.4144
+2292 | 2014-10-13,
+2293 | 2014-10-14,97.3943
+2294 | 2014-10-15,97.3532
+2295 | 2014-10-16,97.2869
+2296 | 2014-10-17,97.3067
+2297 | 2014-10-20,97.2874
+2298 | 2014-10-21,97.2488
+2299 | 2014-10-22,97.459
+2300 | 2014-10-23,97.6047
+2301 | 2014-10-24,97.4772
+2302 | 2014-10-27,97.5423
+2303 | 2014-10-28,97.2173
+2304 | 2014-10-29,97.0145
+2305 | 2014-10-30,97.456
+2306 | 2014-10-31,98.1163
+2307 | 2014-11-03,98.5336
+2308 | 2014-11-04,98.5576
+2309 | 2014-11-05,98.8086
+2310 | 2014-11-06,99.1325
+2311 | 2014-11-07,99.0236
+2312 | 2014-11-10,98.9305
+2313 | 2014-11-11,
+2314 | 2014-11-12,98.8897
+2315 | 2014-11-13,99.1045
+2316 | 2014-11-14,99.0917
+2317 | 2014-11-17,99.2188
+2318 | 2014-11-18,99.0185
+2319 | 2014-11-19,99.2424
+2320 | 2014-11-20,99.2554
+2321 | 2014-11-21,99.2894
+2322 | 2014-11-24,99.4227
+2323 | 2014-11-25,99.2837
+2324 | 2014-11-26,99.1893
+2325 | 2014-11-27,
+2326 | 2014-11-28,100.0719
+2327 | 2014-12-01,99.8964
+2328 | 2014-12-02,100.4478
+2329 | 2014-12-03,100.5696
+2330 | 2014-12-04,100.3931
+2331 | 2014-12-05,101.0989
+2332 | 2014-12-08,101.31
+2333 | 2014-12-09,100.8095
+2334 | 2014-12-10,101.0212
+2335 | 2014-12-11,101.4448
+2336 | 2014-12-12,101.3735
+2337 | 2014-12-15,101.674
+2338 | 2014-12-16,101.526
+2339 | 2014-12-17,101.5527
+2340 | 2014-12-18,101.7531
+2341 | 2014-12-19,102.0483
+2342 | 2014-12-22,101.9942
+2343 | 2014-12-23,102.348
+2344 | 2014-12-24,102.3028
+2345 | 2014-12-25,
+2346 | 2014-12-26,
+2347 | 2014-12-29,102.3767
+2348 | 2014-12-30,102.1019
+2349 | 2014-12-31,102.2843
+2350 | 2015-01-01,
+2351 | 2015-01-02,102.9027
+2352 | 2015-01-05,103.4976
+2353 | 2015-01-06,103.2938
+2354 | 2015-01-07,103.6316
+2355 | 2015-01-08,103.2799
+2356 | 2015-01-09,103.1213
+2357 | 2015-01-12,103.2372
+2358 | 2015-01-13,103.27
+2359 | 2015-01-14,103.0903
+2360 | 2015-01-15,103.0829
+2361 | 2015-01-16,103.2189
+2362 | 2015-01-19,
+2363 | 2015-01-20,103.5233
+2364 | 2015-01-21,103.7858
+2365 | 2015-01-22,103.9271
+2366 | 2015-01-23,104.3676
+2367 | 2015-01-26,104.4818
+2368 | 2015-01-27,104.1646
+2369 | 2015-01-28,104.4737
+2370 | 2015-01-29,105.2763
+2371 | 2015-01-30,105.5884
+2372 | 2015-02-02,105.2058
+2373 | 2015-02-03,104.6063
+2374 | 2015-02-04,104.785
+2375 | 2015-02-05,104.4915
+2376 | 2015-02-06,105.1283
+2377 | 2015-02-09,104.9889
+2378 | 2015-02-10,105.2897
+2379 | 2015-02-11,105.7901
+2380 | 2015-02-12,104.9385
+2381 | 2015-02-13,104.8452
+2382 | 2015-02-16,
+2383 | 2015-02-17,
+2384 | 2015-02-18,105.2514
+2385 | 2015-02-19,105.1407
+2386 | 2015-02-20,105.3387
+2387 | 2015-02-23,105.5359
+2388 | 2015-02-24,105.5472
+2389 | 2015-02-25,105.0503
+2390 | 2015-02-26,105.5021
+2391 | 2015-02-27,105.5981
+2392 | 2015-03-02,105.8151
+2393 | 2015-03-03,105.5562
+2394 | 2015-03-04,106.1333
+2395 | 2015-03-05,
+2396 | 2015-03-06,107.4337
+2397 | 2015-03-09,107.5199
+2398 | 2015-03-10,108.1165
+2399 | 2015-03-11,108.5235
+2400 | 2015-03-12,108.1741
+2401 | 2015-03-13,108.9174
+2402 | 2015-03-16,108.6422
+2403 | 2015-03-17,108.5805
+2404 | 2015-03-18,108.408
+2405 | 2015-03-19,108.1826
+2406 | 2015-03-20,107.1671
+2407 | 2015-03-23,106.5022
+2408 | 2015-03-24,106.4401
+2409 | 2015-03-25,106.2636
+2410 | 2015-03-26,106.5582
+2411 | 2015-03-27,106.8916
+2412 | 2015-03-30,107.3941
+2413 | 2015-03-31,107.4396
+2414 | 2015-04-01,107.06
+2415 | 2015-04-02,106.6738
+2416 | 2015-04-03,105.8861
+2417 | 2015-04-06,105.7876
+2418 | 2015-04-07,106.4488
+2419 | 2015-04-08,106.4231
+2420 | 2015-04-09,107.0335
+2421 | 2015-04-10,107.4526
+2422 | 2015-04-13,107.7508
+2423 | 2015-04-14,107.0547
+2424 | 2015-04-15,107.1855
+2425 | 2015-04-16,106.2761
+2426 | 2015-04-17,106.329
+2427 | 2015-04-20,106.4902
+2428 | 2015-04-21,106.5582
+2429 | 2015-04-22,106.5815
+2430 | 2015-04-23,106.1658
+2431 | 2015-04-24,105.905
+2432 | 2015-04-27,105.6891
+2433 | 2015-04-28,105.1234
+2434 | 2015-04-29,104.5634
+2435 | 2015-04-30,105.312
+2436 | 2015-05-01,105.6382
+2437 | 2015-05-04,105.6679
+2438 | 2015-05-05,105.2396
+2439 | 2015-05-06,104.6935
+2440 | 2015-05-07,105.1941
+2441 | 2015-05-08,104.8424
+2442 | 2015-05-11,105.3075
+2443 | 2015-05-12,104.8924
+2444 | 2015-05-13,104.3608
+2445 | 2015-05-14,104.2359
+2446 | 2015-05-15,104.0202
+2447 | 2015-05-18,104.6068
+2448 | 2015-05-19,105.3448
+2449 | 2015-05-20,105.5605
+2450 | 2015-05-21,105.3808
+2451 | 2015-05-22,105.8487
+2452 | 2015-05-25,
+2453 | 2015-05-26,106.7294
+2454 | 2015-05-27,106.908
+2455 | 2015-05-28,106.92
+2456 | 2015-05-29,106.7388
+2457 | 2015-06-01,107.2238
+2458 | 2015-06-02,106.4507
+2459 | 2015-06-03,106.1443
+2460 | 2015-06-04,106.4725
+2461 | 2015-06-05,107.1336
+2462 | 2015-06-08,106.7693
+2463 | 2015-06-09,106.2238
+2464 | 2015-06-10,105.8037
+2465 | 2015-06-11,106.0934
+2466 | 2015-06-12,105.9015
+2467 | 2015-06-15,105.9989
+2468 | 2015-06-16,106.0473
+2469 | 2015-06-17,106.058
+2470 | 2015-06-18,105.102
+2471 | 2015-06-19,105.4496
+2472 | 2015-06-22,105.3846
+2473 | 2015-06-23,105.9678
+2474 | 2015-06-24,106.2522
+2475 | 2015-06-25,106.1515
+2476 | 2015-06-26,106.4116
+2477 | 2015-06-29,106.3785
+2478 | 2015-06-30,106.5191
+2479 | 2015-07-01,107.0101
+2480 | 2015-07-02,106.9106
+2481 | 2015-07-03,
+2482 | 2015-07-06,107.1343
+2483 | 2015-07-07,107.785
+2484 | 2015-07-08,107.4734
+2485 | 2015-07-09,107.5595
+2486 | 2015-07-10,107.213
+2487 | 2015-07-13,107.5849
+2488 | 2015-07-14,107.4843
+2489 | 2015-07-15,108.0149
+2490 | 2015-07-16,108.1726
+2491 | 2015-07-17,108.5374
+2492 | 2015-07-20,108.6944
+2493 | 2015-07-21,108.3893
+2494 | 2015-07-22,108.7817
+2495 | 2015-07-23,108.7565
+2496 | 2015-07-24,109.0174
+2497 | 2015-07-27,108.6924
+2498 | 2015-07-28,108.6881
+2499 | 2015-07-29,108.604
+2500 | 2015-07-30,109.4328
+2501 | 2015-07-31,108.7819
+2502 | 2015-08-03,109.214
+2503 | 2015-08-04,109.2244
+2504 | 2015-08-05,109.842
+2505 | 2015-08-06,109.722
+2506 | 2015-08-07,109.4376
+2507 | 2015-08-10,109.1931
+2508 | 2015-08-11,109.9464
+2509 | 2015-08-12,109.4655
+2510 | 2015-08-13,109.9025
+2511 | 2015-08-14,109.9174
+2512 | 2015-08-17,110.1435
+2513 | 2015-08-18,110.2504
+2514 | 2015-08-19,110.4333
+2515 | 2015-08-20,110.1077
+2516 | 2015-08-21,110.1443
+2517 | 2015-08-24,109.9306
+2518 | 2015-08-25,110.3394
+2519 | 2015-08-26,110.5807
+2520 | 2015-08-27,110.4834
+2521 | 2015-08-28,110.6714
+2522 | 2015-08-31,110.5621
+2523 | 2015-09-01,110.4506
+2524 | 2015-09-02,110.7979
+2525 | 2015-09-03,110.8566
+2526 | 2015-09-04,111.1018
+2527 | 2015-09-07,
+2528 | 2015-09-08,110.7942
+2529 | 2015-09-09,110.9225
+2530 | 2015-09-10,110.6331
+2531 | 2015-09-11,110.6109
+2532 | 2015-09-14,110.5005
+2533 | 2015-09-15,110.6394
+2534 | 2015-09-16,110.1021
+2535 | 2015-09-17,110.1212
+2536 | 2015-09-18,109.8165
+2537 | 2015-09-21,110.6414
+2538 | 2015-09-22,111.1967
+2539 | 2015-09-23,111.6287
+2540 | 2015-09-24,111.4454
+2541 | 2015-09-25,111.3725
+2542 | 2015-09-28,111.3914
+2543 | 2015-09-29,111.5219
+2544 | 2015-09-30,111.3311
+2545 | 2015-10-01,111.0439
+2546 | 2015-10-02,110.7006
+2547 | 2015-10-05,110.4445
+2548 | 2015-10-06,110.1371
+2549 | 2015-10-07,109.8162
+2550 | 2015-10-08,109.6452
+2551 | 2015-10-09,109.0782
+2552 | 2015-10-12,
+2553 | 2015-10-13,109.4119
+2554 | 2015-10-14,109.1244
+2555 | 2015-10-15,108.6671
+2556 | 2015-10-16,108.9956
+2557 | 2015-10-19,109.3858
+2558 | 2015-10-20,109.3368
+2559 | 2015-10-21,109.7746
+2560 | 2015-10-22,110.0342
+2561 | 2015-10-23,110.4329
+2562 | 2015-10-26,110.2089
+2563 | 2015-10-27,110.4875
+2564 | 2015-10-28,110.2334
+2565 | 2015-10-29,110.8083
+2566 | 2015-10-30,110.2079
+2567 | 2015-11-02,110.2188
+2568 | 2015-11-03,110.244
+2569 | 2015-11-04,110.7139
+2570 | 2015-11-05,110.8302
+2571 | 2015-11-06,111.7603
+2572 | 2015-11-09,111.9112
+2573 | 2015-11-10,111.9919
+2574 | 2015-11-11,
+2575 | 2015-11-12,111.7965
+2576 | 2015-11-13,112.0264
+2577 | 2015-11-16,112.2199
+2578 | 2015-11-17,112.3141
+2579 | 2015-11-18,112.3663
+2580 | 2015-11-19,111.5749
+2581 | 2015-11-20,111.7799
+2582 | 2015-11-23,112.1125
+2583 | 2015-11-24,111.7638
+2584 | 2015-11-25,111.8936
+2585 | 2015-11-26,
+2586 | 2015-11-27,112.2824
+2587 | 2015-11-30,112.34
+2588 | 2015-12-01,112.1134
+2589 | 2015-12-02,112.3715
+2590 | 2015-12-03,111.6407
+2591 | 2015-12-04,111.5463
+2592 | 2015-12-07,112.3056
+2593 | 2015-12-08,112.5485
+2594 | 2015-12-09,112.1918
+2595 | 2015-12-10,112.2672
+2596 | 2015-12-11,112.7147
+2597 | 2015-12-14,112.7521
+2598 | 2015-12-15,112.8609
+2599 | 2015-12-16,112.9864
+2600 | 2015-12-17,113.8177
+2601 | 2015-12-18,113.2837
+2602 | 2015-12-21,113.4144
+2603 | 2015-12-22,113.211
+2604 | 2015-12-23,113.1847
+2605 | 2015-12-24,113.0496
+2606 | 2015-12-25,
+2607 | 2015-12-28,113.0461
+2608 | 2015-12-29,113.1664
+2609 | 2015-12-30,113.4707
+2610 | 2015-12-31,113.3429
+2611 | 2016-01-01,
+2612 | 2016-01-04,114.1595
+2613 | 2016-01-05,114.2649
+2614 | 2016-01-06,114.6177
+2615 | 2016-01-07,114.6516
+2616 | 2016-01-08,115.0095
+2617 | 2016-01-11,115.0139
+2618 | 2016-01-12,115.3128
+2619 | 2016-01-13,115.1425
+2620 | 2016-01-14,115.3846
+2621 | 2016-01-15,115.7404
+2622 | 2016-01-18,
+2623 | 2016-01-19,115.8155
+2624 | 2016-01-20,116.3498
+2625 | 2016-01-21,115.9833
+2626 | 2016-01-22,
+2627 | 2016-01-25,
+2628 | 2016-01-26,
+2629 | 2016-01-27,115.5087
+2630 | 2016-01-28,115.2224
+2631 | 2016-01-29,115.5731
+2632 | 2016-02-01,115.3331
+2633 | 2016-02-02,115.553
+2634 | 2016-02-03,114.6144
+2635 | 2016-02-04,113.6012
+2636 | 2016-02-05,114.2935
+2637 | 2016-02-08,114.4351
+2638 | 2016-02-09,114.127
+2639 | 2016-02-10,114.2877
+2640 | 2016-02-11,114.1845
+2641 | 2016-02-12,114.2992
+2642 | 2016-02-15,
+2643 | 2016-02-16,114.4905
+2644 | 2016-02-17,113.8634
+2645 | 2016-02-18,113.8897
+2646 | 2016-02-19,113.9558
+2647 | 2016-02-22,113.8232
+2648 | 2016-02-23,114.177
+2649 | 2016-02-24,114.1716
+2650 | 2016-02-25,113.9222
+2651 | 2016-02-26,114.3708
+2652 | 2016-02-29,114.2418
+2653 | 2016-03-01,113.9265
+2654 | 2016-03-02,113.7965
+2655 | 2016-03-03,113.2482
+2656 | 2016-03-04,112.6387
+2657 | 2016-03-07,112.6219
+2658 | 2016-03-08,112.8465
+2659 | 2016-03-09,112.4268
+2660 | 2016-03-10,112.4191
+2661 | 2016-03-11,111.741
+2662 | 2016-03-14,112.1688
+2663 | 2016-03-15,112.5545
+2664 | 2016-03-16,112.7759
+2665 | 2016-03-17,110.445
+2666 | 2016-03-18,110.4002
+2667 | 2016-03-21,110.737
+2668 | 2016-03-22,110.7877
+2669 | 2016-03-23,111.5473
+2670 | 2016-03-24,111.816
+2671 | 2016-03-25,111.7698
+2672 | 2016-03-28,111.3578
+2673 | 2016-03-29,111.3736
+2674 | 2016-03-30,110.2301
+2675 | 2016-03-31,109.9191
+2676 | 2016-04-01,110.2977
+2677 | 2016-04-04,110.3987
+2678 | 2016-04-05,110.9478
+2679 | 2016-04-06,110.5347
+2680 | 2016-04-07,110.8876
+2681 | 2016-04-08,110.4213
+2682 | 2016-04-11,109.9758
+2683 | 2016-04-12,109.816
+2684 | 2016-04-13,110.1436
+2685 | 2016-04-14,110.1691
+2686 | 2016-04-15,110.1933
+2687 | 2016-04-18,109.9892
+2688 | 2016-04-19,109.2782
+2689 | 2016-04-20,109.3926
+2690 | 2016-04-21,109.8533
+2691 | 2016-04-22,110.2331
+2692 | 2016-04-25,110.1865
+2693 | 2016-04-26,109.7496
+2694 | 2016-04-27,109.8483
+2695 | 2016-04-28,109.2148
+2696 | 2016-04-29,108.8274
+2697 | 2016-05-02,108.671
+2698 | 2016-05-03,109.3613
+2699 | 2016-05-04,109.9952
+2700 | 2016-05-05,110.2417
+2701 | 2016-05-06,110.3801
+2702 | 2016-05-09,110.9466
+2703 | 2016-05-10,110.8225
+2704 | 2016-05-11,110.2806
+2705 | 2016-05-12,110.6935
+2706 | 2016-05-13,111.2521
+2707 | 2016-05-16,111.1217
+2708 | 2016-05-17,111.0867
+2709 | 2016-05-18,111.4995
+2710 | 2016-05-19,112.2331
+2711 | 2016-05-20,112.1822
+2712 | 2016-05-23,112.284
+2713 | 2016-05-24,112.2912
+2714 | 2016-05-25,112.2001
+2715 | 2016-05-26,111.8979
+2716 | 2016-05-27,112.0822
+2717 | 2016-05-30,
+2718 | 2016-05-31,112.4276
+2719 | 2016-06-01,112.462
+2720 | 2016-06-02,112.4564
+2721 | 2016-06-03,111.4451
+2722 | 2016-06-06,111.2295
+2723 | 2016-06-07,110.8378
+2724 | 2016-06-08,110.1916
+2725 | 2016-06-09,110.6168
+2726 | 2016-06-10,111.1027
+2727 | 2016-06-13,111.5036
+2728 | 2016-06-14,111.9826
+2729 | 2016-06-15,111.7671
+2730 | 2016-06-16,112.2347
+2731 | 2016-06-17,111.5332
+2732 | 2016-06-20,110.8693
+2733 | 2016-06-21,111.0077
+2734 | 2016-06-22,110.7681
+2735 | 2016-06-23,110.262
+2736 | 2016-06-24,112.1355
+2737 | 2016-06-27,113.1301
+2738 | 2016-06-28,112.7545
+2739 | 2016-06-29,111.8597
+2740 | 2016-06-30,112.1618
+2741 | 2016-07-01,111.6509
+2742 | 2016-07-04,
+2743 | 2016-07-05,112.4231
+2744 | 2016-07-06,112.5438
+2745 | 2016-07-07,112.5775
+2746 | 2016-07-08,112.3963
+2747 | 2016-07-11,112.5254
+2748 | 2016-07-12,112.1102
+2749 | 2016-07-13,112.0266
+2750 | 2016-07-14,111.7692
+2751 | 2016-07-15,112.2833
+2752 | 2016-07-18,112.2463
+2753 | 2016-07-19,112.638
+2754 | 2016-07-20,112.6743
+2755 | 2016-07-21,112.6239
+2756 | 2016-07-22,112.989
+2757 | 2016-07-25,113.1784
+2758 | 2016-07-26,113.0593
+2759 | 2016-07-27,113.217
+2760 | 2016-07-28,112.7393
+2761 | 2016-07-29,111.874
+2762 | 2016-08-01,111.9757
+2763 | 2016-08-02,111.7124
+2764 | 2016-08-03,111.9419
+2765 | 2016-08-04,111.9149
+2766 | 2016-08-05,112.3589
+2767 | 2016-08-08,112.1456
+2768 | 2016-08-09,111.722
+2769 | 2016-08-10,111.3238
+2770 | 2016-08-11,111.1954
+2771 | 2016-08-12,111.1787
+2772 | 2016-08-15,110.9212
+2773 | 2016-08-16,110.4295
+2774 | 2016-08-17,110.9459
+2775 | 2016-08-18,110.3134
+2776 | 2016-08-19,110.8163
+2777 | 2016-08-22,110.9997
+2778 | 2016-08-23,110.9414
+2779 | 2016-08-24,111.2958
+2780 | 2016-08-25,111.1726
+2781 | 2016-08-26,111.2035
+2782 | 2016-08-29,111.8775
+2783 | 2016-08-30,112.2928
+2784 | 2016-08-31,112.4036
+2785 | 2016-09-01,112.1733
+2786 | 2016-09-02,112.0009
+2787 | 2016-09-05,
+2788 | 2016-09-06,110.9613
+2789 | 2016-09-07,110.9717
+2790 | 2016-09-08,111.2609
+2791 | 2016-09-09,111.9879
+2792 | 2016-09-12,112.1516
+2793 | 2016-09-13,112.5207
+2794 | 2016-09-14,112.4678
+2795 | 2016-09-15,112.4753
+2796 | 2016-09-16,113.1765
+2797 | 2016-09-19,112.903
+2798 | 2016-09-20,113.1848
+2799 | 2016-09-21,112.9842
+2800 | 2016-09-22,112.2592
+2801 | 2016-09-23,112.7166
+2802 | 2016-09-26,112.7112
+2803 | 2016-09-27,112.5515
+2804 | 2016-09-28,112.6283
+2805 | 2016-09-29,112.2879
+2806 | 2016-09-30,112.2795
+2807 | 2016-10-03,112.5077
+2808 | 2016-10-04,112.6579
+2809 | 2016-10-05,112.7946
+2810 | 2016-10-06,113.0066
+2811 | 2016-10-07,113.2915
+2812 | 2016-10-10,
+2813 | 2016-10-11,113.4461
+2814 | 2016-10-12,113.7442
+2815 | 2016-10-13,113.6238
+2816 | 2016-10-14,113.7119
+2817 | 2016-10-17,113.5488
+2818 | 2016-10-18,113.1393
+2819 | 2016-10-19,113.0547
+2820 | 2016-10-20,113.4033
+2821 | 2016-10-21,113.9015
+2822 | 2016-10-24,113.8571
+2823 | 2016-10-25,113.6801
+2824 | 2016-10-26,113.8131
+2825 | 2016-10-27,114.1998
+2826 | 2016-10-28,114.0931
+2827 | 2016-10-31,114.0188
+2828 | 2016-11-01,113.9915
+2829 | 2016-11-02,113.9206
+2830 | 2016-11-03,113.7664
+2831 | 2016-11-04,113.5828
+2832 | 2016-11-07,113.5443
+2833 | 2016-11-08,113.3017
+2834 | 2016-11-09,114.6956
+2835 | 2016-11-10,115.9375
+2836 | 2016-11-11,
+2837 | 2016-11-14,117.2245
+2838 | 2016-11-15,116.7724
+2839 | 2016-11-16,116.8062
+2840 | 2016-11-17,116.8952
+2841 | 2016-11-18,117.5936
+2842 | 2016-11-21,117.4762
+2843 | 2016-11-22,117.4508
+2844 | 2016-11-23,118.0356
+2845 | 2016-11-24,
+2846 | 2016-11-25,118.02
+2847 | 2016-11-28,117.7278
+2848 | 2016-11-29,117.644
+2849 | 2016-11-30,117.7636
+2850 | 2016-12-01,117.6642
+2851 | 2016-12-02,117.3116
+2852 | 2016-12-05,117.1008
+2853 | 2016-12-06,116.9225
+2854 | 2016-12-07,116.672
+2855 | 2016-12-08,117.0327
+2856 | 2016-12-09,117.2834
+2857 | 2016-12-12,116.9161
+2858 | 2016-12-13,116.8029
+2859 | 2016-12-14,116.7332
+2860 | 2016-12-15,118.8072
+2861 | 2016-12-16,118.3584
+2862 | 2016-12-19,118.3875
+2863 | 2016-12-20,118.63
+2864 | 2016-12-21,118.581
+2865 | 2016-12-22,118.8209
+2866 | 2016-12-23,118.7856
+2867 | 2016-12-26,
+2868 | 2016-12-27,118.9506
+2869 | 2016-12-28,119.2305
+2870 | 2016-12-29,118.6637
+2871 | 2016-12-30,118.3466
+2872 | 2017-01-02,
+2873 | 2017-01-03,119.0903
+2874 | 2017-01-04,118.8803
+2875 | 2017-01-05,117.9999
+2876 | 2017-01-06,118.3495
+2877 | 2017-01-09,118.4111
+2878 | 2017-01-10,118.5386
+2879 | 2017-01-11,119.0219
+2880 | 2017-01-12,117.8001
+2881 | 2017-01-13,117.9884
+2882 | 2017-01-16,
+2883 | 2017-01-17,117.2656
+2884 | 2017-01-18,117.7242
+2885 | 2017-01-19,118.3182
+2886 | 2017-01-20,
+2887 | 2017-01-23,117.2479
+2888 | 2017-01-24,117.0516
+2889 | 2017-01-25,116.9355
+2890 | 2017-01-26,117.2766
+2891 | 2017-01-27,117.0735
+2892 | 2017-01-30,116.7325
+2893 | 2017-01-31,116.2241
+2894 | 2017-02-01,116.3914
+2895 | 2017-02-02,115.903
+2896 | 2017-02-03,115.6259
+2897 | 2017-02-06,116.0504
+2898 | 2017-02-07,116.4082
+2899 | 2017-02-08,116.1382
+2900 | 2017-02-09,116.306
+2901 | 2017-02-10,116.148
+2902 | 2017-02-13,116.3427
+2903 | 2017-02-14,116.3949
+2904 | 2017-02-15,116.2162
+2905 | 2017-02-16,116.0067
+2906 | 2017-02-17,116.4035
+2907 | 2017-02-20,
+2908 | 2017-02-21,116.5921
+2909 | 2017-02-22,116.2136
+2910 | 2017-02-23,115.6527
+2911 | 2017-02-24,115.8143
+2912 | 2017-02-27,115.6764
+2913 | 2017-02-28,116.0032
+2914 | 2017-03-01,116.438
+2915 | 2017-03-02,116.8429
+2916 | 2017-03-03,116.6438
+2917 | 2017-03-06,116.4313
+2918 | 2017-03-07,116.4303
+2919 | 2017-03-08,116.875
+2920 | 2017-03-09,116.9959
+2921 | 2017-03-10,116.616
+2922 | 2017-03-13,116.4004
+2923 | 2017-03-14,116.5646
+2924 | 2017-03-15,116.3584
+2925 | 2017-03-16,115.4456
+2926 | 2017-03-17,115.2783
+2927 | 2017-03-20,115.0426
+2928 | 2017-03-21,114.8119
+2929 | 2017-03-22,114.7937
+2930 | 2017-03-23,114.7899
+2931 | 2017-03-24,114.6372
+2932 | 2017-03-27,114.2347
+2933 | 2017-03-28,114.419
+2934 | 2017-03-29,114.7167
+2935 | 2017-03-30,114.5245
+2936 | 2017-03-31,114.7938
+2937 | 2017-04-03,114.8734
+2938 | 2017-04-04,115.0038
+2939 | 2017-04-05,114.9494
+2940 | 2017-04-06,115.0181
+2941 | 2017-04-07,115.0547
+2942 | 2017-04-10,115.11
+2943 | 2017-04-11,115.009
+2944 | 2017-04-12,114.9162
+2945 | 2017-04-13,114.5059
+2946 | 2017-04-14,114.5368
+2947 | 2017-04-17,114.3283
+2948 | 2017-04-18,114.2575
+2949 | 2017-04-19,114.7923
+2950 | 2017-04-20,114.6205
+2951 | 2017-04-21,114.8128
+2952 | 2017-04-24,114.3659
+2953 | 2017-04-25,114.5111
+2954 | 2017-04-26,114.9479
+2955 | 2017-04-27,114.9946
+2956 | 2017-04-28,114.7877
+2957 | 2017-05-01,114.5921
+2958 | 2017-05-02,114.6792
+2959 | 2017-05-03,114.6637
+2960 | 2017-05-04,114.9076
+2961 | 2017-05-05,114.7725
+2962 | 2017-05-08,115.0895
+2963 | 2017-05-09,115.3933
+2964 | 2017-05-10,115.1145
+2965 | 2017-05-11,115.0669
+2966 | 2017-05-12,114.7479
+2967 | 2017-05-15,114.3504
+2968 | 2017-05-16,113.9923
+2969 | 2017-05-17,113.7506
+2970 | 2017-05-18,114.2683
+2971 | 2017-05-19,113.7001
+2972 | 2017-05-22,113.5442
+2973 | 2017-05-23,113.6862
+2974 | 2017-05-24,113.675
+2975 | 2017-05-25,113.3719
+2976 | 2017-05-26,113.4839
+2977 | 2017-05-29,
+2978 | 2017-05-30,113.5552
+2979 | 2017-05-31,113.2956
+2980 | 2017-06-01,113.3017
+2981 | 2017-06-02,113.1908
+2982 | 2017-06-05,112.9755
+2983 | 2017-06-06,112.7095
+2984 | 2017-06-07,112.8191
+2985 | 2017-06-08,112.8351
+2986 | 2017-06-09,112.9562
+2987 | 2017-06-12,112.9837
+2988 | 2017-06-13,112.6271
+2989 | 2017-06-14,112.0734
+2990 | 2017-06-15,112.8708
+2991 | 2017-06-16,112.6155
+2992 | 2017-06-19,112.7576
+2993 | 2017-06-20,113.2698
+2994 | 2017-06-21,113.3327
+2995 | 2017-06-22,113.1654
+2996 | 2017-06-23,112.8665
+2997 | 2017-06-26,112.7633
+2998 | 2017-06-27,112.55
+2999 | 2017-06-28,112.0747
+3000 | 2017-06-29,111.998
+3001 | 2017-06-30,111.9896
+3002 | 2017-07-03,112.4268
+3003 | 2017-07-04,
+3004 | 2017-07-05,112.6534
+3005 | 2017-07-06,112.4199
+3006 | 2017-07-07,112.3137
+3007 | 2017-07-10,112.1587
+3008 | 2017-07-11,112.1434
+3009 | 2017-07-12,111.5904
+3010 | 2017-07-13,111.5365
+3011 | 2017-07-14,110.9075
+3012 | 2017-07-17,110.9304
+3013 | 2017-07-18,110.4356
+3014 | 2017-07-19,110.4339
+3015 | 2017-07-20,110.2512
+3016 | 2017-07-21,110.191
+3017 | 2017-07-24,110.2004
+3018 | 2017-07-25,110.2835
+3019 | 2017-07-26,110.3811
+3020 | 2017-07-27,110.216
+3021 | 2017-07-28,109.92
+3022 | 2017-07-31,109.8177
+3023 | 2017-08-01,109.8495
+3024 | 2017-08-02,109.7503
+3025 | 2017-08-03,109.8332
+3026 | 2017-08-04,110.2808
+3027 | 2017-08-07,110.373
+3028 | 2017-08-08,110.396
+3029 | 2017-08-09,110.3671
+3030 | 2017-08-10,110.1886
+3031 | 2017-08-11,110.0422
+3032 | 2017-08-14,110.095
+3033 | 2017-08-15,110.4846
+3034 | 2017-08-16,110.4394
+3035 | 2017-08-17,110.1673
+3036 | 2017-08-18,110.041
+3037 | 2017-08-21,109.7349
+3038 | 2017-08-22,109.8386
+3039 | 2017-08-23,109.8095
+3040 | 2017-08-24,109.7524
+3041 | 2017-08-25,109.3415
+3042 | 2017-08-28,109.1815
+3043 | 2017-08-29,109.0946
+3044 | 2017-08-30,109.4052
+3045 | 2017-08-31,109.3686
+3046 | 2017-09-01,109.0504
+3047 | 2017-09-04,
+3048 | 2017-09-05,108.8664
+3049 | 2017-09-06,108.4897
+3050 | 2017-09-07,107.9224
+3051 | 2017-09-08,107.808
+3052 | 2017-09-11,108.153
+3053 | 2017-09-12,108.3239
+3054 | 2017-09-13,108.6628
+3055 | 2017-09-14,108.618
+3056 | 2017-09-15,108.3147
+3057 | 2017-09-18,108.6401
+3058 | 2017-09-19,108.6142
+3059 | 2017-09-20,108.4329
+3060 | 2017-09-21,108.9267
+3061 | 2017-09-22,108.7542
+3062 | 2017-09-25,109.3302
+3063 | 2017-09-26,109.7769
+3064 | 2017-09-27,110.0722
+3065 | 2017-09-28,110.2415
+3066 | 2017-09-29,110.0867
+3067 | 2017-10-02,110.3686
+3068 | 2017-10-03,110.3281
+3069 | 2017-10-04,110.2425
+3070 | 2017-10-05,110.5823
+3071 | 2017-10-06,110.7841
+3072 | 2017-10-09,
+3073 | 2017-10-10,110.3034
+3074 | 2017-10-11,110.3037
+3075 | 2017-10-12,110.3152
+3076 | 2017-10-13,110.2669
+3077 | 2017-10-16,110.5432
+3078 | 2017-10-17,110.9141
+3079 | 2017-10-18,110.7214
+3080 | 2017-10-19,110.4577
+3081 | 2017-10-20,111.0375
+3082 | 2017-10-23,111.2134
+3083 | 2017-10-24,111.4027
+3084 | 2017-10-25,111.3904
+3085 | 2017-10-26,111.6418
+3086 | 2017-10-27,112.1495
+3087 | 2017-10-30,111.901
+3088 | 2017-10-31,111.8052
+3089 | 2017-11-01,111.7942
+3090 | 2017-11-02,111.5474
+3091 | 2017-11-03,111.9383
+3092 | 2017-11-06,111.7197
+3093 | 2017-11-07,111.9446
+3094 | 2017-11-08,111.6935
+3095 | 2017-11-09,111.5626
+3096 | 2017-11-10,
+3097 | 2017-11-13,111.7833
+3098 | 2017-11-14,111.5097
+3099 | 2017-11-15,111.4809
+3100 | 2017-11-16,111.2568
+3101 | 2017-11-17,111.0016
+3102 | 2017-11-20,111.2599
+3103 | 2017-11-21,110.9828
+3104 | 2017-11-22,110.5632
+3105 | 2017-11-23,
+3106 | 2017-11-24,110.0253
+3107 | 2017-11-27,110.1136
+3108 | 2017-11-28,110.3018
+3109 | 2017-11-29,110.3265
+3110 | 2017-11-30,110.4648
+3111 | 2017-12-01,110.1413
+3112 | 2017-12-04,110.397
+3113 | 2017-12-05,110.4905
+3114 | 2017-12-06,110.8711
+3115 | 2017-12-07,111.0178
+3116 | 2017-12-08,111.2273
+3117 | 2017-12-11,111.0827
+3118 | 2017-12-12,111.5214
+3119 | 2017-12-13,111.2759
+3120 | 2017-12-14,111.0893
+3121 | 2017-12-15,111.1286
+3122 | 2017-12-18,110.9086
+3123 | 2017-12-19,111.1255
+3124 | 2017-12-20,110.8361
+3125 | 2017-12-21,110.8786
+3126 | 2017-12-22,111.0997
+3127 | 2017-12-25,
+3128 | 2017-12-26,110.9758
+3129 | 2017-12-27,110.8553
+3130 | 2017-12-28,110.5154
+3131 | 2017-12-29,110.0783
+3132 | 2018-01-01,
+3133 | 2018-01-02,109.6445
+3134 | 2018-01-03,109.6751
+3135 | 2018-01-04,109.4777
+3136 | 2018-01-05,109.3496
+3137 | 2018-01-08,109.5681
+3138 | 2018-01-09,109.9025
+3139 | 2018-01-10,109.628
+3140 | 2018-01-11,109.4888
+3141 | 2018-01-12,108.901
+3142 | 2018-01-15,
+3143 | 2018-01-16,108.3218
+3144 | 2018-01-17,108.1526
+3145 | 2018-01-18,108.0655
+3146 | 2018-01-19,107.9455
+3147 | 2018-01-22,108.107
+3148 | 2018-01-23,107.9979
+3149 | 2018-01-24,107.0802
+3150 | 2018-01-25,106.5052
+3151 | 2018-01-26,106.6911
+3152 | 2018-01-29,107.1142
+3153 | 2018-01-30,107.1064
+3154 | 2018-01-31,106.7696
+3155 | 2018-02-01,106.4877
+3156 | 2018-02-02,107.1151
+3157 | 2018-02-05,107.33
+3158 | 2018-02-06,107.5204
+3159 | 2018-02-07,107.7175
+3160 | 2018-02-08,108.3025
+3161 | 2018-02-09,108.2582
+3162 | 2018-02-12,108.0332
+3163 | 2018-02-13,107.7574
+3164 | 2018-02-14,107.4691
+3165 | 2018-02-15,106.9867
+3166 | 2018-02-16,107.0359
+3167 | 2018-02-19,
+3168 | 2018-02-20,107.6249
+3169 | 2018-02-21,107.8679
+3170 | 2018-02-22,107.8668
+3171 | 2018-02-23,107.6804
+3172 | 2018-02-26,107.7347
+3173 | 2018-02-27,108.1731
+3174 | 2018-02-28,108.3903
+3175 | 2018-03-01,108.5358
+3176 | 2018-03-02,
+3177 | 2018-03-05,108.3614
+3178 | 2018-03-06,107.7969
+3179 | 2018-03-07,108.0911
+3180 | 2018-03-08,108.2671
+3181 | 2018-03-09,107.923
+3182 | 2018-03-12,107.9438
+3183 | 2018-03-13,107.7384
+3184 | 2018-03-14,107.8623
+3185 | 2018-03-15,108.2032
+3186 | 2018-03-16,108.4332
+3187 | 2018-03-19,108.3145
+3188 | 2018-03-20,108.4953
+3189 | 2018-03-21,
+3190 | 2018-03-22,107.9935
+3191 | 2018-03-23,107.7495
+3192 | 2018-03-26,107.1819
+3193 | 2018-03-27,107.3359
+3194 | 2018-03-28,107.5733
+3195 | 2018-03-29,107.665
+3196 | 2018-03-30,107.4784
+3197 | 2018-04-02,107.7033
+3198 | 2018-04-03,107.5624
+3199 | 2018-04-04,107.6361
+3200 | 2018-04-05,107.7281
+3201 | 2018-04-06,107.7886
+3202 | 2018-04-09,107.5316
+3203 | 2018-04-10,107.3659
+3204 | 2018-04-11,107.1224
+3205 | 2018-04-12,107.2905
+3206 | 2018-04-13,107.2368
+3207 | 2018-04-16,107.0595
+3208 | 2018-04-17,107.0344
+3209 | 2018-04-18,107.1096
+3210 | 2018-04-19,107.5197
+3211 | 2018-04-20,108.1787
+3212 | 2018-04-23,108.9332
+3213 | 2018-04-24,108.7906
+3214 | 2018-04-25,109.3447
+3215 | 2018-04-26,109.3646
+3216 | 2018-04-27,109.1735
+3217 | 2018-04-30,109.3363
+3218 | 2018-05-01,109.7445
+3219 | 2018-05-02,110.1625
+3220 | 2018-05-03,110.1803
+3221 | 2018-05-04,110.25
+3222 | 2018-05-07,110.5721
+3223 | 2018-05-08,111.063
+3224 | 2018-05-09,110.8818
+3225 | 2018-05-10,110.405
+3226 | 2018-05-11,110.2847
+3227 | 2018-05-14,110.408
+3228 | 2018-05-15,111.2292
+3229 | 2018-05-16,111.3068
+3230 | 2018-05-17,111.3547
+3231 | 2018-05-18,111.7171
+3232 | 2018-05-21,111.6394
+3233 | 2018-05-22,111.1945
+3234 | 2018-05-23,111.6933
+3235 | 2018-05-24,111.4885
+3236 | 2018-05-25,111.5843
+3237 | 2018-05-28,
+3238 | 2018-05-29,112.2127
+3239 | 2018-05-30,111.6731
+3240 | 2018-05-31,111.9894
+3241 | 2018-06-01,111.8265
+3242 | 2018-06-04,111.8247
+3243 | 2018-06-05,112.264
+3244 | 2018-06-06,111.7525
+3245 | 2018-06-07,112.0725
+3246 | 2018-06-08,112.1066
+3247 | 2018-06-11,112.1106
+3248 | 2018-06-12,112.2138
+3249 | 2018-06-13,112.2577
+3250 | 2018-06-14,112.8593
+3251 | 2018-06-15,113.3379
+3252 | 2018-06-18,113.4899
+3253 | 2018-06-19,113.639
+3254 | 2018-06-20,113.4784
+3255 | 2018-06-21,113.6109
+3256 | 2018-06-22,113.3047
+3257 | 2018-06-25,113.286
+3258 | 2018-06-26,113.3016
+3259 | 2018-06-27,113.8971
+3260 | 2018-06-28,113.8405
+3261 | 2018-06-29,113.2586
+3262 | 2018-07-02,114.1673
+3263 | 2018-07-03,113.3222
+3264 | 2018-07-04,
+3265 | 2018-07-05,112.9759
+3266 | 2018-07-06,112.6428
+3267 | 2018-07-09,112.6425
+3268 | 2018-07-10,112.5794
+3269 | 2018-07-11,112.8582
+3270 | 2018-07-12,112.779
+3271 | 2018-07-13,113.0705
+3272 | 2018-07-16,112.8437
+3273 | 2018-07-17,113.1504
+3274 | 2018-07-18,113.3348
+3275 | 2018-07-19,113.9463
+3276 | 2018-07-20,113.3213
+3277 | 2018-07-23,113.4246
+3278 | 2018-07-24,113.2045
+3279 | 2018-07-25,112.9221
+3280 | 2018-07-26,112.9179
+3281 | 2018-07-27,112.8125
+3282 | 2018-07-30,112.6044
+3283 | 2018-07-31,112.7299
+3284 | 2018-08-01,112.8899
+3285 | 2018-08-02,113.1679
+3286 | 2018-08-03,113.012
+3287 | 2018-08-06,113.229
+3288 | 2018-08-07,112.9759
+3289 | 2018-08-08,113.1411
+3290 | 2018-08-09,113.3806
+3291 | 2018-08-10,114.3005
+3292 | 2018-08-13,114.851
+3293 | 2018-08-14,114.658
+3294 | 2018-08-15,115.1526
+3295 | 2018-08-16,114.6416
+3296 | 2018-08-17,114.5339
+3297 | 2018-08-20,114.3504
+3298 | 2018-08-21,113.8604
+3299 | 2018-08-22,113.663
+3300 | 2018-08-23,114.0932
+3301 | 2018-08-24,113.5985
+3302 | 2018-08-27,113.2721
+3303 | 2018-08-28,113.3444
+3304 | 2018-08-29,113.6461
+3305 | 2018-08-30,114.0899
+3306 | 2018-08-31,114.2755
+3307 | 2018-09-03,
+3308 | 2018-09-04,114.8584
+3309 | 2018-09-05,114.7477
+3310 | 2018-09-06,114.6479
+3311 | 2018-09-07,114.5816
+3312 | 2018-09-10,114.6802
+3313 | 2018-09-11,114.7051
+3314 | 2018-09-12,114.2192
+3315 | 2018-09-13,113.9268
+3316 | 2018-09-14,114.0657
+3317 | 2018-09-17,113.9158
+3318 | 2018-09-18,113.7739
+3319 | 2018-09-19,113.6532
+3320 | 2018-09-20,113.4989
+3321 | 2018-09-21,113.5099
+3322 | 2018-09-24,113.5301
+3323 | 2018-09-25,113.7202
+3324 | 2018-09-26,113.6739
+3325 | 2018-09-27,113.9784
+3326 | 2018-09-28,113.8077
+3327 | 2018-10-01,113.8235
+3328 | 2018-10-02,113.8954
+3329 | 2018-10-03,114.1569
+3330 | 2018-10-04,114.6867
+3331 | 2018-10-05,114.561
+3332 | 2018-10-08,
+3333 | 2018-10-09,114.6583
+3334 | 2018-10-10,114.6072
+3335 | 2018-10-11,114.4074
+3336 | 2018-10-12,114.3691
+3337 | 2018-10-15,114.045
+3338 | 2018-10-16,113.8963
+3339 | 2018-10-17,114.1755
+3340 | 2018-10-18,114.8164
+3341 | 2018-10-19,114.8567
+3342 | 2018-10-22,115.1782
+3343 | 2018-10-23,115.1651
+3344 | 2018-10-24,115.3755
+3345 | 2018-10-25,115.4831
+3346 | 2018-10-26,115.473
+3347 | 2018-10-29,115.8936
+3348 | 2018-10-30,116.2357
+3349 | 2018-10-31,116.5281
+3350 | 2018-11-01,115.8657
+3351 | 2018-11-02,115.643
+3352 | 2018-11-05,115.703
+3353 | 2018-11-06,115.5622
+3354 | 2018-11-07,115.2519
+3355 | 2018-11-08,115.6478
+3356 | 2018-11-09,116.4778
+3357 | 2018-11-12,
+3358 | 2018-11-13,116.6694
+3359 | 2018-11-14,116.498
+3360 | 2018-11-15,116.3861
+3361 | 2018-11-16,115.9258
+3362 | 2018-11-19,115.9859
+3363 | 2018-11-20,116.2367
+3364 | 2018-11-21,116.092
+3365 | 2018-11-22,
+3366 | 2018-11-23,116.4713
+3367 | 2018-11-26,116.6208
+3368 | 2018-11-27,116.9001
+3369 | 2018-11-28,116.8343
+3370 | 2018-11-29,116.1961
+3371 | 2018-11-30,116.413
+3372 | 2018-12-03,115.9057
+3373 | 2018-12-04,116.0028
+3374 | 2018-12-05,
+3375 | 2018-12-06,116.3991
+3376 | 2018-12-07,116.0847
+3377 | 2018-12-10,116.6746
+3378 | 2018-12-11,116.7564
+3379 | 2018-12-12,116.2214
+3380 | 2018-12-13,116.3974
+3381 | 2018-12-14,116.79
+3382 | 2018-12-17,116.4532
+3383 | 2018-12-18,116.4127
+3384 | 2018-12-19,116.0676
+3385 | 2018-12-20,116.0183
+3386 | 2018-12-21,116.2227
+3387 | 2018-12-24,116.2182
+3388 | 2018-12-25,
+3389 | 2018-12-26,116.1162
+3390 | 2018-12-27,115.9927
+3391 | 2018-12-28,115.7232
+3392 | 2018-12-31,115.5674
+3393 | 2019-01-01,
+3394 | 2019-01-02,115.7689
+3395 | 2019-01-03,115.4622
+3396 | 2019-01-04,114.9821
+3397 | 2019-01-07,114.5628
+3398 | 2019-01-08,114.7281
+3399 | 2019-01-09,114.1406
+3400 | 2019-01-10,114.0496
+3401 | 2019-01-11,114.0404
+3402 | 2019-01-14,
+3403 | 2019-01-15,114.3402
+3404 | 2019-01-16,114.137
+3405 | 2019-01-17,114.4115
+3406 | 2019-01-18,114.558
+3407 | 2019-01-21,
+3408 | 2019-01-22,114.7541
+3409 | 2019-01-23,114.5759
+3410 | 2019-01-24,114.617
+3411 | 2019-01-25,114.0197
+3412 | 2019-01-28,114.0522
+3413 | 2019-01-29,114.026
+3414 | 2019-01-30,114.0731
+3415 | 2019-01-31,113.5504
+3416 | 2019-02-01,113.7548
+3417 | 2019-02-04,113.8766
+3418 | 2019-02-05,114.0431
+3419 | 2019-02-06,114.2305
+3420 | 2019-02-07,114.4339
+3421 | 2019-02-08,114.5003
+3422 | 2019-02-11,115.031
+3423 | 2019-02-12,114.7297
+3424 | 2019-02-13,114.9407
+3425 | 2019-02-14,115.1007
+3426 | 2019-02-15,114.9923
+3427 | 2019-02-18,
+3428 | 2019-02-19,114.57
+3429 | 2019-02-20,
+3430 | 2019-02-21,114.5091
+3431 | 2019-02-22,114.2716
+3432 | 2019-02-25,114.1457
+3433 | 2019-02-26,114.0687
+3434 | 2019-02-27,114.0363
+3435 | 2019-02-28,114.1991
+3436 | 2019-03-01,114.537
+3437 | 2019-03-04,114.6925
+3438 | 2019-03-05,114.804
+3439 | 2019-03-06,114.9714
+3440 | 2019-03-07,115.4919
+3441 | 2019-03-08,115.3599
+3442 | 2019-03-11,115.2967
+3443 | 2019-03-12,114.939
+3444 | 2019-03-13,114.7372
+3445 | 2019-03-14,114.79
+3446 | 2019-03-15,114.5815
+3447 | 2019-03-18,114.4375
+3448 | 2019-03-19,114.2324
+3449 | 2019-03-20,114.1509
+3450 | 2019-03-21,114.1684
+3451 | 2019-03-22,114.6856
+3452 | 2019-03-25,114.4171
+3453 | 2019-03-26,114.6414
+3454 | 2019-03-27,115.1243
+3455 | 2019-03-28,115.2581
+3456 | 2019-03-29,115.1371
+3457 | 2019-04-01,114.9362
+3458 | 2019-04-02,115.1173
+3459 | 2019-04-03,114.7211
+3460 | 2019-04-04,114.9697
+3461 | 2019-04-05,114.9726
+3462 | 2019-04-08,114.6893
+3463 | 2019-04-09,114.5321
+3464 | 2019-04-10,114.4269
+3465 | 2019-04-11,114.6303
+3466 | 2019-04-12,114.3531
+3467 | 2019-04-15,114.495
+3468 | 2019-04-16,114.6756
+3469 | 2019-04-17,114.5141
+3470 | 2019-04-18,114.7073
+3471 | 2019-04-19,114.6977
+3472 | 2019-04-22,114.7694
+3473 | 2019-04-23,115.1578
+3474 | 2019-04-24,115.4187
+3475 | 2019-04-25,115.7709
+3476 | 2019-04-26,115.4767
+3477 | 2019-04-29,115.5227
+3478 | 2019-04-30,115.3281
+3479 | 2019-05-01,115.0022
+3480 | 2019-05-02,115.5617
+3481 | 2019-05-03,115.2646
+3482 | 2019-05-06,115.3811
+3483 | 2019-05-07,115.6116
+3484 | 2019-05-08,115.5171
+3485 | 2019-05-09,115.8421
+3486 | 2019-05-10,115.5334
+3487 | 2019-05-13,115.915
+3488 | 2019-05-14,115.9425
+3489 | 2019-05-15,115.8565
+3490 | 2019-05-16,116.0346
+3491 | 2019-05-17,116.448
+3492 | 2019-05-20,116.3119
+3493 | 2019-05-21,116.2844
+3494 | 2019-05-22,116.2412
+3495 | 2019-05-23,116.2368
+3496 | 2019-05-24,116.0806
+3497 | 2019-05-27,
+3498 | 2019-05-28,116.3174
+3499 | 2019-05-29,116.5535
+3500 | 2019-05-30,116.3989
+3501 | 2019-05-31,116.7273
+3502 | 2019-06-03,116.4764
+3503 | 2019-06-04,116.091
+3504 | 2019-06-05,116.03
+3505 | 2019-06-06,115.9771
+3506 | 2019-06-07,115.7368
+3507 | 2019-06-10,115.5001
+3508 | 2019-06-11,115.3794
+3509 | 2019-06-12,115.438
+3510 | 2019-06-13,115.6275
+3511 | 2019-06-14,115.9057
+3512 | 2019-06-17,115.9684
+3513 | 2019-06-18,115.8797
+3514 | 2019-06-19,115.7889
+3515 | 2019-06-20,114.8046
+3516 | 2019-06-21,114.8377
+3517 | 2019-06-24,114.6559
+3518 | 2019-06-25,114.6363
+3519 | 2019-06-26,114.5608
+3520 | 2019-06-27,114.665
+3521 | 2019-06-28,114.5821
+3522 | 2019-07-01,114.7239
+3523 | 2019-07-02,114.8258
+3524 | 2019-07-03,114.8135
+3525 | 2019-07-04,
+3526 | 2019-07-05,115.1132
+3527 | 2019-07-08,115.0254
+3528 | 2019-07-09,115.1017
+3529 | 2019-07-10,115.0879
+3530 | 2019-07-11,114.8361
+3531 | 2019-07-12,114.7685
+3532 | 2019-07-15,114.6819
+3533 | 2019-07-16,115.0111
+3534 | 2019-07-17,114.8819
+3535 | 2019-07-18,114.8744
+3536 | 2019-07-19,114.8695
+3537 | 2019-07-22,115.0018
+3538 | 2019-07-23,115.2995
+3539 | 2019-07-24,115.2436
+3540 | 2019-07-25,115.2982
+3541 | 2019-07-26,115.5449
+3542 | 2019-07-29,115.5885
+3543 | 2019-07-30,115.6211
+3544 | 2019-07-31,115.4946
+3545 | 2019-08-01,116.0499
+3546 | 2019-08-02,116.1864
+3547 | 2019-08-05,116.5851
+3548 | 2019-08-06,116.6904
+3549 | 2019-08-07,116.7987
+3550 | 2019-08-08,116.474
+3551 | 2019-08-09,116.4419
+3552 | 2019-08-12,116.7548
+3553 | 2019-08-13,116.7267
+3554 | 2019-08-14,117.0913
+3555 | 2019-08-15,117.2239
+3556 | 2019-08-16,117.0786
+3557 | 2019-08-19,117.3886
+3558 | 2019-08-20,117.3726
+3559 | 2019-08-21,117.1764
+3560 | 2019-08-22,117.3558
+3561 | 2019-08-23,117.3009
+3562 | 2019-08-26,117.6658
+3563 | 2019-08-27,117.75
+3564 | 2019-08-28,117.8767
+3565 | 2019-08-29,118.0625
+3566 | 2019-08-30,118.1575
+3567 | 2019-09-02,
+3568 | 2019-09-03,118.3113
+3569 | 2019-09-04,117.6729
+3570 | 2019-09-05,117.4776
+3571 | 2019-09-06,117.1292
+3572 | 2019-09-09,117.0601
+3573 | 2019-09-10,117.0887
+3574 | 2019-09-11,117.3125
+3575 | 2019-09-12,116.8375
+3576 | 2019-09-13,116.7677
+3577 | 2019-09-16,117.0251
+3578 | 2019-09-17,116.9826
+3579 | 2019-09-18,116.9766
+3580 | 2019-09-19,117.0861
+3581 | 2019-09-20,117.1819
+3582 | 2019-09-23,117.2986
+3583 | 2019-09-24,117.2227
+3584 | 2019-09-25,117.6527
+3585 | 2019-09-26,117.7267
+3586 | 2019-09-27,117.7218
+3587 | 2019-09-30,117.9461
+3588 | 2019-10-01,117.9595
+3589 | 2019-10-02,117.9671
+3590 | 2019-10-03,117.6608
+3591 | 2019-10-04,117.5288
+3592 | 2019-10-07,117.5533
+3593 | 2019-10-08,117.7407
+3594 | 2019-10-09,117.6835
+3595 | 2019-10-10,117.2801
+3596 | 2019-10-11,116.8239
+3597 | 2019-10-14,
+3598 | 2019-10-15,116.8111
+3599 | 2019-10-16,116.6425
+3600 | 2019-10-17,116.2615
+3601 | 2019-10-18,116.1344
+3602 | 2019-10-21,116.0436
+3603 | 2019-10-22,115.9851
+3604 | 2019-10-23,116.0586
+3605 | 2019-10-24,116.1278
+3606 | 2019-10-25,116.0774
+3607 | 2019-10-28,116.0222
+3608 | 2019-10-29,115.9797
+3609 | 2019-10-30,116.1636
+3610 | 2019-10-31,115.9125
+3611 | 2019-11-01,115.7312
+3612 | 2019-11-04,115.8624
+3613 | 2019-11-05,116.1138
+3614 | 2019-11-06,116.1004
+3615 | 2019-11-07,116.1172
+3616 | 2019-11-08,116.3436
+3617 | 2019-11-11,
+3618 | 2019-11-12,116.5837
+3619 | 2019-11-13,116.8397
+3620 | 2019-11-14,116.8022
+3621 | 2019-11-15,116.4401
+3622 | 2019-11-18,116.3625
+3623 | 2019-11-19,116.5391
+3624 | 2019-11-20,116.828
+3625 | 2019-11-21,116.7435
+3626 | 2019-11-22,116.9137
+3627 | 2019-11-25,117.0098
+3628 | 2019-11-26,117.0513
+3629 | 2019-11-27,117.1273
+3630 | 2019-11-28,
+3631 | 2019-11-29,117.1204
+3632 | 2019-12-02,116.9647
+3633 | 2019-12-03,116.8898
+3634 | 2019-12-04,116.692
+3635 | 2019-12-05,116.3838
+3636 | 2019-12-06,116.5381
+3637 | 2019-12-09,116.3283
+3638 | 2019-12-10,116.2542
+3639 | 2019-12-11,116.1478
+3640 | 2019-12-12,115.8741
+3641 | 2019-12-13,115.6967
+3642 | 2019-12-16,115.555
+3643 | 2019-12-17,115.5553
+3644 | 2019-12-18,115.6618
+3645 | 2019-12-19,115.5988
+3646 | 2019-12-20,115.7598
+3647 | 2019-12-23,115.8059
+3648 | 2019-12-24,
+3649 | 2019-12-25,
+3650 | 2019-12-26,115.634
+3651 | 2019-12-27,115.22
+3652 | 2019-12-30,114.9631
+3653 | 2019-12-31,114.669
+3654 | 2020-01-01,
+3655 | 2020-01-02,114.9745
+3656 | 2020-01-03,114.9867
+3657 | 2020-01-06,114.9557
+3658 | 2020-01-07,115.1477
+3659 | 2020-01-08,115.1328
+3660 | 2020-01-09,115.2331
+3661 | 2020-01-10,115.0677
+3662 | 2020-01-13,115.0342
+3663 | 2020-01-14,115.0239
+3664 | 2020-01-15,114.9528
+3665 | 2020-01-16,115.0006
+3666 | 2020-01-17,115.0656
+3667 | 2020-01-20,
+3668 | 2020-01-21,115.1876
+3669 | 2020-01-22,115.2273
+3670 | 2020-01-23,115.5545
+3671 | 2020-01-24,115.5556
+3672 | 2020-01-27,115.8004
+3673 | 2020-01-28,115.7239
+3674 | 2020-01-29,115.7003
+3675 | 2020-01-30,115.8077
+3676 | 2020-01-31,115.7345
+3677 | 2020-02-03,116.1172
+3678 | 2020-02-04,115.9291
+3679 | 2020-02-05,116.009
+3680 | 2020-02-06,116.1518
+3681 | 2020-02-07,116.5086
+3682 | 2020-02-10,116.5711
+3683 | 2020-02-11,116.3585
+3684 | 2020-02-12,116.2794
+3685 | 2020-02-13,116.3999
+3686 | 2020-02-14,116.4223
+3687 | 2020-02-17,
+3688 | 2020-02-18,116.6039
+3689 | 2020-02-19,116.7829
+3690 | 2020-02-20,117.2454
+3691 | 2020-02-21,117.0473
+3692 | 2020-02-24,117.4018
+3693 | 2020-02-25,117.2425
+3694 | 2020-02-26,117.405
+3695 | 2020-02-27,117.3678
+3696 | 2020-02-28,117.6568
+3697 | 2020-03-02,116.8144
+3698 | 2020-03-03,116.4958
+3699 | 2020-03-04,116.7802
+3700 | 2020-03-05,116.7901
+3701 | 2020-03-06,116.7106
+3702 | 2020-03-09,117.1871
+3703 | 2020-03-10,117.9027
+3704 | 2020-03-11,118.2505
+3705 | 2020-03-12,120.4883
+3706 | 2020-03-13,120.4388
+3707 | 2020-03-16,120.9352
+3708 | 2020-03-17,122.4816
+3709 | 2020-03-18,124.1623
+3710 | 2020-03-19,125.0587
+3711 | 2020-03-20,124.9362
+3712 | 2020-03-23,126.1262
+3713 | 2020-03-24,125.5001
+3714 | 2020-03-25,124.7916
+3715 | 2020-03-26,122.4308
+3716 | 2020-03-27,122.4007
+3717 | 2020-03-30,123.2883
+3718 | 2020-03-31,122.5301
+3719 | 2020-04-01,123.7933
+3720 | 2020-04-02,123.5916
+3721 | 2020-04-03,124.4152
+3722 | 2020-04-06,124.16
+3723 | 2020-04-07,123.0956
+3724 | 2020-04-08,123.2216
+3725 | 2020-04-09,122.476
+3726 | 2020-04-10,122.1592
+3727 | 2020-04-13,122.5203
+3728 | 2020-04-14,122.1121
+3729 | 2020-04-15,123.0752
+3730 | 2020-04-16,123.4615
+3731 | 2020-04-17,122.871
+3732 | 2020-04-20,123.1033
+3733 | 2020-04-21,123.9116
+3734 | 2020-04-22,123.9256
+3735 | 2020-04-23,123.7542
+3736 | 2020-04-24,124.1615
+3737 | 2020-04-27,123.8843
+3738 | 2020-04-28,123.3693
+3739 | 2020-04-29,122.7782
+3740 | 2020-04-30,122.327
+3741 | 2020-05-01,123.1492
+3742 | 2020-05-04,123.2117
+3743 | 2020-05-05,122.803
+3744 | 2020-05-06,123.609
+3745 | 2020-05-07,123.1249
+3746 | 2020-05-08,122.5379
+3747 | 2020-05-11,123.2333
+3748 | 2020-05-12,123.0592
+3749 | 2020-05-13,123.5408
+3750 | 2020-05-14,123.6429
+3751 | 2020-05-15,123.5991
+3752 | 2020-05-18,122.7968
+3753 | 2020-05-19,122.5655
+3754 | 2020-05-20,122.1007
+3755 | 2020-05-21,122.0914
+3756 | 2020-05-22,122.3211
+3757 | 2020-05-25,
+3758 | 2020-05-26,121.3864
+3759 | 2020-05-27,121.5677
+3760 | 2020-05-28,121.0138
+3761 | 2020-05-29,120.9458
+3762 | 2020-06-01,120.2686
+3763 | 2020-06-02,119.6854
+3764 | 2020-06-03,119.2556
+3765 | 2020-06-04,119.3014
+3766 | 2020-06-05,118.8138
+3767 | 2020-06-08,118.6621
+3768 | 2020-06-09,118.5893
+3769 | 2020-06-10,118.5231
+3770 | 2020-06-11,119.2347
+3771 | 2020-06-12,119.6645
+3772 | 2020-06-15,119.9539
+3773 | 2020-06-16,119.567
+3774 | 2020-06-17,119.9105
+3775 | 2020-06-18,120.2173
+3776 | 2020-06-19,120.2186
+3777 | 2020-06-22,119.7532
+3778 | 2020-06-23,119.3285
+3779 | 2020-06-24,119.9744
+3780 | 2020-06-25,120.2997
+3781 | 2020-06-26,120.533
+3782 | 2020-06-29,120.6658
+3783 | 2020-06-30,120.4649
+3784 | 2020-07-01,120.0808
+3785 | 2020-07-02,119.8555
+3786 | 2020-07-03,
+3787 | 2020-07-06,119.2852
+3788 | 2020-07-07,119.5717
+3789 | 2020-07-08,119.5525
+3790 | 2020-07-09,119.5129
+3791 | 2020-07-10,119.3509
+3792 | 2020-07-13,119.1891
+3793 | 2020-07-14,119.3901
+3794 | 2020-07-15,119.0331
+3795 | 2020-07-16,118.9275
+3796 | 2020-07-17,119.124
+3797 | 2020-07-20,119.0483
+3798 | 2020-07-21,118.4042
+3799 | 2020-07-22,118.1337
+3800 | 2020-07-23,118.0613
+3801 | 2020-07-24,118.1329
+3802 | 2020-07-27,117.3869
+3803 | 2020-07-28,117.3189
+3804 | 2020-07-29,117.2126
+3805 | 2020-07-30,117.4008
+3806 | 2020-07-31,117.2082
+3807 | 2020-08-03,117.8074
+3808 | 2020-08-04,117.7833
+3809 | 2020-08-05,116.8736
+3810 | 2020-08-06,117.0422
+3811 | 2020-08-07,117.6239
+3812 | 2020-08-10,117.5821
+3813 | 2020-08-11,117.3781
+3814 | 2020-08-12,117.2559
+3815 | 2020-08-13,117.1193
+3816 | 2020-08-14,116.9395
+3817 | 2020-08-17,116.749
+3818 | 2020-08-18,116.5593
+3819 | 2020-08-19,116.567
+3820 | 2020-08-20,116.8126
+3821 | 2020-08-21,117.0572
+3822 | 2020-08-24,116.912
+3823 | 2020-08-25,116.8206
+3824 | 2020-08-26,116.6243
+3825 | 2020-08-27,116.649
+3826 | 2020-08-28,115.9374
+3827 | 2020-08-31,115.7586
+3828 | 2020-09-01,115.5687
+3829 | 2020-09-02,116.0304
+3830 | 2020-09-03,116.0685
+3831 | 2020-09-04,116.0347
+3832 | 2020-09-07,
+3833 | 2020-09-08,116.4618
+3834 | 2020-09-09,116.1291
+3835 | 2020-09-10,115.8806
+3836 | 2020-09-11,116.0866
+3837 | 2020-09-14,115.6428
+3838 | 2020-09-15,115.5908
+3839 | 2020-09-16,115.3537
+3840 | 2020-09-17,115.4392
+3841 | 2020-09-18,115.2395
+3842 | 2020-09-21,116.378
+3843 | 2020-09-22,116.5438
+3844 | 2020-09-23,117.2526
+3845 | 2020-09-24,117.5473
+3846 | 2020-09-25,117.8679
+3847 | 2020-09-28,117.6178
+3848 | 2020-09-29,117.526
+3849 | 2020-09-30,116.946
+3850 | 2020-10-01,116.7227
+3851 | 2020-10-02,116.7321
+3852 | 2020-10-05,116.1767
+3853 | 2020-10-06,116.2681
+3854 | 2020-10-07,116.3447
+3855 | 2020-10-08,116.1657
+3856 | 2020-10-09,115.2757
+3857 | 2020-10-12,
+3858 | 2020-10-13,115.9107
+3859 | 2020-10-14,115.6872
+3860 | 2020-10-15,116.0964
+3861 | 2020-10-16,115.7679
+3862 | 2020-10-19,115.4031
+3863 | 2020-10-20,115.2485
+3864 | 2020-10-21,114.9108
+3865 | 2020-10-22,115.1158
+3866 | 2020-10-23,115.0126
+3867 | 2020-10-26,115.2797
+3868 | 2020-10-27,115.0131
+3869 | 2020-10-28,115.8023
+3870 | 2020-10-29,116.3069
+3871 | 2020-10-30,116.1354
+3872 | 2020-11-02,116.2361
+3873 | 2020-11-03,115.4802
+3874 | 2020-11-04,115.1677
+3875 | 2020-11-05,114.4556
+3876 | 2020-11-06,113.9919
+3877 | 2020-11-09,114.0895
+3878 | 2020-11-10,114.0757
+3879 | 2020-11-11,
+3880 | 2020-11-12,114.2843
+3881 | 2020-11-13,114.2397
+3882 | 2020-11-16,113.8312
+3883 | 2020-11-17,113.682
+3884 | 2020-11-18,113.46
+3885 | 2020-11-19,113.694
+3886 | 2020-11-20,113.489
+3887 | 2020-11-23,113.7548
+3888 | 2020-11-24,113.4316
+3889 | 2020-11-25,113.1823
+3890 | 2020-11-26,
+3891 | 2020-11-27,
+3892 | 2020-11-30,113.2256
+3893 | 2020-12-01,112.8063
+3894 | 2020-12-02,112.6115
+3895 | 2020-12-03,112.0236
+3896 | 2020-12-04,111.7778
+3897 | 2020-12-07,111.8385
+3898 | 2020-12-08,111.8639
+3899 | 2020-12-09,112.0305
+3900 | 2020-12-10,111.9788
+3901 | 2020-12-11,112.1417
+3902 | 2020-12-14,112.1708
+3903 | 2020-12-15,111.8601
+3904 | 2020-12-16,111.7157
+3905 | 2020-12-17,111.2226
+3906 | 2020-12-18,111.6071
+3907 | 2020-12-21,111.9415
+3908 | 2020-12-22,112.1947
+3909 | 2020-12-23,111.9807
+3910 | 2020-12-24,
+3911 | 2020-12-25,
+3912 | 2020-12-28,111.9752
+3913 | 2020-12-29,111.5172
+3914 | 2020-12-30,111.3084
+3915 | 2020-12-31,111.3169
+3916 | 2021-01-01,
+3917 | 2021-01-04,111.2075
+3918 | 2021-01-05,110.9574
+3919 | 2021-01-06,110.8502
+3920 | 2021-01-07,111.3042
+3921 | 2021-01-08,111.2847
+3922 | 2021-01-11,111.8257
+3923 | 2021-01-12,111.5501
+3924 | 2021-01-13,111.3622
+3925 | 2021-01-14,111.1567
+3926 | 2021-01-15,111.5106
+3927 | 2021-01-18,
+3928 | 2021-01-19,111.4527
+3929 | 2021-01-20,
+3930 | 2021-01-21,111.1973
+3931 | 2021-01-22,111.5516
+3932 | 2021-01-25,111.8676
+3933 | 2021-01-26,111.6572
+3934 | 2021-01-27,112.0782
+3935 | 2021-01-28,112.0059
+3936 | 2021-01-29,111.9511
+3937 | 2021-02-01,112.4189
+3938 | 2021-02-02,112.2862
+3939 | 2021-02-03,112.2567
+3940 | 2021-02-04,112.7469
+3941 | 2021-02-05,112.2379
+3942 | 2021-02-08,112.0428
+3943 | 2021-02-09,111.7675
+3944 | 2021-02-10,111.5834
+3945 | 2021-02-11,111.5272
+3946 | 2021-02-12,111.4889
+3947 | 2021-02-15,
+3948 | 2021-02-16,111.7879
+3949 | 2021-02-17,112.0204
+3950 | 2021-02-18,112.1603
+3951 | 2021-02-19,111.7058
+3952 | 2021-02-22,111.918
+3953 | 2021-02-23,111.8981
+3954 | 2021-02-24,111.7212
+3955 | 2021-02-25,111.9253
+3956 | 2021-02-26,112.8306
+3957 | 2021-03-01,112.5263
+3958 | 2021-03-02,112.5342
+3959 | 2021-03-03,112.7617
+3960 | 2021-03-04,112.7037
+3961 | 2021-03-05,113.7487
+3962 | 2021-03-08,114.2678
+3963 | 2021-03-09,113.928
+3964 | 2021-03-10,113.5881
+3965 | 2021-03-11,112.9214
+3966 | 2021-03-12,113.0269
+3967 | 2021-03-15,113.1928
+3968 | 2021-03-16,112.9839
+3969 | 2021-03-17,113.1589
+3970 | 2021-03-18,112.7744
+3971 | 2021-03-19,112.9756
+3972 | 2021-03-22,113.0023
+3973 | 2021-03-23,113.2916
+3974 | 2021-03-24,113.6565
+3975 | 2021-03-25,114.0016
+3976 | 2021-03-26,113.7406
+3977 | 2021-03-29,113.9314
+3978 | 2021-03-30,114.203
+3979 | 2021-03-31,113.8234
+3980 | 2021-04-01,113.7389
+3981 | 2021-04-02,113.7315
+3982 | 2021-04-05,113.394
+3983 | 2021-04-06,113.1464
+3984 | 2021-04-07,113.2436
+3985 | 2021-04-08,113.0917
+3986 | 2021-04-09,113.2028
+3987 | 2021-04-12,113.1815
+3988 | 2021-04-13,113.0391
+3989 | 2021-04-14,112.7849
+3990 | 2021-04-15,112.6181
+3991 | 2021-04-16,112.4814
+3992 | 2021-04-19,112.1835
+3993 | 2021-04-20,112.2354
+3994 | 2021-04-21,112.1771
+3995 | 2021-04-22,112.2297
+3996 | 2021-04-23,112.0889
+3997 | 2021-04-26,111.8109
+3998 | 2021-04-27,111.9097
+3999 | 2021-04-28,111.7909
+4000 | 2021-04-29,111.7464
+4001 | 2021-04-30,112.0839
+4002 | 2021-05-03,112.005
+4003 | 2021-05-04,112.2896
+4004 | 2021-05-05,112.1514
+4005 | 2021-05-06,111.8401
+4006 | 2021-05-07,111.0249
+4007 | 2021-05-10,110.7905
+4008 | 2021-05-11,110.8921
+4009 | 2021-05-12,111.5636
+4010 | 2021-05-13,111.5955
+4011 | 2021-05-14,111.1353
+4012 | 2021-05-17,111.079
+4013 | 2021-05-18,110.8317
+4014 | 2021-05-19,110.8807
+4015 | 2021-05-20,110.8605
+4016 | 2021-05-21,111.0576
+4017 | 2021-05-24,110.9118
+4018 | 2021-05-25,110.842
+4019 | 2021-05-26,110.8677
+4020 | 2021-05-27,110.8688
+4021 | 2021-05-28,110.7576
+4022 | 2021-05-31,
+4023 | 2021-06-01,110.5046
+4024 | 2021-06-02,110.5799
+4025 | 2021-06-03,111.1782
+4026 | 2021-06-04,110.7521
+4027 | 2021-06-07,110.5155
+4028 | 2021-06-08,110.649
+4029 | 2021-06-09,110.5707
+4030 | 2021-06-10,110.5456
+4031 | 2021-06-11,111.0933
+4032 | 2021-06-14,110.9659
+4033 | 2021-06-15,111.3507
+4034 | 2021-06-16,111.1165
+4035 | 2021-06-17,112.5772
+4036 | 2021-06-18,113.0408
+4037 | 2021-06-21,112.8391
+4038 | 2021-06-22,112.9174
+4039 | 2021-06-23,112.3819
+4040 | 2021-06-24,112.326
+4041 | 2021-06-25,111.9655
+4042 | 2021-06-28,112.0248
+4043 | 2021-06-29,112.2613
+4044 | 2021-06-30,112.5533
+4045 | 2021-07-01,112.74
+4046 | 2021-07-02,112.5425
+4047 | 2021-07-05,
+4048 | 2021-07-06,112.9516
+4049 | 2021-07-07,113.1048
+4050 | 2021-07-08,113.0776
+4051 | 2021-07-09,112.8375
+4052 | 2021-07-12,112.7611
+4053 | 2021-07-13,113.0063
+4054 | 2021-07-14,112.8801
+4055 | 2021-07-15,113.0041
+4056 | 2021-07-16,113.0428
+4057 | 2021-07-19,113.5472
+4058 | 2021-07-20,113.7502
+4059 | 2021-07-21,113.3926
+4060 | 2021-07-22,113.4695
+4061 | 2021-07-23,113.4398
+4062 | 2021-07-26,113.2238
+4063 | 2021-07-27,113.2227
+4064 | 2021-07-28,113.1807
+4065 | 2021-07-29,112.4834
+4066 | 2021-07-30,112.6714
+4067 | 2021-08-02,112.6691
+4068 | 2021-08-03,112.8228
+4069 | 2021-08-04,112.8953
+4070 | 2021-08-05,112.7674
+4071 | 2021-08-06,113.3088
+4072 | 2021-08-09,113.4521
+4073 | 2021-08-10,113.4973
+4074 | 2021-08-11,113.282
+4075 | 2021-08-12,113.2691
+4076 | 2021-08-13,113.0615
+4077 | 2021-08-16,113.1698
+4078 | 2021-08-17,113.6174
+4079 | 2021-08-18,113.6959
+4080 | 2021-08-19,114.1106
+4081 | 2021-08-20,114.5009
+4082 | 2021-08-23,113.9418
+4083 | 2021-08-24,113.6795
+4084 | 2021-08-25,113.6322
+4085 | 2021-08-26,113.7883
+4086 | 2021-08-27,113.3404
+4087 | 2021-08-30,113.246
+4088 | 2021-08-31,113.1076
+4089 | 2021-09-01,112.8732
+4090 | 2021-09-02,112.7863
+4091 | 2021-09-03,112.5476
+4092 | 2021-09-06,
+4093 | 2021-09-07,112.9795
+4094 | 2021-09-08,113.2319
+4095 | 2021-09-09,113.043
+4096 | 2021-09-10,112.9425
+4097 | 2021-09-13,113.0341
+4098 | 2021-09-14,113.0061
+4099 | 2021-09-15,112.9773
+4100 | 2021-09-16,113.3036
+4101 | 2021-09-17,113.5989
+4102 | 2021-09-20,113.9422
+4103 | 2021-09-21,113.8179
+4104 | 2021-09-22,113.6223
+4105 | 2021-09-23,113.513
+4106 | 2021-09-24,113.7597
+4107 | 2021-09-27,113.7432
+4108 | 2021-09-28,114.2469
+4109 | 2021-09-29,114.7092
+4110 | 2021-09-30,114.6403
+4111 | 2021-10-01,114.3798
+4112 | 2021-10-04,114.2739
+4113 | 2021-10-05,114.3654
+4114 | 2021-10-06,114.7185
+4115 | 2021-10-07,114.5044
+4116 | 2021-10-08,114.5986
+4117 | 2021-10-11,
+4118 | 2021-10-12,114.7542
+4119 | 2021-10-13,114.4705
+4120 | 2021-10-14,114.2053
+4121 | 2021-10-15,114.0905
+4122 | 2021-10-18,113.9899
+4123 | 2021-10-19,113.647
+4124 | 2021-10-20,113.5083
+4125 | 2021-10-21,113.6188
+4126 | 2021-10-22,113.67
+4127 | 2021-10-25,113.605
+4128 | 2021-10-26,113.674
+4129 | 2021-10-27,113.6218
+4130 | 2021-10-28,113.4389
+4131 | 2021-10-29,114.1349
+4132 | 2021-11-01,114.2067
+4133 | 2021-11-02,114.2847
+4134 | 2021-11-03,114.3593
+4135 | 2021-11-04,114.3558
+4136 | 2021-11-05,114.0732
+4137 | 2021-11-08,113.8256
+4138 | 2021-11-09,113.762
+4139 | 2021-11-10,114.1484
+4140 | 2021-11-11,
+4141 | 2021-11-12,114.5144
+4142 | 2021-11-15,114.5876
+4143 | 2021-11-16,115.136
+4144 | 2021-11-17,115.0263
+4145 | 2021-11-18,115.0678
+4146 | 2021-11-19,115.2187
+4147 | 2021-11-22,115.6481
+4148 | 2021-11-23,116.0118
+4149 | 2021-11-24,116.2711
+4150 | 2021-11-25,
+4151 | 2021-11-26,116.5103
+4152 | 2021-11-29,116.581
+4153 | 2021-11-30,116.2071
+4154 | 2021-12-01,115.889
+4155 | 2021-12-02,116.018
+4156 | 2021-12-03,116.2377
+4157 | 2021-12-06,116.1538
+4158 | 2021-12-07,115.8555
+4159 | 2021-12-08,115.4418
+4160 | 2021-12-09,115.7784
+4161 | 2021-12-10,115.5732
+4162 | 2021-12-13,115.842
+4163 | 2021-12-14,116.2397
+4164 | 2021-12-15,116.4219
+4165 | 2021-12-16,115.7146
+4166 | 2021-12-17,115.791
+4167 | 2021-12-20,116.0092
+4168 | 2021-12-21,116.1089
+4169 | 2021-12-22,115.7485
+4170 | 2021-12-23,115.5337
+4171 | 2021-12-24,
+4172 | 2021-12-27,115.4684
+4173 | 2021-12-28,115.4192
+4174 | 2021-12-29,115.3678
+4175 | 2021-12-30,115.283
+4176 | 2021-12-31,
+4177 | 2022-01-03,115.4101
+4178 | 2022-01-04,115.3103
+4179 | 2022-01-05,115.137
+4180 | 2022-01-06,115.4046
+4181 | 2022-01-07,115.0451
+4182 | 2022-01-10,115.2216
+4183 | 2022-01-11,114.8332
+4184 | 2022-01-12,114.355
+4185 | 2022-01-13,114.177
+4186 | 2022-01-14,114.3825
+4187 | 2022-01-17,
+4188 | 2022-01-18,114.7373
+4189 | 2022-01-19,114.6109
+4190 | 2022-01-20,114.4642
+4191 | 2022-01-21,114.6125
+4192 | 2022-01-24,115.2034
+4193 | 2022-01-25,115.1654
+4194 | 2022-01-26,115.0922
+4195 | 2022-01-27,115.978
+4196 | 2022-01-28,116.0393
+4197 | 2022-01-31,115.566
+4198 | 2022-02-01,115.3685
+4199 | 2022-02-02,115.1538
+4200 | 2022-02-03,114.9065
+4201 | 2022-02-04,115.1362
+4202 | 2022-02-07,115.0098
+4203 | 2022-02-08,115.0892
+4204 | 2022-02-09,114.8232
+4205 | 2022-02-10,114.5527
+4206 | 2022-02-11,114.8413
+4207 | 2022-02-14,115.1946
+4208 | 2022-02-15,114.93
+4209 | 2022-02-16,114.6886
+4210 | 2022-02-17,114.6755
+4211 | 2022-02-18,114.7982
+4212 | 2022-02-21,
+4213 | 2022-02-22,114.7002
+4214 | 2022-02-23,114.6668
+4215 | 2022-02-24,115.9419
+4216 | 2022-02-25,115.2577
+4217 | 2022-02-28,115.2224
+4218 | 2022-03-01,115.7962
+4219 | 2022-03-02,115.7623
+4220 | 2022-03-03,115.9495
+4221 | 2022-03-04,116.6503
+4222 | 2022-03-07,117.3278
+4223 | 2022-03-08,117.6176
+4224 | 2022-03-09,116.5961
+4225 | 2022-03-10,116.7401
+4226 | 2022-03-11,117.0192
+4227 | 2022-03-14,117.1506
+4228 | 2022-03-15,117.246
+4229 | 2022-03-16,116.8073
+4230 | 2022-03-17,116.0467
+4231 | 2022-03-18,116.1378
+4232 | 2022-03-21,115.9398
+4233 | 2022-03-22,116.0824
+4234 | 2022-03-23,116.005
+4235 | 2022-03-24,115.9599
+4236 | 2022-03-25,115.7921
+4237 | 2022-03-28,116.1911
+4238 | 2022-03-29,115.5679
+4239 | 2022-03-30,115.0818
+4240 | 2022-03-31,115.2218
+4241 | 2022-04-01,115.4814
+4242 | 2022-04-04,115.4112
+4243 | 2022-04-05,115.73
+4244 | 2022-04-06,115.9995
+4245 | 2022-04-07,116.3512
+4246 | 2022-04-08,116.4176
+4247 | 2022-04-11,116.5401
+4248 | 2022-04-12,116.3866
+4249 | 2022-04-13,116.2796
+4250 | 2022-04-14,116.7558
+4251 | 2022-04-15,116.7017
+4252 | 2022-04-18,116.8441
+4253 | 2022-04-19,117.1324
+4254 | 2022-04-20,116.7306
+4255 | 2022-04-21,117.1432
+4256 | 2022-04-22,118.0186
+4257 | 2022-04-25,118.6271
+4258 | 2022-04-26,118.9624
+4259 | 2022-04-27,119.4708
+4260 | 2022-04-28,120.0675
+4261 | 2022-04-29,119.4933
+4262 | 2022-05-02,119.8825
+4263 | 2022-05-03,119.7043
+4264 | 2022-05-04,119.5592
+4265 | 2022-05-05,120.0068
+4266 | 2022-05-06,119.8577
+4267 | 2022-05-09,120.4972
+4268 | 2022-05-10,120.7742
+4269 | 2022-05-11,120.3925
+4270 | 2022-05-12,121.2796
+4271 | 2022-05-13,120.8442
+4272 | 2022-05-16,120.6881
+4273 | 2022-05-17,119.8871
+4274 | 2022-05-18,120.0274
+4275 | 2022-05-19,119.4278
+4276 | 2022-05-20,119.3677
+4277 | 2022-05-23,118.7169
+4278 | 2022-05-24,118.6245
+4279 | 2022-05-25,118.9598
+4280 | 2022-05-26,118.7687
+4281 | 2022-05-27,118.2834
+4282 | 2022-05-30,
+4283 | 2022-05-31,118.0704
+4284 | 2022-06-01,118.6954
+4285 | 2022-06-02,118.0658
+4286 | 2022-06-03,118.2153
+4287 | 2022-06-06,118.3081
+4288 | 2022-06-07,118.4414
+4289 | 2022-06-08,118.3951
+4290 | 2022-06-09,118.9226
+4291 | 2022-06-10,119.9981
+4292 | 2022-06-13,121.1523
+4293 | 2022-06-14,121.6669
+4294 | 2022-06-15,121.6403
+4295 | 2022-06-16,120.6714
+4296 | 2022-06-17,121.2369
+4297 | 2022-06-20,
+4298 | 2022-06-21,120.6427
+4299 | 2022-06-22,120.5197
+4300 | 2022-06-23,120.7622
+4301 | 2022-06-24,120.4853
+4302 | 2022-06-27,120.1736
+4303 | 2022-06-28,120.62
+4304 | 2022-06-29,120.9616
+4305 | 2022-06-30,120.9652
+4306 | 2022-07-01,121.5058
+4307 | 2022-07-04,
+4308 | 2022-07-05,122.6203
+4309 | 2022-07-06,123.0073
+4310 | 2022-07-07,122.7257
+4311 | 2022-07-08,122.4662
+4312 | 2022-07-11,123.2974
+4313 | 2022-07-12,123.4524
+4314 | 2022-07-13,123.2834
+4315 | 2022-07-14,124.0622
+4316 | 2022-07-15,123.4765
+4317 | 2022-07-18,122.7727
+4318 | 2022-07-19,122.4819
+4319 | 2022-07-20,122.5997
+4320 | 2022-07-21,122.9032
+4321 | 2022-07-22,122.451
+4322 | 2022-07-25,122.4594
+4323 | 2022-07-26,122.7581
+4324 | 2022-07-27,122.8169
+4325 | 2022-07-28,122.1161
+4326 | 2022-07-29,121.7678
+4327 | 2022-08-01,121.4109
+4328 | 2022-08-02,121.9486
+4329 | 2022-08-03,122.3888
+4330 | 2022-08-04,121.8333
+4331 | 2022-08-05,122.321
+4332 | 2022-08-08,121.8783
+4333 | 2022-08-09,121.8614
+4334 | 2022-08-10,120.7543
+4335 | 2022-08-11,120.7163
+4336 | 2022-08-12,121.018
+4337 | 2022-08-15,121.4315
+4338 | 2022-08-16,121.6807
+4339 | 2022-08-17,122.0711
+4340 | 2022-08-18,122.3627
+4341 | 2022-08-19,123.0501
+4342 | 2022-08-22,123.605
+4343 | 2022-08-23,123.0547
+4344 | 2022-08-24,123.109
+4345 | 2022-08-25,123.0586
+4346 | 2022-08-26,123.0656
+4347 | 2022-08-29,123.4686
+4348 | 2022-08-30,123.6848
+4349 | 2022-08-31,123.535
+4350 | 2022-09-01,124.4006
+4351 | 2022-09-02,123.7743
+4352 | 2022-09-05,
+4353 | 2022-09-06,124.767
+4354 | 2022-09-07,124.8408
+4355 | 2022-09-08,124.578
+4356 | 2022-09-09,123.7874
+4357 | 2022-09-12,123.3332
+4358 | 2022-09-13,124.4242
+4359 | 2022-09-14,124.4509
+4360 | 2022-09-15,124.8843
+4361 | 2022-09-16,124.8794
+4362 | 2022-09-19,125.0104
+4363 | 2022-09-20,125.1248
+4364 | 2022-09-21,125.7399
+4365 | 2022-09-22,126.1667
+4366 | 2022-09-23,127.2853
+4367 | 2022-09-26,128.4539
+4368 | 2022-09-27,128.4386
+4369 | 2022-09-28,128.0884
+4370 | 2022-09-29,127.5437
+4371 | 2022-09-30,127.5148
+4372 | 2022-10-03,127.0813
+4373 | 2022-10-04,126.1819
+4374 | 2022-10-05,126.8616
+4375 | 2022-10-06,127.2493
+4376 | 2022-10-07,127.3111
+4377 | 2022-10-10,
+4378 | 2022-10-11,127.6641
+4379 | 2022-10-12,128.1481
+4380 | 2022-10-13,127.7286
+4381 | 2022-10-14,128.3325
+4382 | 2022-10-17,127.6448
+4383 | 2022-10-18,127.9153
+4384 | 2022-10-19,128.3968
+4385 | 2022-10-20,128.0052
+4386 | 2022-10-21,127.6735
+4387 | 2022-10-24,128.0304
+4388 | 2022-10-25,127.3771
+4389 | 2022-10-26,126.4723
+4390 | 2022-10-27,126.7028
+4391 | 2022-10-28,127.2135
+4392 | 2022-10-31,127.6219
+4393 | 2022-11-01,127.3987
+4394 | 2022-11-02,127.3115
+4395 | 2022-11-03,128.1743
+4396 | 2022-11-04,127.1468
+4397 | 2022-11-07,126.3062
+4398 | 2022-11-08,125.633
+4399 | 2022-11-09,125.9861
+4400 | 2022-11-10,124.7044
+4401 | 2022-11-11,
+4402 | 2022-11-14,123.4277
+4403 | 2022-11-15,123.039
+4404 | 2022-11-16,123.2817
+4405 | 2022-11-17,123.977
+4406 | 2022-11-18,123.8524
+4407 | 2022-11-21,124.7009
+4408 | 2022-11-22,124.2365
+4409 | 2022-11-23,123.7574
+4410 | 2022-11-24,
+4411 | 2022-11-25,123.3386
+4412 | 2022-11-28,123.6032
+4413 | 2022-11-29,123.6615
+4414 | 2022-11-30,123.5175
+4415 | 2022-12-01,122.0045
+4416 | 2022-12-02,122.0102
+4417 | 2022-12-05,122.6384
+4418 | 2022-12-06,123.0191
+4419 | 2022-12-07,122.7608
+4420 | 2022-12-08,122.4152
+4421 | 2022-12-09,122.4201
+4422 | 2022-12-12,122.7714
+4423 | 2022-12-13,121.8493
+4424 | 2022-12-14,121.8226
+4425 | 2022-12-15,122.5519
+4426 | 2022-12-16,122.6505
+4427 | 2022-12-19,122.5275
+4428 | 2022-12-20,122.1357
+4429 | 2022-12-21,122.2828
+4430 | 2022-12-22,122.2419
+4431 | 2022-12-23,121.9743
+4432 | 2022-12-26,
+4433 | 2022-12-27,121.7539
+4434 | 2022-12-28,122.0075
+4435 | 2022-12-29,121.6577
+4436 | 2022-12-30,121.4256
+4437 | 2023-01-02,
+4438 | 2023-01-03,122.0905
+4439 | 2023-01-04,121.5008
+4440 | 2023-01-05,122.1017
+4441 | 2023-01-06,121.0852
+4442 | 2023-01-09,120.1508
+4443 | 2023-01-10,120.2483
+4444 | 2023-01-11,120.1614
+4445 | 2023-01-12,119.4218
+4446 | 2023-01-13,119.1673
+4447 | 2023-01-16,
+4448 | 2023-01-17,119.2121
+4449 | 2023-01-18,119.0755
+4450 | 2023-01-19,119.6107
+4451 | 2023-01-20,119.3486
+4452 | 2023-01-23,119.1434
+4453 | 2023-01-24,119.0958
+4454 | 2023-01-25,118.9686
+4455 | 2023-01-26,119.021
+4456 | 2023-01-27,118.9223
+4457 | 2023-01-30,118.8953
+4458 | 2023-01-31,118.9802
+4459 | 2023-02-01,118.6259
+4460 | 2023-02-02,118.3421
+4461 | 2023-02-03,119.5095
+4462 | 2023-02-06,120.541
+4463 | 2023-02-07,120.3475
+4464 | 2023-02-08,120.1436
+4465 | 2023-02-09,119.9781
+4466 | 2023-02-10,120.1419
+4467 | 2023-02-13,119.9828
+4468 | 2023-02-14,119.9229
+4469 | 2023-02-15,120.4557
+4470 | 2023-02-16,120.4651
+4471 | 2023-02-17,120.5526
+4472 | 2023-02-20,
+4473 | 2023-02-21,120.6256
+4474 | 2023-02-22,120.8389
+4475 | 2023-02-23,121.0896
+4476 | 2023-02-24,121.5681
+4477 | 2023-02-27,121.3941
+4478 | 2023-02-28,121.3341
+4479 | 2023-03-01,120.6347
+4480 | 2023-03-02,121.1302
+4481 | 2023-03-03,120.7742
+4482 | 2023-03-06,120.485
+4483 | 2023-03-07,121.4623
+4484 | 2023-03-08,121.4511
+4485 | 2023-03-09,121.4458
+4486 | 2023-03-10,121.2421
+4487 | 2023-03-13,120.8897
+4488 | 2023-03-14,121.0141
+4489 | 2023-03-15,122.1079
+4490 | 2023-03-16,121.7221
+4491 | 2023-03-17,121.5643
+4492 | 2023-03-20,121.0141
+4493 | 2023-03-21,120.8958
+4494 | 2023-03-22,120.6217
+4495 | 2023-03-23,119.7587
+4496 | 2023-03-24,120.4598
+4497 | 2023-03-27,120.2541
+4498 | 2023-03-28,119.7138
+4499 | 2023-03-29,119.7258
+4500 | 2023-03-30,119.4078
+4501 | 2023-03-31,119.3602
+4502 | 2023-04-03,119.3204
+4503 | 2023-04-04,119.142
+4504 | 2023-04-05,119.2953
+4505 | 2023-04-06,119.3072
+4506 | 2023-04-07,119.3547
+4507 | 2023-04-10,119.7948
+4508 | 2023-04-11,119.5248
+4509 | 2023-04-12,119.003
+4510 | 2023-04-13,118.3915
+4511 | 2023-04-14,118.8567
+4512 | 2023-04-17,119.2787
+4513 | 2023-04-18,119.1049
+4514 | 2023-04-19,119.303
+4515 | 2023-04-20,119.1199
+4516 | 2023-04-21,119.3117
+4517 | 2023-04-24,119.2039
+4518 | 2023-04-25,119.613
+4519 | 2023-04-26,119.3228
+4520 | 2023-04-27,119.4298
+4521 | 2023-04-28,119.2248
+4522 | 2023-05-01,119.4435
+4523 | 2023-05-02,119.6105
+4524 | 2023-05-03,119.1233
+4525 | 2023-05-04,119.0465
+4526 | 2023-05-05,118.5548
+4527 | 2023-05-08,118.5759
+4528 | 2023-05-09,118.8239
+4529 | 2023-05-10,118.5864
+4530 | 2023-05-11,119.0303
+4531 | 2023-05-12,119.3671
+4532 | 2023-05-15,119.1608
+4533 | 2023-05-16,119.1743
+4534 | 2023-05-17,119.607
+4535 | 2023-05-18,120.0886
+4536 | 2023-05-19,119.7751
+4537 | 2023-05-22,120.0875
+4538 | 2023-05-23,120.3204
+4539 | 2023-05-24,120.4752
+4540 | 2023-05-25,120.8413
+4541 | 2023-05-26,120.6304
+4542 | 2023-05-29,
+4543 | 2023-05-30,120.5546
+4544 | 2023-05-31,120.9662
+4545 | 2023-06-01,120.0491
+4546 | 2023-06-02,120.0049
+4547 | 2023-06-05,120.0048
+4548 | 2023-06-06,119.9718
+4549 | 2023-06-07,119.859
+4550 | 2023-06-08,119.5712
+4551 | 2023-06-09,119.4322
+4552 | 2023-06-12,119.6376
+4553 | 2023-06-13,119.1899
+4554 | 2023-06-14,118.776
+4555 | 2023-06-15,118.5521
+4556 | 2023-06-16,118.4184
+4557 | 2023-06-19,
+4558 | 2023-06-20,118.938
+4559 | 2023-06-21,118.727
+4560 | 2023-06-22,118.7552
+4561 | 2023-06-23,119.152
+4562 | 2023-06-26,119.0761
+4563 | 2023-06-27,118.8949
+4564 | 2023-06-28,119.3382
+4565 | 2023-06-29,119.527
+4566 | 2023-06-30,119.3606
+4567 | 2023-07-03,119.2119
+4568 | 2023-07-04,
+4569 | 2023-07-05,119.3483
+4570 | 2023-07-06,119.8193
+4571 | 2023-07-07,119.0761
+4572 | 2023-07-10,118.9548
+4573 | 2023-07-11,118.7344
+4574 | 2023-07-12,117.6385
+4575 | 2023-07-13,117.1831
+4576 | 2023-07-14,117.0463
+4577 | 2023-07-17,117.1267
+4578 | 2023-07-18,117.0264
+4579 | 2023-07-19,117.3462
+4580 | 2023-07-20,117.5947
+4581 | 2023-07-21,117.9418
+4582 | 2023-07-24,117.8124
+4583 | 2023-07-25,117.8565
+4584 | 2023-07-26,117.76
+4585 | 2023-07-27,117.8938
+4586 | 2023-07-28,117.788
+4587 | 2023-07-31,117.8241
+4588 | 2023-08-01,118.5738
+4589 | 2023-08-02,119.1268
+4590 | 2023-08-03,119.3963
+4591 | 2023-08-04,118.821
+4592 | 2023-08-07,119.0809
+4593 | 2023-08-08,119.6407
+4594 | 2023-08-09,119.476
+4595 | 2023-08-10,119.1581
+4596 | 2023-08-11,119.6268
+4597 | 2023-08-14,120.0725
+4598 | 2023-08-15,120.2127
+4599 | 2023-08-16,120.3551
+4600 | 2023-08-17,120.5242
+4601 | 2023-08-18,120.4321
+4602 | 2023-08-21,120.4627
+4603 | 2023-08-22,120.3554
+4604 | 2023-08-23,120.0307
+4605 | 2023-08-24,120.2354
+4606 | 2023-08-25,120.5137
+4607 | 2023-08-28,120.3155
+4608 | 2023-08-29,120.2669
+4609 | 2023-08-30,119.7937
+4610 | 2023-08-31,120.225
+4611 | 2023-09-01,120.759
+4612 | 2023-09-04,
+4613 | 2023-09-05,121.4345
+4614 | 2023-09-06,121.8671
+4615 | 2023-09-07,121.9528
+4616 | 2023-09-08,121.9475
+4617 | 2023-09-11,121.3386
+4618 | 2023-09-12,121.2913
+4619 | 2023-09-13,121.0549
+4620 | 2023-09-14,121.2395
+4621 | 2023-09-15,121.199
+4622 | 2023-09-18,121.1938
+4623 | 2023-09-19,121.1645
+4624 | 2023-09-20,120.9648
+4625 | 2023-09-21,121.5528
+4626 | 2023-09-22,121.5306
+4627 | 2023-09-25,122.1143
+4628 | 2023-09-26,122.4742
+4629 | 2023-09-27,122.9895
+4630 | 2023-09-28,122.5342
+4631 | 2023-09-29,122.3077
+4632 | 2023-10-02,123.0545
+4633 | 2023-10-03,123.7848
+4634 | 2023-10-04,123.5946
+4635 | 2023-10-05,123.8993
+4636 | 2023-10-06,123.3563
+4637 | 2023-10-09,
+4638 | 2023-10-10,122.9282
+4639 | 2023-10-11,122.7697
+4640 | 2023-10-12,123.2101
+4641 | 2023-10-13,123.5954
+4642 | 2023-10-16,123.3185
+4643 | 2023-10-17,123.1202
+4644 | 2023-10-18,123.8148
+4645 | 2023-10-19,123.798
+4646 | 2023-10-20,123.612
+4647 | 2023-10-23,123.2846
+4648 | 2023-10-24,123.6416
+4649 | 2023-10-25,123.7871
+4650 | 2023-10-26,124.0064
+4651 | 2023-10-27,123.62
+4652 | 2023-10-30,123.4076
+4653 | 2023-10-31,123.8364
+4654 | 2023-11-01,123.7922
+4655 | 2023-11-02,122.8818
+4656 | 2023-11-03,121.7564
+4657 | 2023-11-06,121.6484
+4658 | 2023-11-07,122.0777
+4659 | 2023-11-08,122.0926
+4660 | 2023-11-09,122.1281
+4661 | 2023-11-10,
+4662 | 2023-11-13,122.4264
+4663 | 2023-11-14,121.35
+4664 | 2023-11-15,121.0749
+4665 | 2023-11-16,121.1754
+4666 | 2023-11-17,120.8477
+4667 | 2023-11-20,120.2533
+4668 | 2023-11-21,120.2241
+4669 | 2023-11-22,120.6802
+4670 | 2023-11-23,
+4671 | 2023-11-24,120.2105
+4672 | 2023-11-27,120.173
+4673 | 2023-11-28,119.5904
+4674 | 2023-11-29,119.8159
+4675 | 2023-11-30,120.2434
+4676 | 2023-12-01,119.9424
+4677 | 2023-12-04,120.4727
+4678 | 2023-12-05,120.7913
+4679 | 2023-12-06,120.5334
+4680 | 2023-12-07,120.6013
+4681 | 2023-12-08,120.7607
+4682 | 2023-12-11,120.9279
+4683 | 2023-12-12,120.6817
+4684 | 2023-12-13,121.1571
+4685 | 2023-12-14,119.5683
+4686 | 2023-12-15,119.7382
+4687 | 2023-12-18,119.9102
+4688 | 2023-12-19,119.4632
+4689 | 2023-12-20,119.5435
+4690 | 2023-12-21,119.3168
+4691 | 2023-12-22,119.0625
+4692 | 2023-12-25,
+4693 | 2023-12-26,118.8875
+4694 | 2023-12-27,118.4729
+4695 | 2023-12-28,118.4104
+4696 | 2023-12-29,118.4208
+4697 | 2024-01-01,
+4698 | 2024-01-02,119.2686
+4699 | 2024-01-03,119.6958
+4700 | 2024-01-04,119.6208
+4701 | 2024-01-05,119.388
+4702 | 2024-01-08,119.2506
+4703 | 2024-01-09,119.6666
+4704 | 2024-01-10,119.7614
+4705 | 2024-01-11,119.8916
+4706 | 2024-01-12,119.534
+4707 | 2024-01-15,
+4708 | 2024-01-16,120.5759
+4709 | 2024-01-17,121.0402
+4710 | 2024-01-18,120.8895
+4711 | 2024-01-19,120.6442
+4712 | 2024-01-22,120.6178
+4713 | 2024-01-23,121.1001
+4714 | 2024-01-24,120.4916
+4715 | 2024-01-25,120.8311
+4716 | 2024-01-26,120.6173
+4717 | 2024-01-29,120.8538
+4718 | 2024-01-30,120.6025
+4719 | 2024-01-31,120.4331
+4720 | 2024-02-01,120.3335
+4721 | 2024-02-02,120.902
+4722 | 2024-02-05,121.349
+4723 | 2024-02-06,120.9588
+4724 | 2024-02-07,120.9049
+4725 | 2024-02-08,121.0798
+4726 | 2024-02-09,121.039
+4727 | 2024-02-12,120.9378
+4728 | 2024-02-13,121.5202
+4729 | 2024-02-14,121.4002
+4730 | 2024-02-15,121.2121
+4731 | 2024-02-16,121.1505
+4732 | 2024-02-19,
+4733 | 2024-02-20,121.0199
+4734 | 2024-02-21,121.0379
+4735 | 2024-02-22,121.102
+4736 | 2024-02-23,121.0369
+4737 | 2024-02-26,121.0592
+4738 | 2024-02-27,120.9647
+4739 | 2024-02-28,121.128
+4740 | 2024-02-29,121.1824
+4741 | 2024-03-01,121.0111
+4742 | 2024-03-04,120.872
+4743 | 2024-03-05,120.8846
+4744 | 2024-03-06,120.4649
+4745 | 2024-03-07,120.1909
+4746 | 2024-03-08,119.975
+4747 | 2024-03-11,120.0394
+4748 | 2024-03-12,120.1668
+4749 | 2024-03-13,119.9642
+4750 | 2024-03-14,120.241
+4751 | 2024-03-15,120.4003
+4752 | 2024-03-18,120.5752
+4753 | 2024-03-19,120.9332
+4754 | 2024-03-20,120.9289
+4755 | 2024-03-21,120.8086
+4756 | 2024-03-22,121.1842
+4757 | 2024-03-25,121.0295
+4758 | 2024-03-26,121.0742
+4759 | 2024-03-27,121.0089
+4760 | 2024-03-28,121.0635
+4761 | 2024-03-29,121.0191
+4762 | 2024-04-01,121.5151
+4763 | 2024-04-02,121.3035
+4764 | 2024-04-03,121.0198
+4765 | 2024-04-04,120.7613
+4766 | 2024-04-05,120.9646
+4767 | 2024-04-08,120.7359
+4768 | 2024-04-09,120.7048
+4769 | 2024-04-10,121.5727
+4770 | 2024-04-11,121.6081
+4771 | 2024-04-12,122.2885
+4772 | 2024-04-15,122.425
+4773 | 2024-04-16,123.1234
+4774 | 2024-04-17,123.0207
+4775 | 2024-04-18,123.0017
+4776 | 2024-04-19,123.1075
+4777 | 2024-04-22,123.0609
+4778 | 2024-04-23,122.7227
+4779 | 2024-04-24,122.89
+4780 | 2024-04-25,122.8384
+4781 | 2024-04-26,122.9471
+4782 | 2024-04-29,122.5449
+4783 | 2024-04-30,122.9853
+4784 | 2024-05-01,123.0168
+4785 | 2024-05-02,122.4384
+4786 | 2024-05-03,122.1375
+4787 | 2024-05-06,121.8913
+4788 | 2024-05-07,122.093
+4789 | 2024-05-08,122.1926
+4790 | 2024-05-09,122.1634
+4791 | 2024-05-10,122.014
+4792 | 2024-05-13,122.0261
+4793 | 2024-05-14,121.9256
+4794 | 2024-05-15,121.3543
+4795 | 2024-05-16,121.2236
+4796 | 2024-05-17,121.2354
+4797 | 2024-05-20,121.2289
+4798 | 2024-05-21,121.3793
+4799 | 2024-05-22,121.5462
+4800 | 2024-05-23,121.7477
+4801 | 2024-05-24,121.6172
+4802 | 2024-05-27,
+4803 | 2024-05-28,121.43
+4804 | 2024-05-29,122.1641
+4805 | 2024-05-30,121.9601
+4806 | 2024-05-31,122.098
+4807 | 2024-06-03,122.3509
+4808 | 2024-06-04,122.7256
+4809 | 2024-06-05,122.5339
+4810 | 2024-06-06,122.3713
+4811 | 2024-06-07,123.549
+4812 | 2024-06-10,123.9125
+4813 | 2024-06-11,124.0349
+4814 | 2024-06-12,123.8295
+4815 | 2024-06-13,124.0235
+4816 | 2024-06-14,124.1694
+4817 | 2024-06-17,124.239
+4818 | 2024-06-18,123.9776
+4819 | 2024-06-19,
+4820 | 2024-06-20,124.192
+4821 | 2024-06-21,124.1086
+4822 | 2024-06-24,123.7125
+4823 | 2024-06-25,123.9417
+4824 | 2024-06-26,124.26
+4825 | 2024-06-27,124.3379
+4826 | 2024-06-28,124.2103
+4827 | 2024-07-01,124.4667
+4828 | 2024-07-02,124.2917
+4829 | 2024-07-03,123.7768
+4830 | 2024-07-04,
+4831 | 2024-07-05,123.4762
+4832 | 2024-07-08,123.3576
+4833 | 2024-07-09,123.4071
+4834 | 2024-07-10,123.1895
+4835 | 2024-07-11,122.769
+4836 | 2024-07-12,122.4404
+4837 | 2024-07-15,122.6347
+4838 | 2024-07-16,122.7264
+4839 | 2024-07-17,122.518
+4840 | 2024-07-18,122.7909
+4841 | 2024-07-19,123.147
+4842 | 2024-07-22,123.2172
+4843 | 2024-07-23,123.3843
+4844 | 2024-07-24,123.5575
+4845 | 2024-07-25,123.5286
+4846 | 2024-07-26,123.672
+4847 | 2024-07-29,124.1392
+4848 | 2024-07-30,124.2855
+4849 | 2024-07-31,123.6373
+4850 | 2024-08-01,123.8693
+4851 | 2024-08-02,123.4681
+4852 | 2024-08-05,123.5787
+4853 | 2024-08-06,123.6532
+4854 | 2024-08-07,123.5698
+4855 | 2024-08-08,123.4466
+4856 | 2024-08-09,122.9276
+4857 | 2024-08-12,123.2204
+4858 | 2024-08-13,123.0146
+4859 | 2024-08-14,122.4297
+4860 | 2024-08-15,122.5844
+4861 | 2024-08-16,122.3972
+4862 | 2024-08-19,121.8788
+4863 | 2024-08-20,121.7728
+4864 | 2024-08-21,121.8535
+4865 | 2024-08-22,122.3626
+4866 | 2024-08-23,121.4597
+4867 | 2024-08-26,121.6943
+4868 | 2024-08-27,121.8672
+4869 | 2024-08-28,121.8943
+4870 | 2024-08-29,122.2333
+4871 | 2024-08-30,122.3262
+4872 | 2024-09-02,
+4873 | 2024-09-03,122.7811
+4874 | 2024-09-04,122.5144
+4875 | 2024-09-05,122.4533
+4876 | 2024-09-06,122.4991
+4877 | 2024-09-09,122.7156
+4878 | 2024-09-10,123.0071
+4879 | 2024-09-11,122.7754
+4880 | 2024-09-12,122.4423
+4881 | 2024-09-13,121.6551
+4882 | 2024-09-16,121.4976
+4883 | 2024-09-17,121.6031
+4884 | 2024-09-18,121.5618
+4885 | 2024-09-19,121.3059
+4886 | 2024-09-20,121.4052
+4887 | 2024-09-23,121.4303
+4888 | 2024-09-24,121.1291
+4889 | 2024-09-25,121.4447
+4890 | 2024-09-26,121.0785
+4891 | 2024-09-27,121.1111
+4892 | 2024-09-30,121.2864
+4893 | 2024-10-01,121.6881
+4894 | 2024-10-02,121.5724
+4895 | 2024-10-03,122.1197
+4896 | 2024-10-04,122.2197
+4897 | 2024-10-07,122.4241
+4898 | 2024-10-08,122.6625
+4899 | 2024-10-09,122.8821
+4900 | 2024-10-10,123.0951
+4901 | 2024-10-11,122.9805
+4902 | 2024-10-14,
+4903 | 2024-10-15,123.5124
+4904 | 2024-10-16,123.9235
+4905 | 2024-10-17,124.1122
+4906 | 2024-10-18,123.9185
+4907 | 2024-10-21,124.4757
+4908 | 2024-10-22,124.4107
+4909 | 2024-10-23,124.6931
+4910 | 2024-10-24,124.5127
+4911 | 2024-10-25,124.6105
+4912 | 2024-10-28,124.8076
+4913 | 2024-10-29,124.8612
+4914 | 2024-10-30,124.8153
+4915 | 2024-10-31,124.7988
+4916 | 2024-11-01,124.8076
+4917 | 2024-11-04,124.5903
+4918 | 2024-11-05,124.5532
+4919 | 2024-11-06,125.7035
+4920 | 2024-11-07,124.775
+4921 | 2024-11-08,125.5811
+4922 | 2024-11-11,
+4923 | 2024-11-12,126.7762
+4924 | 2024-11-13,126.9572
+4925 | 2024-11-14,127.0015
+4926 | 2024-11-15,126.8848
+4927 | 2024-11-18,126.6045
+4928 | 2024-11-19,126.3994
+4929 | 2024-11-20,126.88
+4930 | 2024-11-21,127.1047
+4931 | 2024-11-22,127.4712
+4932 | 2024-11-25,126.9948
+4933 | 2024-11-26,127.4301
+4934 | 2024-11-27,126.8205
+4935 | 2024-11-28,
+4936 | 2024-11-29,126.5798
+4937 | 2024-12-02,127.1272
+4938 | 2024-12-03,126.9565
+4939 | 2024-12-04,126.7574
+4940 | 2024-12-05,126.4286
+4941 | 2024-12-06,126.688
+4942 | 2024-12-09,126.5981
+4943 | 2024-12-10,126.957
+4944 | 2024-12-11,126.8483
+4945 | 2024-12-12,126.9556
+4946 | 2024-12-13,127.3096
+4947 | 2024-12-16,127.2687
+4948 | 2024-12-17,127.5043
+4949 | 2024-12-18,127.6418
+4950 | 2024-12-19,128.6366
+4951 | 2024-12-20,127.893
+4952 | 2024-12-23,128.3021
+4953 | 2024-12-24,128.3377
+4954 | 2024-12-25,
+4955 | 2024-12-26,128.3329
+4956 | 2024-12-27,128.45
+4957 | 2024-12-30,128.8205
+4958 | 2024-12-31,129.2775
+4959 | 2025-01-01,
+4960 | 2025-01-02,129.4598
+4961 | 2025-01-03,129.4535
+4962 | 2025-01-06,128.538
+4963 | 2025-01-07,128.613
+4964 | 2025-01-08,129.0785
+4965 | 2025-01-09,129.2827
+4966 | 2025-01-10,129.8664
+4967 | 2025-01-13,130.0413
+4968 | 2025-01-14,129.3812
+4969 | 2025-01-15,129.2092
+4970 | 2025-01-16,129.436
+4971 | 2025-01-17,129.4859
+4972 | 2025-01-20,
+4973 | 2025-01-21,128.4151
+4974 | 2025-01-22,128.3402
+4975 | 2025-01-23,128.2162
+4976 | 2025-01-24,127.4611
+4977 | 2025-01-27,128.0912
+4978 | 2025-01-28,128.2817
+4979 | 2025-01-29,128.3418
+4980 | 2025-01-30,128.1004
+4981 | 2025-01-31,128.4828
+4982 | 2025-02-03,129.109
+4983 | 2025-02-04,128.1083
+4984 | 2025-02-05,127.9751
+4985 | 2025-02-06,128.2017
+4986 | 2025-02-07,128.4292
+4987 | 2025-02-10,128.6382
+4988 | 2025-02-11,128.4322
+4989 | 2025-02-12,128.3288
+4990 | 2025-02-13,127.8931
+4991 | 2025-02-14,127.1491
+4992 | 2025-02-17,
+4993 | 2025-02-18,127.2906
+4994 | 2025-02-19,127.7317
+4995 | 2025-02-20,127.1126
+4996 | 2025-02-21,127.1408
+4997 | 2025-02-24,127.1921
+4998 | 2025-02-25,127.3752
+4999 | 2025-02-26,127.2822
+5000 | 2025-02-27,127.9704
+5001 | 2025-02-28,128.2805
+5002 | 2025-03-03,127.75
+5003 | 2025-03-04,127.9966
+5004 | 2025-03-05,126.504
+5005 | 2025-03-06,126.1099
+5006 | 2025-03-07,125.9814
+5007 | 2025-03-10,126.268
+5008 | 2025-03-11,126.0457
+5009 | 2025-03-12,125.8664
+5010 | 2025-03-13,126.0031
+5011 | 2025-03-14,125.6942
+5012 | 2025-03-17,125.3688
+5013 | 2025-03-18,125.488
+5014 | 2025-03-19,125.8006
+5015 | 2025-03-20,125.985
+5016 | 2025-03-21,126.2679
+5017 | 2025-03-24,126.1956
+5018 | 2025-03-25,126.0535
+5019 | 2025-03-26,126.2364
+5020 | 2025-03-27,126.3626
+5021 | 2025-03-28,126.4187
+5022 | 2025-03-31,126.7075
+5023 | 2025-04-01,126.4338
+5024 | 2025-04-02,126.3811
+5025 | 2025-04-03,124.7316
+5026 | 2025-04-04,125.8129
+5027 | 2025-04-07,126.8282
+5028 | 2025-04-08,126.8668
+5029 | 2025-04-09,126.628
+5030 | 2025-04-10,125.089
+5031 | 2025-04-11,124.0163
+5032 | 2025-04-14,123.6598
+5033 | 2025-04-15,123.776
+5034 | 2025-04-16,123.2724
+5035 | 2025-04-17,123.1298
+5036 | 2025-04-18,122.9865
+5037 | 2025-04-21,122.3145
+5038 | 2025-04-22,122.4175
+5039 | 2025-04-23,123.0252
+5040 | 2025-04-24,122.9251
+5041 | 2025-04-25,122.8858
+5042 | 2025-04-28,122.7176
+5043 | 2025-04-29,122.5944
+5044 | 2025-04-30,122.5921
+5045 | 2025-05-01,123.1405
+5046 | 2025-05-02,122.4962
+5047 | 2025-05-05,122.2613
+5048 | 2025-05-06,122.0417
+5049 | 2025-05-07,122.117
+5050 | 2025-05-08,122.7568
+5051 | 2025-05-09,122.5191
+5052 | 2025-05-12,123.4863
+5053 | 2025-05-13,122.9583
+5054 | 2025-05-14,122.6746
+5055 | 2025-05-15,122.8174
+5056 | 2025-05-16,123.0737
+5057 | 2025-05-19,122.4186
+5058 | 2025-05-20,122.3199
+5059 | 2025-05-21,121.7496
+5060 | 2025-05-22,122.0429
+5061 | 2025-05-23,121.3837
+5062 | 2025-05-26,
+5063 | 2025-05-27,121.6099
+5064 | 2025-05-28,121.9888
+5065 | 2025-05-29,121.5617
+5066 | 2025-05-30,121.7674
+5067 | 2025-06-02,121.1881
+5068 | 2025-06-03,121.4592
+5069 | 2025-06-04,121.0539
+5070 | 2025-06-05,120.9596
+5071 | 2025-06-06,121.161
+5072 | 2025-06-09,120.9103
+5073 | 2025-06-10,121.0485
+5074 | 2025-06-11,120.587
+5075 | 2025-06-12,120.1723
+5076 | 2025-06-13,120.3245
+5077 | 2025-06-16,120.1565
+5078 | 2025-06-17,120.5048
+5079 | 2025-06-18,120.7305
+5080 | 2025-06-19,
+5081 | 2025-06-20,121.0408
+5082 | 2025-06-23,121.1694
+5083 | 2025-06-24,120.3645
+5084 | 2025-06-25,120.3336
+5085 | 2025-06-26,119.6451
+5086 | 2025-06-27,119.659
+5087 | 2025-06-30,119.4088
+5088 | 2025-07-01,119.3436
+5089 | 2025-07-02,119.3037
+5090 | 2025-07-03,119.2382
+5091 | 2025-07-04,
+5092 | 2025-07-07,119.6201
+5093 | 2025-07-08,119.8371
+5094 | 2025-07-09,119.7311
+5095 | 2025-07-10,119.8343
+5096 | 2025-07-11,119.9214
+5097 | 2025-07-14,120.2209
+5098 | 2025-07-15,120.5105
+5099 | 2025-07-16,120.4175
+5100 | 2025-07-17,120.6384
+5101 | 2025-07-18,120.356
+5102 | 2025-07-21,119.9961
+5103 | 2025-07-22,119.681
+5104 | 2025-07-23,119.5697
+5105 | 2025-07-24,119.5664
+5106 | 2025-07-25,119.9857
+5107 | 2025-07-28,120.6149
+5108 | 2025-07-29,120.9674
+5109 | 2025-07-30,121.4042
+5110 | 2025-07-31,121.721
+5111 | 2025-08-01,121.2122
+5112 | 2025-08-04,120.9859
+5113 | 2025-08-05,120.9082
+5114 | 2025-08-06,120.5082
+5115 | 2025-08-07,120.5043
+5116 | 2025-08-08,120.3329
+5117 | 2025-08-11,120.6892
+5118 | 2025-08-12,120.2736
+5119 | 2025-08-13,120.13
+5120 | 2025-08-14,120.6446
+5121 | 2025-08-15,120.3377
+5122 | 2025-08-18,120.5622
+5123 | 2025-08-19,120.7224
+5124 | 2025-08-20,120.7757
+5125 | 2025-08-21,121.0843
+5126 | 2025-08-22,120.2774
+5127 | 2025-08-25,120.4214
+5128 | 2025-08-26,120.5274
+5129 | 2025-08-27,120.7274
+5130 | 2025-08-28,120.2595
+5131 | 2025-08-29,120.2082
+5132 | 2025-09-01,
+5133 | 2025-09-02,120.6837
+5134 | 2025-09-03,120.5052
+5135 | 2025-09-04,120.7629
+5136 | 2025-09-05,120.1282
+5137 | 2025-09-08,120.0971
+5138 | 2025-09-09,120.1569
+5139 | 2025-09-10,120.1223
+5140 | 2025-09-11,119.9534
+5141 | 2025-09-12,120.0611
+5142 | 2025-09-15,119.5644
+5143 | 2025-09-16,119.1348
+5144 | 2025-09-17,119.1582
+5145 | 2025-09-18,119.6616
+5146 | 2025-09-19,119.7858
+5147 | 2025-09-22,119.8152
+5148 | 2025-09-23,119.6202
+5149 | 2025-09-24,120.1707
+5150 | 2025-09-25,120.5419
+5151 | 2025-09-26,120.4349
+5152 | 2025-09-29,120.115
+5153 | 2025-09-30,120.1368
+5154 | 2025-10-01,120.1502
+5155 | 2025-10-02,120.4296
+5156 | 2025-10-03,120.0881
+5157 | 2025-10-06,120.2722
+5158 | 2025-10-07,120.4884
+5159 | 2025-10-08,120.7766
+5160 | 2025-10-09,121.0902
+5161 | 2025-10-10,121.1163
+5162 | 2025-10-13,
+5163 | 2025-10-14,121.1822
+5164 | 2025-10-15,120.8642
+5165 | 2025-10-16,120.6698
+5166 | 2025-10-17,120.7028
+5167 | 2025-10-20,120.6209
+5168 | 2025-10-21,120.8895
+5169 | 2025-10-22,120.8958
+5170 | 2025-10-23,120.9531
+5171 | 2025-10-24,120.9345
+5172 | 2025-10-27,120.7988
+5173 | 2025-10-28,120.6361
+5174 | 2025-10-29,120.5312
+5175 | 2025-10-30,121.2832
+5176 | 2025-10-31,121.3859
+5177 | 2025-11-03,121.4512
+5178 | 2025-11-04,121.8271
+5179 | 2025-11-05,121.8482
+5180 | 2025-11-06,121.6948
+5181 | 2025-11-07,121.388
+5182 | 2025-11-10,121.2984
+5183 | 2025-11-11,
+5184 | 2025-11-12,121.0458
+5185 | 2025-11-13,120.7725
+5186 | 2025-11-14,120.9666
+5187 | 2025-11-17,121.1146
+5188 | 2025-11-18,121.2127
+5189 | 2025-11-19,121.4978
+5190 | 2025-11-20,121.6889
+5191 | 2025-11-21,121.8653
+5192 | 2025-11-24,121.9171
+5193 | 2025-11-25,121.6335
+5194 | 2025-11-26,121.2437
+5195 | 2025-11-27,
+5196 | 2025-11-28,121.0527
+5197 | 2025-12-01,120.9862
+5198 | 2025-12-02,121.1467
+5199 | 2025-12-03,120.7336
+5200 | 2025-12-04,120.6766
+5201 | 2025-12-05,120.6863
+5202 | 2025-12-08,120.776
+5203 | 2025-12-09,120.6832
+5204 | 2025-12-10,120.6752
+5205 | 2025-12-11,119.98
+5206 | 2025-12-12,120.1442
+5207 | 2025-12-15,119.9561
+5208 | 2025-12-16,119.8902
+5209 | 2025-12-17,120.155
+5210 | 2025-12-18,120.0528
+5211 | 2025-12-19,120.1652
+5212 | 2025-12-22,119.9912
+5213 | 2025-12-23,119.7057
+5214 | 2025-12-24,119.4372
+5215 | 2025-12-25,
+5216 | 2025-12-26,119.4723
+5217 | 2025-12-29,119.5899
+5218 | 2025-12-30,119.4939
+5219 | 2025-12-31,119.7456
+5220 | 2026-01-01,
+5221 | 2026-01-02,119.6059
+5222 | 2026-01-05,119.6192
+5223 | 2026-01-06,119.7807
+5224 | 2026-01-07,119.8719
+5225 | 2026-01-08,120.0904
+5226 | 2026-01-09,120.2215
+5227 | 2026-01-12,119.9958
+5228 | 2026-01-13,120.1401
+5229 | 2026-01-14,119.9537
+5230 | 2026-01-15,119.9951
+5231 | 2026-01-16,120.0838
+5232 | 2026-01-19,
+5233 | 2026-01-20,119.4455
+5234 | 2026-01-21,119.3431
+5235 | 2026-01-22,119.1962
+5236 | 2026-01-23,118.8976
+5237 | 2026-01-26,118.0525
+5238 | 2026-01-27,117.4523
+5239 | 2026-01-28,117.5117
+5240 | 2026-01-29,117.4396
+5241 | 2026-01-30,117.8996
+5242 | 2026-02-02,118.3609
+5243 | 2026-02-03,117.9764
+5244 | 2026-02-04,118.2602
+5245 | 2026-02-05,118.5034
+5246 | 2026-02-06,118.2407
+5247 | 2026-02-09,117.6392
+5248 | 2026-02-10,117.5216
+5249 | 2026-02-11,117.4601
+5250 | 2026-02-12,117.5376
+5251 | 2026-02-13,117.5258
+5252 | 2026-02-16,
+5253 | 2026-02-17,117.7375
+5254 | 2026-02-18,117.8426
+5255 | 2026-02-19,118.2354
+5256 | 2026-02-20,117.9917
+5257 | 2026-02-23,117.9395
+5258 | 2026-02-24,117.9463
+5259 | 2026-02-25,117.769
+5260 | 2026-02-26,117.9042
+5261 | 2026-02-27,117.8223
+5262 | 2026-03-02,118.667
+5263 | 2026-03-03,119.4341
+5264 | 2026-03-04,119.0705
+5265 | 2026-03-05,119.5683
+5266 | 2026-03-06,119.491
+5267 | 2026-03-09,119.5151
+5268 | 2026-03-10,118.7255
+5269 | 2026-03-11,119.2885
+5270 | 2026-03-12,119.8227
+5271 | 2026-03-13,120.5518
+5272 | 2026-03-16,120.097
+5273 | 2026-03-17,119.8328
+5274 | 2026-03-18,119.9276
+5275 | 2026-03-19,120.1802
+5276 | 2026-03-20,120.2757
+5277 | 2026-03-23,119.9371
+5278 | 2026-03-24,120.1295
+5279 | 2026-03-25,120.1282
+5280 | 2026-03-26,120.389
+5281 | 2026-03-27,120.8851
+5282 | 2026-03-30,121.2851
+5283 | 2026-03-31,121.035
+5284 | 2026-04-01,120.1198
+5285 | 2026-04-02,120.503
+5286 | 2026-04-03,120.6565
+5287 | 2026-04-06,120.4302
+5288 | 2026-04-07,120.32
+5289 | 2026-04-08,119.0596
+5290 | 2026-04-09,118.8998
+5291 | 2026-04-10,118.8552
+5292 | 2026-04-13,118.9916
+5293 | 2026-04-14,118.3581
+5294 | 2026-04-15,118.3623
+5295 | 2026-04-16,118.3616
+5296 | 2026-04-17,118.0795
+5297 | 2026-04-20,118.2374
+5298 | 2026-04-21,118.4331
+5299 | 2026-04-22,118.6004
+5300 | 2026-04-23,118.7155
+5301 | 2026-04-24,118.7294
+5302 | 2026-04-27,118.5458
+5303 | 2026-04-28,118.7717
+5304 | 2026-04-29,119.0975
+5305 | 2026-04-30,118.671
+5306 | 2026-05-01,118.3926
+5307 | 2026-05-04,118.8264
+5308 | 2026-05-05,118.6207
+5309 | 2026-05-06,118.0982
+5310 | 2026-05-07,118.0116
+5311 | 2026-05-08,118.0392
+5312 | 2026-05-11,118.0562
+5313 | 2026-05-12,118.5238
+5314 | 2026-05-13,118.4737
+5315 | 2026-05-14,118.6696
+5316 | 2026-05-15,119.2825
+5317 | 2026-05-18,119.0574
+5318 | 2026-05-19,119.451
+5319 | 2026-05-20,119.1624
+5320 | 2026-05-21,119.369
+5321 | 2026-05-22,119.2868
+5322 | 2026-05-25,
+5323 | 2026-05-26,119.1696
+5324 | 2026-05-27,119.1829
+5325 | 2026-05-28,119.0318
+5326 | 2026-05-29,118.8783
+5327 | 2026-06-01,119.1653
+5328 | 2026-06-02,119.0359
+5329 | 2026-06-03,119.3848
+5330 | 2026-06-04,119.3615
+5331 | 2026-06-05,120.0831
+5332 | 2026-06-08,120.034
+5333 | 2026-06-09,119.9617
+5334 | 2026-06-10,119.9134
+5335 | 2026-06-11,120.1174
+5336 | 2026-06-12,119.5073
+5337 | 2026-06-15,119.3158
+5338 | 2026-06-16,119.256
+5339 | 2026-06-17,119.3871
+5340 | 2026-06-18,120.3958
+5341 | 2026-06-19,
+5342 | 2026-06-22,120.5463
+5343 | 2026-06-23,121.0552
+5344 | 2026-06-24,121.412
+5345 | 2026-06-25,121.0559
+5346 | 2026-06-26,120.8866
+5347 | 2026-06-29,120.9525
+5348 | 2026-06-30,120.9248
+5349 | 2026-07-01,121.1455
+5350 | 2026-07-02,120.6902
+5351 | 2026-07-03,
+5352 | 2026-07-06,120.835
+5353 | 2026-07-07,120.8145
+5354 | 2026-07-08,121.1307
+5355 | 2026-07-09,120.753
+5356 | 2026-07-10,120.5046
+5357 | 2026-07-13,120.7413
+5358 | 2026-07-14,120.4728
+5359 | 2026-07-15,120.3088
+5360 | 2026-07-16,120.331
+5361 | 2026-07-17,120.5315
+5362 | 2026-07-20,120.5401
+5363 | 2026-07-21,120.5779
+5364 | 2026-07-22,120.5736
+5365 | 2026-07-23,120.9075
+5366 | 2026-07-24,120.7105
+5367 | 2026-07-27,120.7739
+5368 | 2026-07-28,120.6247
+5369 | 2026-07-29,120.7892
+5370 | 2026-07-30,119.6753
+5371 | 2026-07-31,119.7034
+5372 | 2026-08-03,119.6951
+5373 | 2026-08-04,119.5977
+5374 | 2026-08-05,119.3881
+5375 | 2026-08-06,119.5113
+5376 | 2026-08-07,119.0649
+5377 | 2026-08-10,119.1187
+5378 | 2026-08-11,119.179
+5379 | 2026-08-12,119.1179
+5380 | 2026-08-13,119.1848
+5381 | 2026-08-14,118.9028
+5382 | 2026-08-17,118.814
+5383 | 2026-08-18,118.9831
+5384 | 2026-08-19,118.3328
+5385 | 2026-08-20,118.2548
+5386 | 2026-08-21,118.0628
+5387 | 2026-08-24,118.3195
+5388 | 2026-08-25,118.2283
+5389 | 2026-08-26,118.4461
+5390 | 2026-08-27,118.3583
+5391 | 2026-08-28,118.7479
+5392 | 2026-08-31,118.5679
+5393 | 2026-09-01,118.6568
+5394 | 2026-09-02,118.5296
+5395 | 2026-09-03,118.127
+5396 | 2026-09-04,118.0732
+5397 | 2026-09-07,
+5398 | 2026-09-08,117.9127
+5399 | 2026-09-09,117.8834
+5400 | 2026-09-10,118.0787
+5401 | 2026-09-11,118.2126
+5402 | 2026-09-14,118.6923
+5403 | 2026-09-15,118.8822
+5404 | 2026-09-16,118.9206
+5405 | 2026-09-17,119.3489
+5406 | 2026-09-18,119.5133
+5407 | 2026-09-21,119.4014
+5408 | 2026-09-22,119.5933
+5409 | 2026-09-23,120.1169
+5410 | 2026-09-24,120.5521
+5411 | 2026-09-25,120.33
+5412 | 2026-09-28,120.6958
+5413 | 2026-09-29,121.0296
+5414 | 2026-09-30,120.9693
+5415 | 2026-10-01,121.7882
+5416 | 2026-10-02,121.3848
+5417 | 2026-10-05,121.2708
+5418 | 2026-10-06,120.8976
+5419 | 2026-10-07,121.2558
+5420 | 2026-10-08,121.4469
+5421 | 2026-10-09,121.6023
+5422 | 2026-10-12,
+5423 | 2026-10-13,121.4433
+5424 | 2026-10-14,122.0037
+5425 | 2026-10-15,121.5693
+5426 | 2026-10-16,121.4048
+5427 | 2026-10-19,121.3248
+5428 | 2026-10-20,121.116
+5429 | 2026-10-21,121.3422
+5430 | 2026-10-22,121.3531
+5431 | 2026-10-23,121.3202
+5432 | 2026-10-26,121.6042
+5433 | 2026-10-27,121.6622
+5434 | 2026-10-28,121.8491
+5435 | 2026-10-29,121.7361
+5436 | 2026-10-30,121.6656
+5437 | 2026-11-02,121.3702
+5438 | 2026-11-03,121.8084
+5439 | 2026-11-04,121.3983
+5440 | 2026-11-05,121.5061
+5441 | 2026-11-06,121.8803
+5442 | 2026-11-09,121.6623
+5443 | 2026-11-10,122.1143
+5444 | 2026-11-11,
+5445 | 2026-11-12,122.5433
+5446 | 2026-11-13,122.6503
+5447 | 
+
+
+--------------------------------------------------------------------------------
